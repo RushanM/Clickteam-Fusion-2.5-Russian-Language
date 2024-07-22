@@ -72,7 +72,7 @@
 	"menu_20000" : {
 		"Align" : "Выравнивание",
 		"Arrow" : "Стрела",
-		"Auto-Decide" : "Авто-выбор",
+		"Auto-Decide" : "Автовыбор",
 		"Bottom-center" : "Снизу по центру",
 		"Bottom-left" : "Снизу слева",
 		"Bottom-right" : "Снизу справа",

@@ -6,7 +6,7 @@
 		"Active at start" : "Активен при запуске",
 		"Advanced" : "Расширенные",
 		"Angle : %i degrees" : "Угол : %i градусов",
-		"Auto rotation" : "Авто-поворот",
+		"Auto rotation" : "Автоповорот",
 		"Box" : "Прямоугольник",
 		"Check this box to make your spring active when the frame starts" : "Выберите эту опцию, чтобы пружина была активна при старте сцены",
 		"Check to enable automatic rotations of the image" : "Выберите эту опцию, чтобы включить автоматическое вращение изображения",

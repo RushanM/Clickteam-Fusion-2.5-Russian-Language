@@ -47,7 +47,7 @@
 		"Load alpha channel from image file %1 into number %0" : "Загрузить альфа-канал из файла изображения %1 в номер %0",
 		"Load BMP from address %0 into number %1 (img/alp: %2 , alpha setting %3 )" : "Загрузить BMP из адреса %0 в номер %1 (Изобр./Альфа: %2 , Настройки альфа %3 )",
 		"Load image (enter 0), alpha (enter 1) or both (enter 2)?" : "Загрузить изображение (введите 0), альфа (введите 1) или оба (введите 2)?",
-		"Load image from file %1 into number %0 (autogenerate alpha: %2)" : "Загрузить изображение из файла %1 в номер %0 (авто-генерировать альфа: %2)",
+		"Load image from file %1 into number %0 (autogenerate alpha: %2)" : "Загрузить изображение из файла %1 в номер %0 (автогенерировать альфа: %2)",
 		"Load image from Overlay address %0 into alpha %1" : "Загрузить изображения из адреса наложения %0 в альфа %1",
 		"Load image from Overlay address %0 into image %1" : "Загрузить изображения из адреса наложения %0 в изображение %1",
 		"Load image from PNG %1 into alpha %0" : "Загрузить изображение из PNG %1 в альфа %0",

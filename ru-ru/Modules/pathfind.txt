@@ -125,7 +125,7 @@
 		"Advance N Steps" : "Предварительно N шагов",
 		"Advance One Step" : "Предварительно один шаг",
 		"Advance One" : "Предварительно один",
-		"Auto Grid Size" : "Авто-размер сетки",
+		"Auto Grid Size" : "Авторазмер сетки",
 		"Backup Map" : "Резервная копия карты",
 		"Change Mode" : "Изменить режим",
 		"Change to 4-dir Mode" : "Изменить на 4 направления",

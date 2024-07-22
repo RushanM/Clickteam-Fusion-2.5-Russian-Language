@@ -173,7 +173,7 @@
 		"Y" : "Y"
 	},
 	"dialog_163" : {
-		"&Auto-size" : "Авто-размер",
+		"&Auto-size" : "Авторазмер",
 		"&Border" : "Граница",
 		"&Center Image" : "По центру",
 		"&Sunken" : "Утоплено",
@@ -192,11 +192,11 @@
 		"&Client edge" : "Граница окна",
 		"&Disabled" : "Отключить",
 		"&Help" : "Помощь",
-		"&Horizontal auto-resize :" : "Гор. авто-размер:",
+		"&Horizontal auto-resize :" : "Гор. авторазмер:",
 		"&Right-to-left reading order" : "Чтение справа-налево",
 		"&Static edge" : "Статичная граница",
 		"&Tabstop" : "Табуляция",
-		"&Vertical auto-resize :" : "Верт. авто-размер:",
+		"&Vertical auto-resize :" : "Верт. авторазмер:",
 		"&Visible" : "Видимый",
 		"Cancel" : "Отмена",
 		"Control &Name" : "Название управления",
@@ -208,8 +208,8 @@
 		"Te&xt" : "Текст"
 	},
 	"dialog_20005" : {
-		"&Auto HScroll" : "Гор. авто-прокрутка",
-		"&Auto VScroll" : "Вер. авто-прокрутка",
+		"&Auto HScroll" : "Гор. автопрокрутка",
+		"&Auto VScroll" : "Вер. автопрокрутка",
 		"&Border" : "Граница",
 		"&Horizontal Scroll" : "Гор. прокрутка",
 		"&Lowercase" : "Нижний регистр",
@@ -267,7 +267,7 @@
 		"Selection" : "Выбор"
 	},
 	"dialog_20012" : {
-		"&Auto HScroll" : "Гор. авто-прокрутка",
+		"&Auto HScroll" : "Гор. автопрокрутка",
 		"&Disable no scroll" : "Запретить прокрутку",
 		"&Lowercase" : "Нижний регистр",
 		"&No integral height" : "Не во всю высоту",
