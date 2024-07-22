@@ -27,7 +27,7 @@
 		"Application initialization error." : "Ошибка подготовки к работе приложения.",
 		"Backspace" : "Бекспейс",
 		"Cannot find %s!" : "Не получается найти %s!",
-		"Cannot initialize Application." : "Не удается подготовить приложение к работе.",
+		"Cannot initialize Application." : "Не удаётся подготовить приложение к работе.",
 		"Cannot load %s. This object might need an external program or library not yet installed." : "Не вышло загрузить %s. Для этого объекта может потребоваться ещё не установленная внешняя программа или библиотека.",
 		"Clear" : "Очистить",
 		"Control" : "Управление",
