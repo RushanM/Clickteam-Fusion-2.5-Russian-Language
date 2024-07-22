@@ -1,5 +1,11 @@
 # Русский язык для Clickteam Fusion 2.5
 
+<div align="center">
+    <img title="" src="cover.png">
+    <br>
+    <br>
+</div>
+
 Русский язык для программы Clickteam Fusion 2.5 с переводом её интерфейса, руководства и некоторых расширений.
 
 ## Скачивание и установка
