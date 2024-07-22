@@ -12,6 +12,27 @@
 
 ### GitHub
 
+<details>
+<summary>Обычный способ</summary>
+<br>
+
+1. Найдите сбоку заголовок Releases и нажмите на последний выпуск под ним.
+2. Нажмите на архив, прикреплённый к выпуску, чтобы скачать архив.
+3. Откройте архив.
+4. Распакуйте папку ru-ru по пути C:\Program Files (x86)\Steam\steamapps\common\Clickteam Fusion 2.5\Languages.
+5. Если у вас нет папок по этому пути, найдите папку расположения вашей копии Clickteam Fusion 2.5 и распакуйте содержимое архива в папку Languages в ней.
+6. Откройте Clickteam Fusion 2.5.
+7. Зайдите в Tools > Preferences > General.
+8. Нажмите на Английский (США) и выберите Русский (Россия) из выпадающего списка.
+9. Перезапустите Clickteam Fusion 2.5.
+10. Profit!
+
+</details>
+
+<details>
+<summary>Альтернативный способ</summary>
+<br>
+
 1. Нажмите зелёную кнопку над репозиторием Code.
 2. [Нажмите Download ZIP](https://github.com/RushanM/Clickteam-Fusion-2.5-Russian-Translation/archive/refs/heads/main.zip) cнизу появившегося окна, чтобы скачать архив.
 3. Откройте архив.
@@ -23,16 +44,44 @@
 9. Перезапустите Clickteam Fusion 2.5.
 10. Profit!
 
+</details>
+
 ### Game Jolt
 
+<details>
+<summary>Раскрыть</summary>
+<br>
+
 1. Нажмите Download, чтобы скачать архив.
-2. Дальше всё как с третьего пункта в инструкции для GitHub.
+2. Откройте архив.
+3. Распакуйте папку ru-ru по пути C:\Program Files (x86)\Steam\steamapps\common\Clickteam Fusion 2.5\Languages.
+4. Если у вас нет папок по этому пути, найдите папку расположения вашей копии Clickteam Fusion 2.5 и распакуйте содержимое архива в папку Languages в ней.
+5. Откройте Clickteam Fusion 2.5.
+6. Зайдите в Tools > Preferences > General.
+7. Нажмите на Английский (США) и выберите Русский (Россия) из выпадающего списка.
+8. Перезапустите Clickteam Fusion 2.5.
+9. Profit!
+
+</details>
 
 ### Яндекс Диск
 
+<details>
+<summary>Раскрыть</summary>
+<br>
+
 1. Нажмите на архив последней версии.
 2. Нажмите на кнопку «Скачать» в верхней панели, чтобы скачать архив.
-3. Дальше всё как с третьего пункта в инструкции для GitHub.
+3. Откройте архив.
+4. Распакуйте папку ru-ru по пути C:\Program Files (x86)\Steam\steamapps\common\Clickteam Fusion 2.5\Languages.
+5. Если у вас нет папок по этому пути, найдите папку расположения вашей копии Clickteam Fusion 2.5 и распакуйте содержимое архива в папку Languages в ней.
+6. Откройте Clickteam Fusion 2.5.
+7. Зайдите в Tools > Preferences > General.
+8. Нажмите на Английский (США) и выберите Русский (Россия) из выпадающего списка.
+9. Перезапустите Clickteam Fusion 2.5.
+10. Profit!
+
+</details>
 
 ## Способствовали разработке
 
