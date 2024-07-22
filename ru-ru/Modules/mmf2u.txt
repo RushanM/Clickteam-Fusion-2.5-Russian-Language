@@ -2853,6 +2853,8 @@
 		"Show Above the Ribbon": "Показать над лентой",
 		"Show Below the Ribbon": "Показать под лентой",
 		"Show Debugger": "Показать отладчик",
+		"Crash: display last event line": "При вылете: показать последнюю сработавшую строку события",
+		"Select this option to display the number of the last executed event line when a crash happens (editor runtime only).": "Включите это, чтобы при сбое приложение показывало номер последней выполненной строки события (работает только во время разработки).",
 		"Show Fewer Buttons": "Показать меньше кнопок",
 		"Show Grid\nShow Grid": "Показать сетку\nПоказать сетку",
 		"Show More Buttons": "Показать больше кнопок",
