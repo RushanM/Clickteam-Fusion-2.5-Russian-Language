@@ -1,0 +1,45 @@
+﻿{
+	"version" : 1,
+	"lang" : 1049,
+	"general" : {
+		"%o : On error : Network error" : "%o : При ошибке: Ошибка сети",
+		"%o : On error : User not logged in" : "%o : При ошибке: Пользователь не вошёл",
+		"%o : On player login" : "%o : При входе игрока",
+		"%o : On player logout" : "%o : При выходе игрока",
+		"%o : On user data %0 read" : "%o : При чтении данных пользователя %0",
+		"%o : On user data %0 written" : "%o : При записи данных пользователя %0",
+		"%o : Player has coins" : "%o : Игрок имеет монеты",
+		"%o : Player is logged in" : "%o : Игрок вошёл",
+		"Hide login widget" : "Скрыть окно подключения",
+		"Key" : "Ключ",
+		"Mochi Social" : "Mochi - Социальная",
+		"Obsolete. This object is provided for compatibility reasons only." : "Устаревшее. Этот объект предоставляется только в целях совместимости.",
+		"Read user data at key %0" : "Прочитать данные пользователя ключа %0",
+		"Show login widget" : "Показать окно подключения",
+		"Value" : "Значение",
+		"Write user data %1 to key %0" : "Записать данные пользователя %1 в ключ %0"
+	},
+	"menu_20000" : {
+		"Hide login widget" : "Скрыть окно подключения",
+		"Read user data" : "Чтение данных пользователя",
+		"Show login widget" : "Показать окно подключение",
+		"Write user data" : "Запись данных пользователя"
+	},
+	"menu_20001" : {
+		"Network error" : "Ошибка сети",
+		"On error" : "Ошибка",
+		"On player login" : "При входе игрока",
+		"On player logout" : "При выходе игрока",
+		"On user data read" : "При чтении данных пользователя",
+		"On user data written" : "При записи данных пользователя",
+		"Player has coins?" : "Игрок имеет монеты?",
+		"Player is logged in" : "Игрок вошёл",
+		"User not logged in" : "Пользователь не вошёл"
+	},
+	"menu_20002" : {
+		"Get player name" : "Получить имя игрока",
+		"Get player profile image URL" : "Получить URL изображения профиля игрока ",
+		"Get player unique identifier" : "Получить уникальный идентификатор игрока",
+		"Get user data read value" : "Получить считанные данные с пользователя"
+	}
+}

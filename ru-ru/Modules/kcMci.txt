@@ -1,0 +1,43 @@
+﻿{
+	"version" : 1,
+	"lang" : 1049,
+	"general" : {
+		"01Return string%s" : "Вернуть строку %0",
+		"01Return value%s" : "Вернуть значение %0",
+		"01Send %s" : "Отправить %0",
+		"Any sound will be terminated prior to sending a command" : "Любой звук будет остановлен до отправки команды",
+		"Check this box to close the device when the frame ends" : "Установите эту галочку, чтобы закрыть устройство при завершении сцены",
+		"Check this box to open the device at start of frame" : "Установите эту галочку, чтобы открыть устройство при старте сцены",
+		"Close MCI device at end of frame" : "Закрыть MCI устройство при завершении сцены",
+		"Close sound device before sending commands" : "Закрыть звуковое устройство перед отправкой команды",
+		"Device" : "Устройство",
+		"Device name" : "Название устройства",
+		"Display all error messages" : "Показать все сообщения об ошибках",
+		"Display in a dialog box any error message" : "Показать в диалоговом окне любые сообщения об ошибках",
+		"Enter the name of the device" : "Введите название устройства",
+		"Last error: %i" : "Последняя ошибка: %i",
+		"MCI" : "MCI",
+		"MCI object" : "Объект MCI",
+		"Microsoft standard for controlling any multimedia device connected to your computer." : "Стандарт Microsoft для управления любым мультимедийный устройством подключенным к компьютеру.",
+		"Open MCI device at start of frame" : "Открыть MCI устройство при старте сцены",
+		"Options" : "Настройки",
+		"Pause command" : "Команда на паузе",
+		"Please, enter a valid device name." : "Пожалуйста введите правильное название устройства.",
+		"Resume command" : "Возобновить команду",
+		"Return string: %s" : "Вернуть строку: %s",
+		"String to send to the device when a Pause happens" : "Строка для отправки на устройство во время паузы.",
+		"String to send to the device when resuming from a pause" : "Строка для отправки на устройство при снятии с паузы."
+	},
+	"menu_20000" : {
+		"Send a command" : "Отправить команду"
+	},
+	"menu_20001" : {
+		"Compare to returned number" : "Сравнить с возвращённым числом",
+		"Compare to returned string" : "Сравнить с возвращённой строкой"
+	},
+	"menu_20002" : {
+		"Last error number" : "Номер последней ошибки",
+		"Return string" : "Вернуть строку",
+		"Return value" : "Вернуть значение"
+	}
+}

@@ -1,0 +1,53 @@
+﻿{
+	"version" : 1,
+	"lang" : 1049,
+	"general" : {
+		" %s : Shared Data object" : " %s : Объект Общих Данных",
+		"00Reset" : "Сброс",
+		"01Shared string %s=%s" : "Общая строка %0=%1",
+		"01Shared string %s=str$(%s)" : "Общая строка %0=str$(%1)",
+		"01Shared value %s=%s" : "Общее значение %0=%1",
+		"01Shared value %s=val(%s)" : "Общее значение %0=val(%1)",
+		"11%s: Condition example %s=%s" : "11%s: Пример условия %s=%s",
+		"Allows different applications to share data (numbers and/or text)." : "Позволяет нескольким приложениям обмениваться данными (числа и/или текст).",
+		"Create a new Shared Data object" : "Создать новый Объект Общих Данных",
+		"Double click to inspect/modify a shared string" : "Двойной клик чтобы проверить/изменить общую строку",
+		"Double click to inspect/modify a shared value" : "Двойной клик чтобы проверить/изменить общее значение",
+		"Enter number value" : "Введите числовое значение",
+		"Enter number value to be stored as string value" : "Введите числовое значение, чтобы сохранить его в виде строкового значения",
+		"Enter string to be stored as number value" : "Введите строку чтобы, сохранить её в виде числового значения",
+		"Enter string value" : "Введите строковое значение",
+		"Index" : "Индекс",
+		"Index of the value (zero based)" : "Индекс значения (с нуля)",
+		"ShareMem object" : "Объект Общей Памяти",
+		"Shared Data" : "Общие Данные"
+	},
+	"dialog_102" : {
+		"Index :" : "Индекс :",
+		"Inspect a long value" : "Проверить длинное значение",
+		"OK" : "OK",
+		"Value : " : "Значение"
+	},
+	"dialog_103" : {
+		"Index :" : "Индекс :",
+		"Inspect a string" : "Проверить строку",
+		"OK" : "OK",
+		"String" : "Строка"
+	},
+	"menu_20000" : {
+		"Reset" : "Сброс",
+		"Set shared string" : "Установить общую строку",
+		"Set shared string from value" : "Установить общую строку из значения",
+		"Set shared value" : "Установить общее значение",
+		"Set shared value from string" : "Установить общее значения из строки"
+	},
+	"menu_20001" : {
+		"is Equal" : "Равно"
+	},
+	"menu_20002" : {
+		"Get shared String" : "Получить общую строку",
+		"Get shared value" : "Получить общее значение",
+		"Get string from shared value" : "Получить строку из общего значения",
+		"Get value from shared string" : "Получить значение из общей строки"
+	}
+}

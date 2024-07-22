@@ -1,0 +1,50 @@
+﻿{
+	"version" : 1,
+	"lang" : 1049,
+	"general" : {
+		"%o : Item has tag %0" : "%o: Элемент имеет тег %0",
+		"%o : On error" : "%o: При ошибке",
+		"%o : On item owned" : "%o: При принадлежности к элементу",
+		"%o : On new item" : "%o: При новом элементе",
+		"Add item %0 to show in store" : "Добавить элемент %0 для показа в магазине",
+		"Consumable name" : "Название расхода",
+		"Decrement consumable %0" : "Уменьшенный расход %0",
+		"Increment consumable %0" : "Увеличенный расход %0",
+		"Item ID" : "ID элемента",
+		"Item tag or unique ID" : "Тег элемента или уникальный ID",
+		"Mochi Coins" : "Mochi - Монеты",
+		"Obsolete. This object is provided for compatibility reasons only." : "Устаревшее. Этот объект предоставляется только в целях совместимости.",
+		"Property name" : "Название свойств",
+		"Remove consumable %0" : "Удалить расход %0",
+		"Set consumable %0 to %1" : "Установить расход %0 на %1",
+		"Show single item with ID %0" : "Показать один элемент с ID %0",
+		"Show store" : "Показать магазин",
+		"Show video for item with ID %0" : "Показать видео для элемента с ID %0",
+		"Tag" : "Тег",
+		"Value" : "Значение"
+	},
+	"menu_20000" : {
+		"Add item to show" : "Добавить элемент, который можно отобразить",
+		"Consumable" : "Расход",
+		"Decrement" : "Уменьшенный",
+		"Increment" : "Увеличенный",
+		"Remove" : "Удалить",
+		"Set/create" : "Установить/Создать",
+		"Show item video" : "Показать видео элемент",
+		"Show single item" : "Показать один элемент",
+		"Show store" : "Показать магазин",
+		"Store" : "Магазин"
+	},
+	"menu_20001" : {
+		"Item has tag" : "Элемент имеет тег",
+		"On error" : "При ошибке",
+		"On item owned" : "При принадлежности элемента",
+		"On new item" : "При новом элементе"
+	},
+	"menu_20002" : {
+		"Get consumable amount" : "Получить сумму расходов",
+		"Get item ID" : "Получить ID элемента",
+		"Get item count" : "Получить количество элементов",
+		"Get item property" : "Получить свойства элемента"
+	}
+}

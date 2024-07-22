@@ -1,0 +1,51 @@
+﻿{
+	"version" : 1,
+	"lang" : 1049,
+	"general" : {
+		"%o: Is fan active?" : "%o: Вентилятор действует?",
+		"Advanced" : "Расширенные",
+		"Angle" : "Угол",
+		"Angle : %g degrees" : "Угол: %g градусов",
+		"Blowing at start" : "Дуть при запуске",
+		"Check this box and the fan will blow at the start of the frame" : "Выберите эту опцию, чтобы включить вентилятор при старте сцены",
+		"Direction of the air" : "Направление потока воздуха",
+		"Engine ID" : "Идентификатор движка",
+		"Enter 1 to turn on, 0 to turn off" : "Введите 1, чтобы включить, 0, чтобы выключить",
+		"Enter the angle of the wind in degrees (0-360)" : "Введите угол ветра в градусах (0-360)",
+		"Enter the height of the object" : "Введите высоту объекта",
+		"Enter the identifier of the engine if multiple engines are used on the same frame." : "Введите идентификатор двигателя, если вы используете несколько физических двигателей на сцене",
+		"Enter the strength of the fan, from 0 to 500" : "Введите силу вентилятора, от 0 до 500",
+		"Enter the strength of the wind (0-500)" : "Введите силу ветра (0-500)",
+		"Enter the width of the object" : "Введите ширину объекта",
+		"Generate wind that shifts the objects" : "Создает ветер, который толкает объекты",
+		"Physics - Fan" : "Физика - вентилятор",
+		"Please drop a 'Physics Engine' object in your frame." : "Поместите объект \"Физика - движок\" на сцену.",
+		"Running : %i" : "Выполнение : %i",
+		"Set angle to %0 degrees" : "Установить угол %0 градусов",
+		"Set fan to %0" : "Установить вентилятор ВКЛ/ОТКЛ",
+		"Set height to %0" : "Установить высоту %0",
+		"Set strength to %0" : "Установить силу %0",
+		"Set width to %0" : "Установить ширину %0",
+		"Strength" : "Сила",
+		"Strength : %i" : "Сила : %i"
+	},
+	"menu_20000" : {
+		"Actions" : "Действия",
+		"Set angle" : "Установить угол",
+		"Set fan ON/OFF" : "Установить вентилятор ВКЛ/ОТКЛ",
+		"Set height" : "Установить высоту",
+		"Set strength" : "Установить силу",
+		"Set width" : "Установить ширину"
+	},
+	"menu_20001" : {
+		"Conditions" : "Условия",
+		"Is fan active?" : "Вентилятор работает?"
+	},
+	"menu_20002" : {
+		"Action zone height" : "Высота зоны действия",
+		"Action zone width" : "Ширина зоны действия",
+		"Expressions" : "Выражения",
+		"Fan angle" : "Угол вентилятора",
+		"Fan strength" : "Сила вентилятора"
+	}
+}

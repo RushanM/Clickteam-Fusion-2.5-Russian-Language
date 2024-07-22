@@ -1,0 +1,59 @@
+﻿{
+	"version" : 1,
+	"lang" : 1049,
+	"general" : {
+		"%o: Is branding enabled?" : "%o: Логотип включён?",
+		"%o: Is cross-promotion enabled?" : "%o: Перекрёстное продвижение включено?",
+		"%o: Is game running in premium mode?" : "%o: Игра запущена в премиум режиме?",
+		"%o: Is unlock enabled?" : "Разблокировка включена?",
+		"A dialog box will ask for your name if you have a high score." : "Диалоговое окно для ввода имени, если у вас высокие оценки (счёт).",
+		"Check and and the Is cross promotion enabled? condition will return true." : "Если флажок установлен, то условие 'Перекрёстное продвижение включено' будет выполнено.",
+		"Check and the Is Premium condition will return true" : "Если флажок установлен, то условие 'Премиум' будет выполнено.",
+		"Check and the Is branding enabled? condition will return true, and the sponsor logo can be displayed." : "Если флажок установлен, то условие 'Логотип включён' будет выполнено и логотип спонсора будет показан.",
+		"Check and the Is unlock enabled? condition will return true." : "Если флажок установлен, то условие 'Разблокировка включена' будет выполнено.",
+		"Check and the object will automatically display the logo of the sponsor, if authorised." : "Если флажок установлен, то объект будет автоматически отображать логотип спонсора(если это разрешено).",
+		"Display leaderboard" : "Показать таблицу результатов",
+		"Display sponsor logo" : "Показать логотип спонсора",
+		"Display sponsor logo %0" : "Показать логотип спонсора %0",
+		"Do you want to simulate the unlocking of your game?" : "Вы хотите сымитировать разблокировку вашей игры?",
+		"Enable cross promotion" : "Перекрёстное продвижение включено",
+		"Enable in app upgrade" : "Включить обновление в приложении",
+		"Enable sponsor branding" : "Включить логотип спонсора",
+		"Enter 1 to display the logo, 0 to hide it" : "Введите 1, чтобы отобразить логотип, 0, чтобы скрыть его",
+		"FGL Object" : "Объект FGL",
+		"Game is in premium mode" : "Игра в режиме премиум",
+		"HTML5 - fgl" : "HTML5 - fgl",
+		"Handle click on branding" : "Управление кликами на логотипе",
+		"Interface with the fgl HTML5 Advertisement and game API" : "API интерфейс HTML5 FGL (реклама в играх)",
+		"Please enter the score" : "Пожалуйста, введите очки",
+		"Show advertisement" : "Показывать объявления",
+		"Show more games" : "Показать больше игр",
+		"Simulation" : "Имитация",
+		"Submit score" : "Опубликовать очки",
+		"Unlock game" : "Разблокировать игру",
+		"fgl" : "FGL",
+		"http://www.clickteam.com/francois/fglbrandinglogo.png" : "http://www.clickteam.com/francois/fglbrandinglogo.png"
+	},
+	"menu_20000" : {
+		"Actions" : "Действия",
+		"Advertisements" : "Объявления",
+		"Display leaderboard" : "Показать таблицу результатов",
+		"Leaderboards" : "Таблица результатов",
+		"Show / hide sponsor logo" : "Показать/скрыть логотип спонсора",
+		"Show advertisement" : "Показывать объявления",
+		"Show more games" : "Показать больше игр",
+		"Sponsor" : "Спонсор",
+		"Submit score" : "Опубликовать очки",
+		"Unlock game" : "Разблокировать игру"
+	},
+	"menu_20001" : {
+		"Conditions" : "Условия",
+		"Is cross-promotion enabled?" : "Перекрёстное продвижение включено?",
+		"Is the game running in premium mode?" : "Игра запущена в премиум режиме?",
+		"Is unlock enabled?" : "Разблокировка включена?"
+	},
+	"menu_20002" : {
+		"Expressions" : "Выражения",
+		"Get branding image URL" : "Получить URL изображения логотипа"
+	}
+}

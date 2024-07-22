@@ -1,0 +1,166 @@
+﻿{
+	"version" : 1,
+	"lang" : 1049,
+	"general" : {
+		"Advanced Scrolling" : "Расширенная прокрутка",
+		"Back" : "Назад",
+		"Bands" : "Полосы",
+		"Cell" : "Клетка",
+		"Cross rain" : "Косой дождь",
+		"Diagonal" : "Диагональ",
+		"Door" : "Дверь",
+		"Fade" : "Затухание",
+		"Line" : "Линия",
+		"Mosaic" : "Мозайка",
+		"Open" : "Открыть",
+		"Push" : "От себя",
+		"Rain" : "Дождь",
+		"Scrolling" : "Прокрутка",
+		"Spot width: %d%%" : "Ширина пятна: %d%%",
+		"Square" : "Квадрат",
+		"Standard transitions" : "Стандартные переходы",
+		"Stretch" : "Растянуть",
+		"Stretch 2" : "Растянуть 2",
+		"Trame" : "Сетка",
+		"Turn" : "Вращение",
+		"Turn 2" : "Вращение 2",
+		"Weft" : "Сетка",
+		"ZigZag 2" : "Зигзаг 2",
+		"Zigzag" : "Зигзаг",
+		"Zoom" : "Масштаб",
+		"Zoom 2" : "Масштаб 2"
+	},
+	"dialog_102" : {
+		"Direction" : "Направление",
+		"From &bottom to top" : "Снизу вверх",
+		"From &left to right" : "Слева направо",
+		"From &right to left" : "Справа налево",
+		"From &top to bottom" : "Сверху вниз",
+		"Number of bands:" : "Количество полос:",
+		"Spin1" : "Spin1"
+	},
+	"dialog_103" : {
+		"&Bottom-left corner" : "Нижний левый угол",
+		"&Center" : "Центр",
+		"&Horizontal" : "Горизонтально",
+		"&Top-right corner" : "Верхний правый угол",
+		"&Vertical" : "Вертикально",
+		"Bottom-&right corner" : "Нижний правый угол",
+		"Direction" : "Направление",
+		"Slider1" : "Slider1",
+		"Start from" : "Запуск с",
+		"Top-&left corner" : "Верхний левый угол"
+	},
+	"dialog_104" : {
+		"Slider1" : "Slider1"
+	},
+	"dialog_105" : {
+		"Direction" : "Направление",
+		"Horizontal, from center to &left && right" : "Горизонтально, от центра влево/вправо",
+		"Horizontal, from left && &right to center" : "Горизонтально, слева/справа к центру",
+		"Vertical, from center to &top && bottom" : "Вертикально, от центра верх/вниз",
+		"Vertical, from top && &bottom to center" : "Вертикально, сверху/снизу к центру"
+	},
+	"dialog_106" : {
+		"Direction" : "Направление",
+		"From &bottom to top" : "Снизу вверх",
+		"From &left to right" : "Слева направо",
+		"From &right to left" : "Справа налево",
+		"From &top to bottom" : "Сверху вниз"
+	},
+	"dialog_107" : {
+		"Slider1" : "Slider1",
+		"Square Size" : "Размер квадрата",
+		"with Stretch for the inside square" : "растянуть до внутреннего квадрата"
+	},
+	"dialog_108" : {
+		"&Randomly" : "Случайно",
+		"&Style 1" : "Стиль 1",
+		"&Style 2" : "Стиль 2",
+		"&Style 3" : "Стиль 3",
+		"&Style 4" : "Стиль 4",
+		"&Style 5" : "Стиль 5",
+		"&Style 6" : "Стиль 6",
+		"&Style 7" : "Стиль 7",
+		"&Style 8" : "Стиль 8"
+	},
+	"dialog_109" : {
+		"Horizontal" : "Горизонтально",
+		"Nb Lines" : "Кол. линий",
+		"Scrolling" : "Прокрутка",
+		"Slider1" : "Slider1",
+		"Vertical" : "Вертикально"
+	},
+	"dialog_110" : {
+		"Horizontal" : "Горизонтально",
+		"Number of lines :" : "Кол. линий :",
+		"Slider1" : "Slider1",
+		"Vertical" : "Вертикально"
+	},
+	"dialog_112" : {
+		"Bottom Left" : "Низ лево",
+		"Bottom Right" : "Низ право",
+		"Top Left" : "Верх лево",
+		"Top Right" : "Верх право"
+	},
+	"dialog_113" : {
+		"4 corners" : "4 угла",
+		"Bottom Left" : "Низ лево",
+		"Bottom Middle" : "Низ середина",
+		"Bottom Right" : "Низ право",
+		"Center" : "Центр",
+		"Middle Left" : "Средина лево",
+		"Middle Right" : "Средина право",
+		"Top Left" : "Верх лево",
+		"Top Middle" : "Верх середина",
+		"Top Right" : "Верх право"
+	},
+	"dialog_114" : {
+		"Inverse Rotation" : "Противоположное вращение",
+		"Number of rotations" : "Количество оборотов",
+		"See Full Image" : "Посмотреть полное изображение",
+		"Slider1" : "Slider1"
+	},
+	"dialog_115" : {
+		"Bottom Left" : "Низ лево",
+		"Bottom Middle" : "Низ середина",
+		"Bottom Right" : "Низ право",
+		"Center H" : "Центр Г",
+		"Center H+V" : "Центр Г+В",
+		"Center V" : "Центр В",
+		"Middle Left" : "Средина лево",
+		"Middle Right" : "Средина право",
+		"Top Left" : "Верх лево",
+		"Top Middle" : "Верх середина",
+		"Top Right" : "Верх право"
+	},
+	"dialog_116" : {
+		"Open (Scrolling)" : "От центра 1",
+		"Open (Stretch)" : "От центра 2",
+		"Slide (H)" : "Движение (Г)",
+		"Slide (V)" : "Движение (В)",
+		"Slide (to Bottom Left)" : "Движение (вниз влево)",
+		"Slide (to Bottom Right)" : "Движение (вниз вправо)",
+		"Slide (to Top Left)" : "Движение (вверх влево)",
+		"Slide (to Top Right)" : "Движение (вверх вправо)"
+	},
+	"dialog_117" : {
+		"Zoom In" : "Увеличить",
+		"Zoom Out" : "Уменьшить"
+	},
+	"dialog_118" : {
+		"Cols" : "Столбцы",
+		"Rows" : "Строки",
+		"Slider1" : "Slider1"
+	},
+	"dialog_119" : {
+		"2 Directions (Horizontal)" : "2 Направления (горизонтально)",
+		"2 Directions (Vertical)" : "2 Направления (вертикально)",
+		"4 Directions" : "4 Направления"
+	},
+	"dialog_120" : {
+		"Inverse Rotation" : "Противоположное вращение",
+		"Nb Rotations" : "Кол. вращений",
+		"Slider1" : "Slider1"
+	}
+}

@@ -1,0 +1,44 @@
+﻿{
+	"version" : 1,
+	"lang" : 1049,
+	"general" : {
+		"0: no rotation, 1: 90 clockwise, 2: 90 anti-clockwise" : "0: нет вращения, 1: 90 по часовой стрелке, 2: 90 против часовой стрелки",
+		"Application running on mobile" : "Приложение работает на мобильном",
+		"For debugging purposes only! Indicates screen orientation at start" : "Только в целях отладки! Указывает ориентацию экрана при запуске.",
+		"Landscape" : "Альбомная ориентация",
+		"Left key down (F10)" : "Нажата левая кнопка (F10)",
+		"Left key pressed (F10)" : "При нажатии на левую кнопку (F10)",
+		"Mobile Utilities" : "Утилиты для мобильного",
+		"Portrait" : "Книжная ориентация",
+		"Refresh display" : "Обновить отображение",
+		"Right key down (F11)" : "Нажата правая кнопка (F11)",
+		"Right key pressed (F11)" : "При нажатии на правую кнопку (F11)",
+		"Screen orientation" : "Ориентация экрана",
+		"Screen orientation has changed" : "Ориентация экрана изменина",
+		"Set of utilities for Java Mobile applications" : "Набор утилит для приложений Java Mobile",
+		"Set window rotation to %0" : "Установить вращение окна на %0"
+	},
+	"menu_20000" : {
+		"Actions" : "Действия",
+		"Refresh display" : "Обновить отображение",
+		"Set window rotation" : "Установить вращение окна"
+	},
+	"menu_20001" : {
+		"Conditions" : "Условия",
+		"Is application running on Mobile" : "Приложение запущено на мобильном?",
+		"Left key" : "Левая кнопка",
+		"Left key down" : "Нажата левая кнопка",
+		"Left key pressed" : "Нажатие левой кнопки",
+		"Right key" : "Правая кнопка",
+		"Right key down" : "Нажата правая кнопка",
+		"Right key pressed" : "Нажатие правой кнопки",
+		"Screen orientation has changed" : "Ориентация экрана изменина"
+	},
+	"menu_20002" : {
+		"Expressions" : "Выражения",
+		"Get screen height" : "Получить высоту экрана",
+		"Get screen orientation" : "Получить ориентацию экрана",
+		"Get screen width" : "Получить ширину экрана",
+		"Get window rotation" : "Получить вращение окна"
+	}
+}

@@ -1,0 +1,30 @@
+﻿{
+	"version" : 1,
+	"lang" : 1049,
+	"general" : {
+		"About" : "Информация",
+		"Author" : "Автор",
+		"Automatically set animation direction" : "Автоматически устанавливать направление анимации",
+		"Clickteam Movement Controller" : "Контроллер движения Clickteam",
+		"Control Ext." : "Расширение контроллера",
+		"Direction" : "Направление",
+		"Direction of the gravity / acceleration applied to the object in degrees." : "Направление гравитации/ускорения применяемое к объекту в градусах.",
+		"General Properties" : "Основные свойства",
+		"Gravity / Acceleration" : "Гравитация/Ускорение",
+		"Gravity or acceleration strength (depending on usage)" : "Гравитация или сила ускорения (в зависимости от использования)",
+		"Initial Direction and Speed" : "Начальное направление и скорость",
+		"Initial direction of the object in degrees." : "Начальное направление объекта в градусах.",
+		"Initial speed of the object." : "Начальная скорость объекта.",
+		"Initially moving at start of frame." : "Начальное движение при старте сцены.",
+		"Move at Start" : "Начать движение при запуске",
+		"Movement will automatically set the animation direction from current angle." : "Движение будет автоматически менять направление анимации в зависимости от угла движения.",
+		"Name of the extension used to interact with this movement." : "Название расширения, которое используется для взаимодействия с этим движением.",
+		"Properties relating to the movements initial direction." : "Свойства связанные с первоначальным направлением движения.",
+		"Released October 2006" : "Выход Октябрь 2006",
+		"Speed" : "Скорость",
+		"Strength" : "Сила",
+		"Strength of the gravity / acceleration applied to the object" : "Сила гравитации/ускорения применяемое к объекту",
+		"Vector" : "Вектор",
+		"Version" : "Версия"
+	}
+}

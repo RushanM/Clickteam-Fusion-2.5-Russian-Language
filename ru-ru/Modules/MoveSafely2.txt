@@ -1,0 +1,44 @@
+{
+	"version" : 1,
+	"lang" : 1049,
+	"general" : {
+		"00Commence Safety Procedure" : "00Начать безопасную процедуру",
+		"00Prepare Safety" : "00Подготовить безопасную процедуру",
+		"00Stop Safety Procedure and push out" : "00Остановить безопасную процедуру и вытолкнуть из препятствия",
+		"01Add object (%s) to protection" : "01Добавить объект (%s) для защиты",
+		"01Set Distance %s" : "01Установить дистанцию %s",
+		"01Stop Safety Procedure and keep in obstacle" : "01Остановить безопасную процедуру и держаться в препятствии",
+		"Allow multiple objects to move 'safely' from one point to another taking 'in-between steps' rather than jumping, allowing you to test for collisions." : "Позволяет нескольким объектам, двигаться 'безопасно' из одной точки в другую методом 'между шагами', а не прыгая, что позволит проверить столкновения.",
+		"Move Safely 2 Object" : "Безопасное движение 2 (объект)",
+		"On Safety" : "При безопасной процедуре",
+		"Pixel Distance of each 'step'" : "Расстояние в пикселях каждого шага",
+		"Release protected objects" : "Снять защиту с объектов",
+		"Select Object" : "Выбрать объект",
+	},
+	"menu_20000" : {
+		"Add a new protected object/s" : "Добавить новые защищённые объект/ы",
+		"Commence" : "Начать",
+		"Prepare" : "Подготовить",
+		"Release all objects" : "Снять защиту со всех объектов",
+		"Safety Procedure" : "Безопасная процедура",
+		"Stop ( Keep in obstacle        )" : "Остановить (держаться в препятствии)",
+		"Stop ( Push out of obstacle )" : "Остановить (вытолкнуть из препятствия)",
+	},
+	"menu_20001" : {
+		"On Safety procedure" : "При безопасной процедуре",
+	},
+	"menu_20002" : {
+		"Get current object X" : "Получить текущий X объекта",
+		"Get Number of loops" : "Получить количество повторов",
+		"Get current object Fixed Value" : "Получить фиксированное значение текущего объекта",
+		"Get current object Y" : "Получить текущий Y объекта",
+		"Get loop index" : "Получить номер повтора",
+	},
+	"dialog_20003" : {
+		"&Help" : "Помощь",
+		"Ok" : "ОК",
+		"Information" : "Информация",
+		"Created by David Clark ( Alien )" : "Создано David Clark ( Alien )",
+		"+ Now supports unlimited objects\n+ Ability to move in 'inbetween' steps of 1 pixel or more\n+ Ability to push objects out of an obsticle" : "+ Неограниченное количество объектов\n+ Движения 'между' шагами в 1 пикс. и более\n+ Можно вытолкнуть объекты из препятствия",
+	}
+}

@@ -1,0 +1,30 @@
+﻿{
+	"version" : 1,
+	"lang" : 1049,
+	"general" : {
+		"Activated : %i" : "Активировано : %i",
+		"Active at start" : "Активен при запуске",
+		"Advanced" : "Расширенные",
+		"Angle : %i degrees" : "Угол : %i градусов",
+		"Auto rotation" : "Авто-поворот",
+		"Box" : "Прямоугольник",
+		"Check this box to make your spring active when the frame starts" : "Выберите эту опцию, чтобы пружина была активна при старте сцены",
+		"Check to enable automatic rotations of the image" : "Выберите эту опцию, чтобы включить автоматическое вращение изображения",
+		"Check to resample the image of the object when rotating it (slower for large number of objects)." : "Установите для передискретизации изображения при вращении (медленнее при большом количестве объектов).",
+		"Circle" : "Круг",
+		"Collision shape" : "Форма столкновения",
+		"Engine ID" : "Идентификатор движка",
+		"Enter the direction of the spring" : "Введите направление пружины",
+		"Enter the identifier of the movement, that must match the identifier of the engine object." : "Введите идентификатор движения, который должен совпадать с идентификатором объекта двигателя",
+		"Enter the strength of the spring, (0 = inactive)" : "Введите силу пружины, (0 = не активна).",
+		"Physics - Spring" : "Физика - пружина",
+		"Please choose the shape of the collision box" : "Выберите форму для расчёта столкновения",
+		"Please drop a 'Physics Engine' object in your frame." : "Поместите объект \"Физика - движок\" на сцену.",
+		"Shape of first image" : "Форма первого изображения",
+		"Smooth rotations" : "Плавные повороты",
+		"Spring directions" : "Направления пружины",
+		"Strength" : "Сила",
+		"Strength : %i" : "Сила : %i",
+		"Type : Spring" : "Тип : Пружина"
+	}
+}

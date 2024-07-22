@@ -1,0 +1,20 @@
+﻿{
+	"version" : 1,
+	"lang" : 1049,
+	"general" : {
+		"%s files (%s)" : "%s файлы (%s)",
+		"All files (*.*)|*.*||" : "Все файлы (*.*)|*.*||",
+		"Animation files" : "Файлы анимации",
+		"Graphic files" : "Графические файлы",
+		"Image files" : "Файлы изображений",
+		"Unknown format" : "Неизвестный формат"
+	},
+	"dialog_100" : {
+		"# frames :" : "# Кадров :",
+		"Depth :" : "Глубина :",
+		"Height :" : "Высота :",
+		"Information" : "Информация",
+		"Type :" : "Тип :",
+		"Width :" : "Ширина :"
+	}
+}

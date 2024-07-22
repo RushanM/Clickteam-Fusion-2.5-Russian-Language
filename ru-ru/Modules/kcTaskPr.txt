@@ -1,0 +1,31 @@
+﻿{
+	"version" : 1,
+	"lang" : 1049,
+	"general" : {
+		"00Set high task priority" : "Установить высокий приоритет задачи",
+		"00Set low task priority" : "Установить низкий приоритет задачи",
+		"00Set medium task priority" : "Установить средний приоритет задачи",
+		"00Task priority is high" : "Приоритет задачи высокий",
+		"00Task priority is low" : "Приоритет задачи низкий",
+		"00Task priority is medium" : "Приоритет задачи средний",
+		"01Wake up application every %s" : "Будить приложение каждую(ые) %0",
+		"Obsolete, this object does nothing, the CPU usage is now automatic." : "Устаревшее, этот объект ничего не делает, использование процессора теперь автоматическое.",
+		"Task Priority" : "Приоритет задачи",
+		"Task Priority object" : "Объект приоритета задачи"
+	},
+	"menu_20000" : {
+		"&High" : "Высокий",
+		"&Low" : "Низкий",
+		"&Medium" : "Средний",
+		"Set Task Priority" : "Установить приоритет задачи",
+		"Wake up application every..." : "Будить приложение каждую(ые)......"
+	},
+	"menu_20001" : {
+		"Is task priority high?" : "Приоритет задачи высокий ?",
+		"Is task priority low?" : "Приоритет задачи низкий ?",
+		"Is task priority medium?" : "Приоритет задачи средний ?"
+	},
+	"menu_20002" : {
+		"Task priority" : "Приоритет задачи"
+	}
+}

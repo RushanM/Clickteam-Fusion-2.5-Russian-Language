@@ -1,0 +1,11 @@
+{
+    "version": 1,
+    "lang": 1049,
+    "general": {
+	    "Font Embed Object": "Внедрение шрифта",
+		"Embed a font": "Встроить шрифт",
+		"Embed Font": "Встроить шрифт %0 %1 %2",
+		"Number of fonts added": "Количество добавленных шрифтов",
+		"Remove a font": "Удалить шрифт"
+    }
+}

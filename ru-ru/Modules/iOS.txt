@@ -1,0 +1,61 @@
+﻿{
+	"version" : 1,
+	"lang" : 1049,
+	"general" : {
+		"%o: Application has been deactivated" : "%o: Приложение отключено",
+		"%o: Application has been reactivated" : "%o: Приложение включено",
+		"%o: Application received a memory warning" : "%o: Приложение получило предупреждение о памяти",
+		"%o: Device can connect to %0" : "%o: Устройство можно подключить к %0",
+		"%o: Device can connect to %0 via WWAN" : "%o: Устройство можно подключить к %0 с помощью WWAN",
+		"%o: Device can connect to %0 via Wifi" : "%o: Устройство можно подключить к %0 с помощью Wifi",
+		"%o: Device has Internet access" : "%o: Устройство имеет доступ к Интернету",
+		"%o: Device has Internet access via WWAN" : "%o: Устройство имеет доступ к Интернету с помощью WWAN",
+		"%o: Device has Internet access via Wifi" : "%o: Устройство имеет доступ к Интернету с помощью Wifi",
+		"%o: Device has local Wifi access" : "%o: Устройство имеет локальный доступ Wi-Fi",
+		"%o: No error in iAD advertisement" : "%o: Нет ошибок в iAd рекламе",
+		"%o: iAd is visible" : "%o: Реклама iAd видна",
+		"Enable/disable iAd %0" : "Включить/отключить iAd : %0",
+		"Enter 0 to disable iAd, 1 to enable" : "Введите 0, чтобы отключить iAd, 1 для включения",
+		"Extra function for iOS applications." : "Дополнительные функции для приложений IOS",
+		"Index" : "Индекс",
+		"Open URL %0" : "Открыть URL %0",
+		"Please enter the URL to open" : "Введите URL, чтобы открыть",
+		"Please enter the address of the host" : "Введите адрес хоста",
+		"Vibrate" : "Вибрация",
+		"iOS" : "iOS"
+	},
+	"menu_20000" : {
+		"Actions" : "Действия",
+		"Enable/disable iAd" : "Включить/отключить iAd",
+		"Open URL" : "Открыть URL",
+		"Vibrate" : "Вибрация"
+	},
+	"menu_20001" : {
+		"Application has been deactivated" : "Приложение отключено",
+		"Application has been reactivated" : "Приложение включено",
+		"Application received a memory warning" : "Приложение получило предупреждение о памяти",
+		"Can connect to 'hostname'" : "Может подключаться к 'hostname'",
+		"Can connect to 'hostname' via WWAN" : "Может подключаться к 'hostname' с помощью WWAN",
+		"Can connect to 'hostname' via Wifi" : "Может подключаться к 'hostname' с помощью Wifi",
+		"Conditions" : "Условия",
+		"Has Internet access" : "Имеет доступ к Интернету",
+		"Has Internet access over WWAN" : "Имеет доступ к Интернету с помощью WWAN",
+		"Has Internet access over Wifi" : "Имеет доступ к Интернету с помощью Wifi",
+		"Has local Wifi access" : "Имеет локальный доступ Wi-Fi",
+		"Network" : "Сеть",
+		"No error in iAD advertisement" : "Нет ошибок в iAd рекламе",
+		"iAd is visible" : "Реклама iAd видна"
+	},
+	"menu_20002" : {
+		"Device name" : "Название устройства",
+		"Expressions" : "Выражения",
+		"Get Nth preferred language" : "Получить N-й предпочитаемый язык",
+		"Get number of preferred languages" : "Получить номера предпочтительных языков",
+		"Localization" : "Локализация",
+		"Localized model" : "Локализованная модель",
+		"Model" : "Модель",
+		"System" : "Система",
+		"System name" : "Название системы",
+		"System version" : "Версия системы"
+	}
+}

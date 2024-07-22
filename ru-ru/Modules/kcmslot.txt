@@ -1,0 +1,39 @@
+﻿{
+	"version" : 1,
+	"lang" : 1049,
+	"general" : {
+		"00Reset error" : "Сброс ошибки",
+		"01Close channel %s" : "Закрыть канал %0",
+		"01Open channel %s as %s" : "Открыть канал %0 как %1",
+		"02Send number %s to slot %s" : "Отправить число %0 в слот %1",
+		"02Send string %s to slot %s" : "Отправить строку %0 в слот %1",
+		"10%s : Error" : "%o: Ошибка",
+		"11%s : Message available on channel %s" : "%o: Сообщение доступно на канале %0",
+		"Allows applications to communicate through a local network by opening a channel for communication between two computers." : "Позволяет приложениям взаимодействовать через локальную сеть, открыв канал для связи между двумя компьютерами.", 
+		"Channel number" : "Номер канала",
+		"Last error: %s" : "Последняя ошибка: %s",
+		"Network" : "Сеть",
+		"Network object" : "Сетевой объект",
+		"Number to Send" : "Номер для отправки",
+		"Slot name" : "Название слота",
+		"String to send" : "Строка для отправки"
+	},
+	"menu_20000" : {
+		"Close channel" : "Закрыть канал",
+		"Open channel" : "Открыть канал",
+		"Reset error" : "Сброс ошибки",
+		"Send number" : "Отправить число",
+		"Send string" : "Отправить строку"
+	},
+	"menu_20001" : {
+		"Error" : "Ошибка",
+		"Message available" : "Доступно сообщение"
+	},
+	"menu_20002" : {
+		"Get current status" : "Получить текущий статус",
+		"Get last error" : "Получить последнюю ошибку",
+		"Get last error string" : "Получить строку последней ошибки",
+		"Get number" : "Получить число",
+		"Get string" : "Получить строку"
+	}
+}

@@ -1,0 +1,19 @@
+﻿{
+	"version" : 1,
+	"lang" : 1049,
+	"general" : {
+		"End play" : "Конец игры",
+		"Event tag" : "Тег событий",
+		"Mochi Analytics" : "Mochi - Аналитика",
+		"Obsolete. This object is provided for compatibility reasons only." : "Устаревшее. Этот объект предоставляется только в целях совместимости.",
+		"Start play (tag %0)" : "Старт игры (тег %0)",
+		"Tag (default: gameplay)" : "Тег (по умолчанию: gameplay)",
+		"Track event %0 with value %1" : "Трек-событие %0 со значением %1",
+		"Value (default: 1)" : "Значение (по умолчанию: 1)"
+	},
+	"menu_20000" : {
+		"End play" : "Конец игры",
+		"Start play" : "Старт игры",
+		"Track event" : "Трек-событие"
+	}
+}

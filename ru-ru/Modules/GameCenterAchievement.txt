@@ -1,0 +1,25 @@
+﻿{
+	"version" : 1,
+	"lang" : 1049,
+	"general" : {
+		"Achieved" : "Завершно",
+		"Achievement title" : "Название достижения",
+		"Click Edit to draw the images of the achievement" : "Нажмите кнопку Изменить, чтобы редактировать изображения достижения",
+		"Description of the achievement, after completion" : "Описание достижения, после завершения",
+		"Description of the achievement, before completion" : "Описание достижения, до завершения",
+		"Displays one Game Center achievement in your iOS application." : "Отображает достижение Game Center от Apple в вашем приложении IOS.",
+		"Enter the achievement identifier as defined in iTunes Connect" : "Введите идентификатор достижения, как определено в Itunes Connect",
+		"Game Center Achievement" : "Game Center - Достижение",
+		"Identifier" : "Идентификатор",
+		"Images" : "Изображения",
+		"Unachieved" : "Незавершено"
+	},
+	"menu_20002" : {
+		"Expressions" : "Выражения",
+		"Get achievement achieved description" : "Получить описание завершённого достижения",
+		"Get achievement maximum points" : "Получить максимальное количество очков достижения",
+		"Get achievement percentage" : "Получить процент достижения",
+		"Get achievement title" : "Получить заголовок достижения",
+		"Get achievement unachieved description" : "Получить описание незавершённого достижения"
+	}
+}

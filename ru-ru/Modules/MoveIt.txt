@@ -1,0 +1,59 @@
+{
+    "version": 1,
+    "lang": 1049,
+    "general": {
+        "%o: Object finished moving": "%o: Объект закончил движение",
+        "Add objects %0 to queue": "Добавить объекты %0 в очередь",
+        "Clear queue": "Очистить очередь",
+        "Fixed value": "Фиксированное значение",
+        "Force movement update": "Принудительно обновить движение",
+        "Index value": "Значение номера",
+        "Move objects to target %0, %1   in %2  event cycles": "Двигать объекты к цели %0, %1   с %2  повторами события",
+        "Move objects to target %0, %1 with speed %2": "Двигать объекты к цели %0, %1 со скоростью %2",
+        "MoveIt allows you to easily move objects to a given position.": "MoveIt позволяет легко перемещать объекты в заданную позицию.",
+        "MoveIt": "MoveIt",
+        "Object": "Объект",
+        "Select an object": "Выбрать объект",
+        "Select the object": "Выбрать объект",
+        "Speed": "Скорость",
+        "Stop all": "Остановить всё",
+        "Stop movement for object with fixed value %0": "Остановить движение объекта с фиксированным значением %0",
+        "Stop movement for object with index value %0": "Остановить движение объекта с значением номера %0",
+        "Stop movement for objects %0": "Остановить движение объектов %0",
+        "Target X": "Цель X",
+        "Target Y": "Цель Y",
+        "Time -  event cycles ( 50 event cycles = 1 sec depending on framerate )": "Время - повторы события (50 повторов событий = 1 сек. в зависимости от частоты кадров)"
+    },
+    "menu_20000": {
+        "Add objects to queue": "Добавить объекты в очередь",
+        "Clear queue": "Очистить очередь",
+        "Force movement update": "Принудительно обновить движение",
+        "Move objects in queue with speed": "Двигать объекты в очередь со скоростью",
+        "Move objects in queue with time": "Двигать объекты в очередь с временем",
+        "Move objects": "Двигать объекты",
+        "Stop all": "Остановить всё",
+        "Stop movement by using fixed value": "Остановить движение используя фиксированное значение",
+        "Stop movement by using index value": "Остановить движение используя значение номера",
+        "Stop movement by using selector": "Остановить движение выбрав объект",
+        "Stop movement of objects": "Остановить движение объектов"
+    },
+    "menu_20001": {
+        "Object finished moving": "Объект закончил движение"
+    },
+    "menu_20002": {
+        "From fixed value": "Из фиксированного значения",
+        "From index": "Из номера",
+        "Get angle of object": "Получить угол объекта",
+        "Get angle": "Получить угол",
+        "Get direction of object": "Получить направление объекта",
+        "Get direction": "Получить направление",
+        "Get fixed value": "Получить фиксированное значение",
+        "Get index value": "Получить значение номера",
+        "Get number of objects moving": "Получить количество движущихся объектов",
+        "Get remaining distance for object": "Получить оставшуюся дистанцию до объекта",
+        "Get remaining distance": "Получить оставшуюся дистанцию",
+        "Get total distance for object": "Получить общею дистанцию до объекта",
+        "Get total distance": "Получить общею дистанцию",
+        "On object stopped moving": "При остановки движения объекта"
+    }
+}

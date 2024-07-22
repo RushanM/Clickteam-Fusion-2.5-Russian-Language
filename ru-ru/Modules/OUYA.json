@@ -1,0 +1,548 @@
+{   "About":
+    {
+        "Name": "OUYA (Объект)",
+        "Author": "Clickteam",
+        "Copyright": "Copyright (C) 2013 Clickteam",
+        "Website": "http://www.clickteam.com",
+        "Comment": "Часть Android экспортера. Обеспечивает специальную функциональность, когда работает на консоли OUYA.",
+
+        "URL": "http://www.clickteam.com",
+        "Help": "Help/OUYA.chm",
+        "Identifier": "OUYA",
+    },
+
+    "ActionMenu":
+    [
+        ["IAP",
+            [0, "Инициализировать  IAP"],
+            [1, "Установить текущий продукт"],
+            [2, "Приобрести текущий продукт"],
+
+
+
+        ],
+       "Separator",
+        [3, "Определить сенсорную панель в качестве основного управления"]
+
+   ],
+
+    "ConditionMenu":
+    [
+       [30, "Это устройство OUYA?"],
+       "Separator",
+       ["При нажатие кнопки",
+
+           [15, "O"],
+           [16, "U"],
+           [17, "Y"],
+           [18, "A"],
+           [19, "L1"],
+           [20, "L2"],
+           [21, "R1"],
+           [22, "R2"],
+           [23, "Меню"],
+           [24, "Крестик - Вверх"],
+           [25, "Крестик - Вниз"],
+           [26, "Крестик - Влево"],
+           [27, "Крестик - Вправо"],
+           [28, "R3"],
+           [29, "L3"]
+       ],
+       ["Если отпустить кнопку",
+
+           [31, "O"],
+           [32, "U"],
+           [33, "Y"],
+           [34, "A"],
+           [35, "L1"],
+           [36, "L2"],
+           [37, "R1"],
+           [38, "R2"],
+           [39, "Меню"],
+           [40, "Крестик - Вверх"],
+           [41, "Крестик - Вниз"],
+           [42, "Крестик - Влево"],
+           [43, "Крестик - Вправо"],
+           [44, "R3"],
+           [45, "L3"]
+       ],
+       ["Кнопка нажата для игрока?",
+
+           [0, "O"],
+           [1, "U"],
+           [2, "Y"],
+           [3, "A"],
+           [4, "L1"],
+           [5, "L2"],
+           [6, "R1"],
+           [7, "R2"],
+           [8, "Меню"],
+           [9, "Крестик - Вверх"],
+           [10, "Крестик - Вниз"],
+           [11, "Крестик - Влево"],
+           [12, "Крестик - Вправо"],
+           [13, "R3"],
+           [14, "L3"]
+       ],
+       "Separator",
+       ["IAP",
+            [48, "При IAP инициализации"],
+            [49, "При ошибке IAP инициализации"],
+
+
+            "Separator",
+            [46, "При выбранном продукте"],
+            [53, "При ошибке выбора продукта"],
+
+
+            "Separator",
+            [51, "При успешном приобретении"],
+            [52, "При ошибке приобретения"],
+
+
+            "Separator",
+            [50, "Игрок имеет продукт?"]
+
+       ],
+       "Separator",
+		[54, "При двойном нажатии кнопки системы"]
+
+    ],
+
+    "ExpressionMenu":
+    [
+        [0, "Получить номер текущего игрока"],
+
+        "Separator",
+        ["Получить значение осей (текущий игрок)",
+            [1, "Левый стик X"],
+            [2, "Левый стик Y"],
+
+
+
+            "Separator",
+            [3, "Правый стик X"],
+            [4, "Правый стик Y"],
+
+
+            "Separator",
+            [12, "L2 стик"],
+            [13, "R2 стик"]
+
+        ],
+        ["Получить значение осей (игрок номер)",
+            [5, "Левый стик X"],
+            [6, "Левый стик Y"],
+
+
+
+            "Separator",
+            [7, "Правый стик X"],
+            [8, "Правый стик Y"],
+
+
+            "Separator",
+            [14, "L2 стик"],
+            [15, "R2 стик"]
+
+        ],
+        "Separator",
+        ["IAP",
+            [9, "Название текущего продукта"],
+            [10, "Цена текущего продукта в американских центах"],
+            [19, "Валюта для приобретения текущего продукта"],
+            [20, "Цена приобретения текущего продукта"],
+
+
+
+
+            [11, "UUID игрока"]
+        ],
+        "Separator",
+        ["Дополнительно...",
+            [16, "Имя пользователя"],
+            [17, "Название консоли"],
+            [18, "Поддерживаемые устройства"]
+
+
+
+        ]
+	],
+
+    "Actions":
+    [
+        { "Title": "Инициализация IAP с ID разработчика %0, файл ключа %1",
+
+          "Parameters": [
+                ["Text", "ID разработчика"], 
+                ["File", "Файл ключа"]
+
+
+          ]
+        },
+        { "Title": "Выбрать продукт %0",
+          "Parameters": [
+                ["Text", "ID продукта"] 
+
+          ]
+		},
+        { "Title": "Приобрести текущий продукт"},		 
+		{"Title": "Установить сенсорную панель контроллера %0 по умолчанию",
+
+
+          "Parameters": [["Integer", "Номер контроллера (0 до 3)"]]
+        }		
+    ],
+
+    "Conditions":
+    [
+        {   "Title": "%o : Кнопка O нажата для игрока %0?",
+
+            "Triggered": false,
+            "Parameters": [
+                ["Integer", "Номер игрока"]
+
+            ]
+        },
+        {   "Title": "%o : Кнопка U нажата для игрока %0?",
+
+            "Triggered": false,
+            "Parameters": [
+                ["Integer", "Номер игрока"]
+
+            ]
+        },
+        {   "Title": "%o : Кнопка Y нажата для игрока %0?",
+
+            "Triggered": false,
+            "Parameters": [
+                ["Integer", "Номер игрока"]
+
+            ]
+        },
+        {   "Title": "%o : Кнопка A нажата для игрока %0?",
+
+            "Triggered": false,
+            "Parameters": [
+                ["Integer", "Номер игрока"]
+
+            ]
+        },
+        {   "Title": "%o : Кнопка L1 нажата для игрока %0?",
+
+            "Triggered": false,
+            "Parameters": [
+                ["Integer", "Номер игрока"]
+
+            ]
+        },
+        {   "Title": "%o : Кнопка L2 нажата для игрока %0?",
+
+            "Triggered": false,
+            "Parameters": [
+                ["Integer", "Номер игрока"]
+
+            ]
+        },
+        {   "Title": "%o : Кнопка R1 нажата для игрока %0?",
+
+            "Triggered": false,
+            "Parameters": [
+                ["Integer", "Номер игрока"]
+
+            ]
+        },
+        {   "Title": "%o : Кнопка R2 нажата для игрока %0?",
+
+            "Triggered": false,
+            "Parameters": [
+                ["Integer", "Номер игрока"]
+
+            ]
+        },
+        {   "Title": "%o : Кнопка Меню нажата для игрока %0?",
+
+            "Triggered": false,
+            "Parameters": [
+                ["Integer", "Номер игрока"]
+
+            ]
+        },
+        {   "Title": "%o : Кнопка Крестик - Вверх нажата для игрока %0?",
+            "Triggered": false,
+            "Parameters": [
+                ["Integer", "Номер игрока"]
+
+            ]
+        },
+        {   "Title": "%o : Кнопка Крестик - Вниз нажата для игрока %0?",
+            "Triggered": false,
+            "Parameters": [
+                ["Integer", "Номер игрока"]
+
+            ]
+        },
+        {   "Title": "%o : Кнопка Крестик - Влево нажата для игрока %0?",
+            "Triggered": false,
+            "Parameters": [
+                ["Integer", "Номер игрока"]
+
+            ]
+        },
+        {   "Title": "%o : Кнопка Крестик - Вправо нажата для игрока %0?",
+            "Triggered": false,
+            "Parameters": [
+                ["Integer", "Номер игрока"]
+
+            ]
+        },
+        {   "Title": "%o : Кнопка R3 нажата для игрока %0?",
+
+            "Triggered": false,
+            "Parameters": [
+                ["Integer", "Номер игрока"]
+
+            ]
+        },
+        {   "Title": "%o : Кнопка L3 нажата для игрока %0?",
+
+            "Triggered": false,
+            "Parameters": [
+                ["Integer", "Номер игрока"]
+
+            ]
+        },
+
+        {   "Title": "%o : При нажатии кнопки O",
+
+            "Triggered": true
+        },
+        {   "Title": "%o : При нажатии кнопки U",
+
+            "Triggered": true
+        },
+        {   "Title": "%o : При нажатии кнопки Y",
+
+            "Triggered": true
+        },
+        {   "Title": "%o : При нажатии кнопки A",
+
+            "Triggered": true
+        },
+        {   "Title": "%o : При нажатии кнопки L1",
+
+            "Triggered": true
+        },
+        {   "Title": "%o : При нажатии кнопки L2",
+
+            "Triggered": true
+        },
+        {   "Title": "%o : При нажатии кнопки R1",
+
+            "Triggered": true
+        },
+        {   "Title": "%o : При нажатии кнопки R2",
+
+            "Triggered": true
+        },
+        {   "Title": "%o : При нажатии кнопки Меню",
+
+            "Triggered": true
+        },
+        {   "Title": "%o : При нажатии кнопки Крестик - Вверх",
+            "Triggered": true
+        },
+        {   "Title": "%o : При нажатии кнопки Крестик - Вниз",
+            "Triggered": true
+        },
+        {   "Title": "%o : При нажатии кнопки Крестик - Влево",
+            "Triggered": true
+        },
+        {   "Title": "%o : При нажатии кнопки Крестик - Вправо",
+            "Triggered": true
+        },
+        {   "Title": "%o : При нажатии кнопки R3",
+
+            "Triggered": true
+        },
+        {   "Title": "%o : При нажатии кнопки L3",
+
+            "Triggered": true
+        },
+
+        {   "Title": "%o : Это устройство OUYA?",
+            "Triggered": false
+        },
+
+        {   "Title": "%o : Если отпустить кнопку O",
+
+            "Triggered": true
+        },
+        {   "Title": "%o : Если отпустить кнопку U",
+
+            "Triggered": true
+        },
+        {   "Title": "%o : Если отпустить кнопку Y",
+
+            "Triggered": true
+        },
+        {   "Title": "%o : Если отпустить кнопку A",
+
+            "Triggered": true
+        },
+        {   "Title": "%o : Если отпустить кнопку L1",
+
+            "Triggered": true
+        },
+        {   "Title": "%o : Если отпустить кнопку L2",
+
+            "Triggered": true
+        },
+        {   "Title": "%o : Если отпустить кнопку R1",
+
+            "Triggered": true
+        },
+        {   "Title": "%o : Если отпустить кнопку R2",
+
+            "Triggered": true
+        },
+        {   "Title": "%o : Если отпустить кнопку Меню",
+
+            "Triggered": true
+        },
+        {   "Title": "%o : Если отпустить кнопку Крестик - Вверх",
+            "Triggered": true
+        },
+        {   "Title": "%o : Если отпустить кнопку Крестик - Вниз",
+            "Triggered": true
+        },
+        {   "Title": "%o : Если отпустить кнопку Крестик - Влево",
+            "Triggered": true
+        },
+        {   "Title": "%o : Если отпустить кнопку Крестик - Вправо",
+            "Triggered": true
+        },
+        {   "Title": "%o : Если отпустить кнопку R3",
+
+            "Triggered": true
+        },
+        {   "Title": "%o : Если отпустить кнопку L3",
+
+            "Triggered": true
+        },
+        {   "Title": "%o : При выбранном продукте",
+
+            "Triggered": true
+        },
+        {   "Title": "%o : При получении UUID",
+            "Triggered": true
+        },
+        {   "Title": "%o : При IAP инициализации",
+            "Triggered": true
+        },
+        {   "Title": "%o : При ошибке IAP инициализации",
+
+            "Triggered": true
+        },
+        {   "Title": "%o : Игрок имеет продукт %0?",
+
+            "Parameters": [["Text", "ID продукта"]],
+            "Triggered": false
+        },
+        {   "Title": "%o : При успешном приобретении",
+
+            "Triggered": true
+        },
+        {   "Title": "%o : При ошибке приобретения",
+
+            "Triggered": true
+        },
+        {   "Title": "%o : При ошибке выбора продукта",
+
+            "Triggered": true
+        },
+        {   "Title": "%o : При двойном нажатии кнопки системы",
+
+            "Triggered": true
+        }
+		
+    ],
+
+    "Expressions":
+    [
+        {   "Title": "CurrentPlayer(",
+            "Returns": "Integer"
+        },
+        {   "Title": "LeftStickX(",
+            "Returns": "Float"
+        },
+        {   "Title": "LeftStickY(",
+            "Returns": "Float"
+        },
+        {   "Title": "RightStickX(",
+            "Returns": "Float"
+        },
+        {   "Title": "RightStickY(",
+            "Returns": "Float"
+        },
+        {   "Title": "LeftStickXForPlayer(",
+            "Returns": "Float",
+            "Parameters": [["Integer", "Игрок"]]
+		},
+        {   "Title": "LeftStickYForPlayer(",
+            "Returns": "Float",
+            "Parameters": [["Integer", "Игрок"]]
+        },
+        {   "Title": "RightStickXForPlayer(",
+            "Returns": "Float",
+            "Parameters": [["Integer", "Игрок"]]
+        },
+        {   "Title": "RightStickYForPlayer(",
+            "Returns": "Float",
+            "Parameters": [["Integer", "Игрок"]]
+        },
+        {   "Title": "ProductName$(",
+            "Returns": "Text",
+            "Parameters": []
+        },
+        {   "Title": "ProductPriceinUSCents(",
+            "Returns": "Float",
+            "Parameters": []
+        },
+        {   "Title": "GamerUUID$(",
+            "Returns": "Text",
+            "Parameters": []
+        },
+        {   "Title": "L2_Stick(",
+            "Returns": "Float"
+        },
+        {   "Title": "R2_Stick(",
+            "Returns": "Float"
+        },
+        {   "Title": "L2_StickForPlayer(",
+            "Returns": "Float",
+            "Parameters": [["Integer", "Игрок"]]
+		},
+        {   "Title": "R2_StickForPlayer(",
+            "Returns": "Float",
+            "Parameters": [["Integer", "Игрок"]]
+		},	
+        {   "Title": "UserName$(",
+            "Returns": "Text"
+        },
+        {   "Title": "ConsoleName$(",
+            "Returns": "Text"
+        },
+        {   "Title": "SupportedDevice(",
+            "Returns": "Integer"
+        },
+        {   "Title": "ProductPurchaseCurrency$(",
+            "Returns": "Text",
+            "Parameters": []
+        },
+        {   "Title": "ProductPurchasePrice$(",
+            "Returns": "Text",
+            "Parameters": []
+        }
+	]
+}

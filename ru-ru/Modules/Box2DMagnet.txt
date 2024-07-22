@@ -1,0 +1,49 @@
+﻿{
+	"version" : 1,
+	"lang" : 1049,
+	"general" : {
+		"%o: Is magnet active?" : "%o : Магнит действует?",
+		"Active at start" : "Активен при запуске",
+		"Advanced" : "Расширенные",
+		"Attracts objects around itself" : "Притягивать объекты вокруг себя",
+		"Check this box to make the magnet active at start of frame" : "Выберите эту опцию, чтобы магнит был активен при старте сцены",
+		"Directions" : "Направления",
+		"Directions of the magnet" : "Направления магнита",
+		"Engine ID" : "Идентификатор движка",
+		"Enter 1 to turn on, 0 to turn off" : "Введите 1, чтобы включить, 0, чтобы выключить",
+		"Enter the directions where the magnet will have effect" : "Введите направления по которому магнит имеет силу",
+		"Enter the height of the object" : "Введите высоту объекта",
+		"Enter the identifier of the engine if multiple engines are used on the same frame." : "Введите идентификатор двигателя, если вы используете несколько физических двигателей на сцене",
+		"Enter the strength of the magnet (0-100)" : "Введите силу магнита (0-100)",
+		"Enter the strength of the magnet, from 0 to 100" : "Введите силу магнита, от 0 до 100",
+		"Enter the width of the object" : "Введите ширину объекта",
+		"Physics - Magnet" : "Физика - магнит",
+		"Please drop a 'Physics Engine' object in your frame." : "Поместите объект \"Физика - движок\" на сцену.",
+		"Running : %i" : "Выполнение : %i",
+		"Set angle to %0" : "Установить угол %0 градусов",
+		"Set height to %0" : "Установить высоту %0",
+		"Set magnet to %0" : "Установить магнит %0",
+		"Set strength to %0" : "Установить силу %0",
+		"Set width to %0" : "Установить ширину %0",
+		"Strength" : "Сила",
+		"Strength : %i" : "Сила : %i"
+	},
+	"menu_20000" : {
+		"Actions" : "Действия",
+		"Set angle" : "Установить угол",
+		"Set height" : "Установить высоту",
+		"Set magnet ON/OFF" : "Установить магнит ВКЛ/ВЫКЛ",
+		"Set strength" : "Установить силу",
+		"Set width" : "Установить ширину"
+	},
+	"menu_20001" : {
+		"Conditions" : "Условия",
+		"Is magnet active?" : "Магнит действует?"
+	},
+	"menu_20002" : {
+		"Action zone height" : "Высота зоны действия",
+		"Action zone width" : "Ширина зоны действия",
+		"Expressions" : "Выражения",
+		"Magnet strength" : "Сила магнита"
+	}
+}

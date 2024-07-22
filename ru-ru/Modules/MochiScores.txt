@@ -1,0 +1,27 @@
+﻿{
+	"version" : 1,
+	"lang" : 1049,
+	"general" : {
+		"%o : On leaderboard closed" : "%o : Закрытие таблицы результатов",
+		"%o : On leaderboard displayed" : "%o : Открытие таблицы результатов",
+		"Leaderboard ID" : "ID таблицы результатов",
+		"Mochi Scores" : "Mochi - Очки",
+		"Name" : "Имя",
+		"Obsolete. This object is provided for compatibility reasons only." : "Устаревшее. Этот объект предоставляется только в целях совместимости.",
+		"Score" : "Очки",
+		"Set Leaderboard ID to %0" : "Установить ID таблицы результатов %0",
+		"Show leaderboard" : "Показать таблицу результатов",
+		"Submit score %0 and ask for a name" : "Опубликовать очки %0 и запросить имя",
+		"Submit score %0 with name %1" : "Опубликовать очки %0 с именем %1"
+	},
+	"menu_20000" : {
+		"Set leaderboard ID" : "Установить ID таблицы результатов",
+		"Show leaderboard" : "Показать таблицу результатов",
+		"Submit score (ask for a name)" : "Опубликовать очки (запросить имя)",
+		"Submit score (specify a name)" : "Опубликовать очки (указав имя)"
+	},
+	"menu_20001" : {
+		"On leaderboard closed" : "При закрытии таблицы результатов",
+		"On leaderboard displayed" : "При показе таблицы результатов"
+	}
+}

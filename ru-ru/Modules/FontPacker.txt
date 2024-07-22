@@ -1,0 +1,61 @@
+﻿{
+	"version" : 1,
+	"lang" : 1049,
+	"general" : {
+		"%o: Is Internal font %0 available?" : "%o: Внутренний шрифт %0 доступен?",
+		"%o: Is Packed font %0 available?" : "%o: Упакованный шрифт %0 доступен?",
+		"%o: On Error Ocurred" : "%o: Во время ошибки",
+		"%o: On Internal Fonts Read" : "%o: Как только внутренние шрифты были прочтены",
+		"%o: On Packed Fonts Read" : "%o: Как только упакованные шрифты были прочтены",
+		"%o: Read Internal Fonts" : "%o: Прочитать внутренние шрифты",
+		"%o: Read Packed Fonts" : "%o: Прочитать упакованные шрифты",
+		"Android Font Packer" : "Android - Упаковщик шрифтов",
+		"Android Font Packer Control" : "Управление упаковщиком шрифтов Android",
+		"Clear Checked" : "Очистить отмеченное",
+		"File must be named according their typeface" : "Имя файла должно соответствовать имени шрифта",
+		"Font #10: " : "Шрифт №10",
+		"Font #1: " : "Шрифт №1",
+		"Font #2: " : "Шрифт №2",
+		"Font #3: " : "Шрифт №3",
+		"Font #4: " : "Шрифт №4",
+		"Font #5: " : "Шрифт №5",
+		"Font #6: " : "Шрифт №6",
+		"Font #7: " : "Шрифт №7",
+		"Font #8: " : "Шрифт №8",
+		"Font #9: " : "Шрифт №9",
+		"Font Name" : "Название шрифта",
+		"Font filename #1 as defined in system" : "Название файла шрифта №1, как определено в системе.",
+		"Font filename #10 as defined in system" : "Название файла шрифта №10, как определено в системе.",
+		"Font filename #2 as defined in system" : "Название файла шрифта №2, как определено в системе.",
+		"Font filename #3 as defined in system" : "Название файла шрифта №3, как определено в системе.",
+		"Font filename #4 as defined in system" : "Название файла шрифта №4, как определено в системе.",
+		"Font filename #5 as defined in system" : "Название файла шрифта №5, как определено в системе.",
+		"Font filename #6 as defined in system" : "Название файла шрифта №6, как определено в системе.",
+		"Font filename #7 as defined in system" : "Название файла шрифта №7, как определено в системе.",
+		"Font filename #8 as defined in system" : "Название файла шрифта №8, как определено в системе.",
+		"Font filename #9 as defined in system" : "Название файла шрифта №9, как определено в системе.",
+		"Fonts functionality for Android." : "Функциональность шрифтов для Android.",
+		"Fonts to Pack ..." : "Шрифты для упаковки...",
+		"Repack the font list" : "Перепаковать список шрифтов"
+	},
+	"menu_20000" : {
+		"Read Internal fonts" : "Читать внутренние шрифты",
+		"Read Packed Fonts" : "Читать упакованные шрифты"
+	},
+	"menu_20001" : {
+		"Is Internal Font Available" : "Внутренний шрифт доступен?",
+		"Is Packed Font Available" : "Упакованный шрифт доступен?",
+		"On Error" : "Во время ошибки",
+		"On Internal Fonts Read" : "Как только внутренние шрифты были прочтены",
+		"On Packed Fonts Read" : "Как только упакованные шрифты были прочтены"
+	},
+	"menu_20002" : {
+		"Internal Font Name" : "Название внутреннего шрифта",
+		"Internal Fonts Quantity" : "Количество внутренних шрифтов",
+		"Last error Ocurred" : "Как только произошла последняя ошибка",
+		"Packed Font Name" : "Название упакованного шрифта",
+		"Packed Fonts Quantity" : "Количество упакованных шрифтов",
+		"Read Default Font Size" : "Прочесть размер шрифта по умолчанию",
+		"Read Default Font Style" : "Прочесть стиль шрифта по умолчанию"
+	}
+}

@@ -1,0 +1,48 @@
+﻿{
+	"version" : 1,
+	"lang" : 1049,
+	"general" : {
+		"Advanced" : "Расширенные",
+		"All the objects under the pin" : "Все объекты в контакте",
+		"Check and all the objects will be linked to the position of the pin." : "Выберите эту опцию, чтобы связать все объекты находящиеся под основным",
+		"Choose how many objects should be linked together." : "Выберите сколько объектов должны быть связаны друг с другом",
+		"Creates revolute joints between objects." : "Создать вращающиеся соединения между объектами.",
+		"Destroy joint" : "Уничтожить соединение",
+		"Engine ID" : "Идентификатор движка",
+		"Enter the higher limit angle, in degrees (0 - 360)" : "Введите максимальный предел угла (в градусах от 0 до 360)",
+		"Enter the identifier of the engine to use for the ground." : "Введите идентификатор физического двигателя для его использования.",
+		"Enter the lower angle limit. If greater than the higher limit, no limit will be applied." : "Введите минимальный предел угла. Если он больше максимального предела, никаких ограничений применяться не будет.",
+		"Enter the lower limit angle, in degrees (0 - 360)" : "Введите минимальный предел угла (в градусах от 0 до 360)",
+		"Enter the speed of the motor (-250 - 250)" : "Введите скорость двигателя (-250 / 250)",
+		"Enter the speed of the motor. Negative values turn counter clockwise." : "Введите скорость двигателя. Отрицательные значения запустят вращение против часовой стрелки.",
+		"Enter the torque of the motor" : "Введите крутящий момент двигателя",
+		"Enter the torque of the motor." : "Введите крутящий момент двигателя.",
+		"Enter the upper angle limit. If lower than the lower limit, no limit will be applied." : "Введите максимальный предел угла. Если он меньше минимального предела, никаких ограничений применяться не будет.",
+		"Joint" : "Соединение",
+		"Link to the ground" : "Связь с землёй",
+		"Lower angle" : "Минимальный угол",
+		"Motor" : "Двигатель",
+		"Only the two topmost objects" : "Только два верхних (первых) объекта",
+		"Physics - Joint" : "Физика - соединение",
+		"Please drop a 'Physics Engine' object in your frame." : "Поместите объект \"Физика - движок\" на сцену.",
+		"Set angle limits to %0 (lower angle) and %1 (upper angle)" : "Установить пределы угла %0 (мин. угол) и %1 (макс. угол)",
+		"Set motor to %0 (torque) and %1 (strength)" : "Установить двигатель на %0 (крутящий момент) и %1 (силу)",
+		"Speed" : "Скорость",
+		"Torque" : "Крутящий момент",
+		"Type" : "Тип",
+		"Upper angle" : "Максимальный угол"
+	},
+	"menu_20000" : {
+		"Actions" : "Действия",
+		"Destroy joint" : "Уничтожить соединение",
+		"Set angle limits" : "Установить пределы угла",
+		"Set joint motor" : "Установить соединение"
+	},
+	"menu_20002" : {
+		"Expressions" : "Выражения",
+		"Lower angle limit" : "Минимальный предел угла",
+		"Motor speed" : "Скорость двигателя",
+		"Motor torque" : "Крутящий момент двигателя",
+		"Upper angle limit" : "Максимальный предел угла"
+	}
+}

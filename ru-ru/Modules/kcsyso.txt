@@ -1,0 +1,38 @@
+﻿{
+	"version" : 1,
+	"lang" : 1049,
+	"general" : {
+		"Allows you to retrieve system information (user name, language, environment variables, etc.). For Pro version only." : "Позволяет получить информацию о системе (имя пользователя, язык, переменные среды и т. д.). Только для версии Pro.",
+		"Computer langage: %i   " : "Язык компьютера: %i   ",
+		"Computer name: %s" : "Имя компьютера: %s",
+		"Langage name: %s" : "Название языка: %s",
+		"OS" : "ОС",
+		"OS object" : "Объект - ОС",
+		"User langage name: %s" : "Название языка пользователя: %s",
+		"User langage: %i" : "Язык пользователя: %i",
+		"User name: %s" : "Имя пользователя: %s",
+		"Windows 2000" : "Windows 2000",
+		"Windows 7" : "Windows 7",
+		"Windows 8" : "Windows 8",
+		"Windows 95" : "Windows 95",
+		"Windows 98" : "Windows 98",
+		"Windows ME" : "Windows ME",
+		"Windows NT" : "Windows NT",
+		"Windows NT 4" : "Windows NT 4",
+		"Windows Vista" : "Windows Vista",
+		"Windows XP" : "Windows XP",
+		"Windows version: %i" : "Версия Windows: %i",
+		"Windows version: %s" : "Версия Windows: %s"
+	},
+	"menu_20002" : {
+		"&Environment Variable" : "Переменная среда",
+		"&Windows Version (index)" : "Версия Windows (индекс)",
+		"Computer &Name" : "Имя компьютера",
+		"System Default &Language ID" : "ID Языка системы по умолчанию",
+		"System Default &Language Name" : "Название языка системы по умолчанию",
+		"User Default L&anguage ID" : "ID Языка пользователя по умолчанию",
+		"User Default L&anguage Name" : "Название языка пользователя по умолчанию",
+		"User Na&me" : "Имя пользователя",
+		"Windows Version (text)" : "Версия Windows (текст)"
+	}
+}

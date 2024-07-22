@@ -1,0 +1,37 @@
+﻿{
+	"version" : 1,
+	"lang" : 1049,
+	"general" : {
+		"01Change FM synthesizer left and right volume to %s" : "Изменить левый и правый канал громкости FM-синтезатора на %0",
+		"01Change FM synthesizer left volume to %s" : "Изменить левый канал громкости FM-синтезатора на %0",
+		"01Change FM synthesizer right volume to %s" : "Изменить правый канал громкости FM-синтезатора на %0",
+		"01Change square wave synthesizer left and right volume to %s" : "Изменить левый и правый канал квадратно-волнового синтезатора на %0",
+		"01Change square wave synthesizer left volume to %s" : "Изменить левый канал громкости квадратно-волнового синтезатора на %0",
+		"01Change square wave synthesizer right volume to %s" : "Изменить правый канал громкости квадратно-волнового синтезатора на %0",
+		"01Change wave left and right volume to %s" : "Изменить левый и правый канал громкости волны на %0",
+		"01Change wave left volume to %s" : "Изменить левый канал громкости волны на %0",
+		"01Change wave right volume to %s" : "Изменить правый канал громкости волны на %0",
+		"Gives you direct control over the volume of your sound samples and MIDI music files." : "Дает прямой контроль над громкостью ваших аудио-семплов и музыкальных файлов MIDI",
+		"Mixer" : "Микшер",
+		"Mixer object" : "Объект Микшер"
+	},
+	"menu_20000" : {
+		"Change FM synthesizer left and right volume" : "Изменить левый и правый канал громкости FM-синтезатора",
+		"Change FM synthesizer left volume" : "Изменить левый канал громкости FM-синтезатора",
+		"Change FM synthesizer right volume" : "Изменить правый канал громкости FM-синтезатора",
+		"Change square wave synthesizer left and right volume" : "Изменить левый и правый канал громкости квадратно-волнового синтезатора",
+		"Change square wave synthesizer left volume" : "Изменить левый канал громкости квадратно-волнового синтезатора",
+		"Change square wave synthesizer right volume" : "Изменить правый канал громкости квадратно-волнового синтезатора",
+		"Change wave left and right volume" : "Изменить левый и правый канал громкости волны",
+		"Change wave left volume" : "Изменить левый канал громкость волны",
+		"Change wave right volume" : "Изменить правый канал громкость волны"
+	},
+	"menu_20002" : {
+		"Midi FM synthesizer left volume" : "Левый канал громкости Midi FM-синтезатора",
+		"Midi FM synthesizer right volume" : "Правый канал громкости Midi FM-синтезатора",
+		"Midi square wave synthesizer left volume" : "Левый канал громкости Midi квадратного волнового синтезатора",
+		"Midi square wave synthesizer right volume" : "Правый канал громкости Midi квадратного волнового синтезатора",
+		"Wave left volume" : "Левый канал громкости волны",
+		"Wave right volume" : "Правый канал громкости волны"
+	}
+}

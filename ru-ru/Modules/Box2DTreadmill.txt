@@ -1,0 +1,51 @@
+﻿{
+	"version" : 1,
+	"lang" : 1049,
+	"general" : {
+		"%o: Is treadmill active?" : "%o : Беговая дорожка активна?",
+		"Active at start" : "Работает при запуске",
+		"Advanced" : "Расширенные",
+		"Angle" : "Угол",
+		"Angle : %g degrees" : "Угол : %g градусов",
+		"Check this box to make the treadmill active at start of frame" : "Выберите эту опцию, чтобы беговая дорожка была активна при старте сцены",
+		"Direction of the treadmill" : "Направление беговой дорожки",
+		"Engine ID" : "Идентификатор движка",
+		"Enter 1 to turn on, 0 to turn off" : "Введите 1, чтобы включить, 0, чтобы выключить",
+		"Enter the direction of the treadmill" : "Введите направление беговой дорожки",
+		"Enter the height of the object" : "Введите высоту объекта",
+		"Enter the identifier of the engine if multiple engines are used on the same frame." : "Введите идентификатор двигателя, если вы используете несколько физических двигателей на сцене",
+		"Enter the speed of the treadmill (0-100)" : "Введите скорость беговой дорожки (0-100)",
+		"Enter the speed of the treadmill, from 0 to 100" : "Введите скорость беговой дорожки, от 0 до 100",
+		"Enter the width of the object" : "Введите ширину объекта",
+		"Moves objects at constant speed in one direction" : "Перемещение объектов с постоянной скоростью в одном направлении",
+		"Physics - Treadmill" : "Физика - беговая дорожка",
+		"Please drop a 'Physics Engine' object in your frame." : "Поместите объект \"Физика - движок\" на сцену.",
+		"Running : %i" : "Выполнение : %i",
+		"Set angle to %0 degrees" : "Установить угол %0 градусов",
+		"Set height to %0" : "Установить высоту %0",
+		"Set speed to %0" : "Установить скорость %0",
+		"Set treadmill to %0" : "Установить беговую дорожку %0",
+		"Set width to %0" : "Установить ширину %0",
+		"Speed" : "Скорость",
+		"Strength : %i" : "Сила : %i"
+	},
+	"menu_20000" : {
+		"Actions" : "Действия",
+		"Set angle" : "Установить угол",
+		"Set height" : "Установить высоту",
+		"Set speed" : "Установить скорость",
+		"Set treadmill ON/OFF" : "Беговая дорожка ВКЛ/ВЫКЛ",
+		"Set width" : "Установить ширину"
+	},
+	"menu_20001" : {
+		"Conditions" : "Условия",
+		"Is treadmill active?" : "Беговая дорожка активна?"
+	},
+	"menu_20002" : {
+		"Action zone height" : "Высота зоны действия",
+		"Action zone width" : "Ширина зоны действия",
+		"Expressions" : "Выражения",
+		"Treadmill angle" : "Угол беговой дорожки",
+		"Treadmill speed" : "Скорость беговой дорожки"
+	}
+}

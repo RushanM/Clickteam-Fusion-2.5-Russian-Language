@@ -1,0 +1,65 @@
+﻿{
+	"version" : 1,
+	"lang" : 1049,
+	"general" : {
+		"00Hide" : "Скрыть",
+		"00New file from selector" : "Новый файл из селектора",
+		"00Show" : "Показать",
+		"01New file %s" : "Новый файл %0",
+		"01Set X coordinate at %s" : "Установить координаты X %0",
+		"01Set horizontal size to %s" : "Установить горизонтальный размер %0",
+		"01Set position at %s" : "Установить позицию %0",
+		"01Set vertical size to %s" : "Установить вертикальный размер %0",
+		"10%s: a file is opened" : "%o: файл открыт",
+		"10%s: visible" : "%o: видимый",
+		"21User %s within %s" : "Пользователь %0 из %o",
+		"Plays QuickTimeVR 2 files. Obsolete, please use the QuickTime object instead." : "Воспроизводит файлы QuickTimeVR 2. Объект устарел, используйте вместо него объект QuickTime.",
+		"Please select a QuickTime VR file" : "Пожалуйста, выберите файл QuickTime VR",
+		"Please, enter a valid QuickTime VR filename." : "Пожалуйста введите правильное название файла QuickTime VR.",
+		"QuickTime VR 2" : "QuickTime VR 2",
+		"QuickTime VR 2 object" : "Объект Quicktime VR 2",
+		"QuickTime VR files (*.mov)|*.mov|" : "Файлы QuickTime VR (*.mov)|*.mov|",
+		"Warning: the 32 bit version of QuickTimeVR cannot be found on your machine." : "Внимание: 32 битная версия QuickTimeVR не найдена на вашем компьютере."
+	},
+	"dialog_20003" : {
+		"&Browse" : "Проводник",
+		"&Help" : "Помощь",
+		"&Use default size" : "Использовать размер по умолчанию",
+		"Cancel" : "Отмена",
+		"File to play" : "Воспроизвести файл",
+		"Hide on &start" : "Скрыть при запуске",
+		"IMPORTANT : this object only works with QuickTime 2, it is provided for compatibility reasons only. Please use the new QuickTime 3 object which works with the latest versions of QuickTime and can play QuickTimeVR files." : "ВАЖНО: этот объект работает только с QuickTime 2, это предусмотрено только для обеспечения совместимости. Используйте новый объект QuickTime 3 который работает с последними версиями QuickTime.",
+		"OK" : "OK",
+		"Options" : "Настройки",
+		"Setup QuickTime VR object" : "Настройка объекта QuickTime VR",
+		"Use &Current Frame Palette" : "Использовать текущую палитру сцены",
+		"Zoom X2" : "Увеличить Х2"
+	},
+	"menu_20000" : {
+		"A new file" : "Новый файл",
+		"A new file via a file selector" : "Новый файл с помощью селектора файлов",
+		"Make Object Invisible" : "Сделать объект невидимым",
+		"Make Object Reappear" : "Сделать объект снова видимым",
+		"Play" : "Воспроизвести",
+		"Position" : "Позиция",
+		"Set Horizontal size" : "Установить горизонтальный размер",
+		"Set Position" : "Установить позицию",
+		"Set Vertical size" : "Установить вертикальный размер",
+		"Set X Position" : "Установить позицию X",
+		"Set Y Position" : "Установить позицию Y",
+		"Size" : "Размер",
+		"Visibility" : "Видимость"
+	},
+	"menu_20001" : {
+		"Check whether a file is open ?" : "Проверить, является ли файл открытым?",
+		"Is visible ?" : "Видимый ?",
+		"Mouse clicks within the QuickTime VR Window ?" : "Клики мыши в окне QuickTime VR?"
+	},
+	"menu_20002" : {
+		"Horizontal size" : "Горизонтальный размер",
+		"Last error number" : "Номер последней ошибки",
+		"Vertical size" : "Вертикальный размер",
+		"X position" : "Позиция  X",
+		"Y position" : "Позиция  Y"
+	}
+}

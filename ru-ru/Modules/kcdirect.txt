@@ -1,0 +1,37 @@
+﻿{
+	"version" : 1,
+	"lang" : 1049,
+	"general" : {
+		"01Add speed %s to %s" : "01Добавить скорость %s к %s",
+		"01Rotate %s toward %s" : "01Поворот %s относительно %s",
+		"01Set the amount to rotate to %s" : "01Установить величину поворота %s",
+		"01Set the direction for adding to %s" : "01Установить направление чтобы добавить %s",
+		"02Rotate %s toward direction %s" : "02Поворот %s относительно направления %s",
+		"Direction Calculator" : "Калькулятор направлений",
+	},
+	"menu_20000" : {
+		"Add a directional speed to an object" : "Добавить направленную скорость к объекту",
+		"Rotate object toward a direction" : "Поворот объекта относительно направления",
+		"Rotate object toward a position" : "Поворот объекта относительно позиции",
+		"Set the amount to rotate" : "Установить величину поворота",
+		"Set the direction to add" : "Установить направление чтобы добавить",
+	},
+	"menu_20002" : {
+		"Convert a direction to a Y value" : "Конвертировать направление в значение Y",
+		"Convert a direction to an X value" : "Конвертировать направление в значение X",
+		"Convert an XY to a direction" : "Конвертировать XY в направление",
+		"Convert an XY to a speed" : "Конвертировать XY в скорость",
+		"Turn one direction toward another" : "Повернуть одно направление в направлении другого",
+	},
+	"dialog_20003" : {
+		"Be sure to read the help file." : "Не забудьте прочитать справку",
+		"Help" : "Справка",
+		"OK" : "OK",
+		"The Direction Calculator" : "Калькулятор направлений",
+		"Version 1.2" : "Версия 1.2",
+		"Welcome to the Direction Calculator" : "Калькулятор направлений",
+		"by Philip Williams" : "от Philip Williams",
+		"email: philipwilliams@iname.com" : "Почта: philipwilliams@iname.com",
+	}
+}
+

@@ -1,0 +1,8 @@
+﻿{
+	"version" : 1,
+	"lang" : 1049,
+	"general" : {
+		"Mochi Connector" : "Mochi - Соединитель",
+		"Obsolete. This object is provided for compatibility reasons only. This object is required for the other Mochi extensions to function" : "Устаревшее. Этот объект предоставляется только в целях совместимости. Этот объект необходим для функционирования других расширений Mochi."
+	}
+}

@@ -1,0 +1,51 @@
+﻿{
+	"version" : 1,
+	"lang" : 1049,
+	"general" : {
+		"00Hide" : "Скрыть",
+		"00Image resize off" : "Изменение размера изображения ВЫКЛ.",
+		"00Image resize on" : "Изменение размера изображения ВКЛ.",
+		"00New picture from selector" : "Новое изображение из селектора",
+		"00Show" : "Показать",
+		"00WARNING !!! Change this action to New picture" : "ВНИМАНИЕ !!! Изменить это действие на Новое изображение",
+		"01%s: a picture is loaded" : "%o: изображение загружено",
+		"01New picture : %s" : "Новое изображение : %0",
+		"10%s: visible" : "%o: видимо",
+		"Choose the picture to display" : "Выбрать изображение для отображения",
+		"Custom" : "Настраиваемые",
+		"Displays an image file as background object." : "Отображение файла изображения в качестве объекта фона.",
+		"First Pixel" : "Первый пиксель",
+		"Hide at start of frame" : "Скрыть при старте сцены",
+		"Hides the picture when the frame starts" : "Скрывать изображения при старте сцены",
+		"Picture" : "Изображение",
+		"Picture filename" : "Название файла изображения",
+		"Picture name: %s" : "Названия изображения: %s",
+		"Picture object" : "Объект Изображение",
+		"Please select a picture" : "Пожалуйста выберите изображение",
+		"Resize picture to the size of the object" : "Изменить размер изображения до размера объекта",
+		"The picture will be stretched to match the size of the object itself" : "Изображение будет растянуто, чтобы соответствовать размеру объекта",
+		"Transparent Color" : "Прозрачный цвет"
+	},
+	"menu_20000" : {
+		"Image resize off" : "Изменение размера изображения ВЫКЛ.",
+		"Image resize on" : "Изменение размера изображения ВКЛ.",
+		"Make Object Invisible" : "Сделать объект невидимым",
+		"Make Object Reappear" : "Сделать объект снова видимым",
+		"New picture" : "Новое изображение",
+		"New picture from selector" : "Новое изображение из селектора",
+		"Visibility" : "Видимость"
+	},
+	"menu_20001" : {
+		"A picture is loaded ?" : "Изображение загружено?",
+		"Is visible ?" : "Видимый ?"
+	},
+	"menu_20002" : {
+		"Get X position" : "Получить позицию X",
+		"Get Y position" : "Получить позицию Y",
+		"Get picture name" : "Получить название изображения",
+		"Get picture original x size" : "Получить исходный размер изображения по X",
+		"Get picture original y size" : "Получить исходный размер изображения по Y",
+		"Get picture screen x size" : "Получить размер изображения на экране по X",
+		"Get picture screen y size" : "Получить размер изображения на экране по Y"
+	}
+}

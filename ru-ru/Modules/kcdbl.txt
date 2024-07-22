@@ -1,0 +1,34 @@
+﻿{
+	"version" : 1,
+	"lang" : 1049,
+	"general" : {
+		"Allows you to perform simple calculations on double-precision floating point numbers (16 significant digits). For Pro version only." : "Позволяет выполнять простые вычисления с двойной точностью (до 16 знаков после запятой). Только для версии Pro.",
+		"Double-Precision Calculator" : "Калькулятор двойной точности ",
+		"Double-Precision Calculator object" : "Объект - Калькулятор двойной точности ",
+		"Enter the number of digits" : "Введите количество цифр",
+		"Enter the number of digits after the decimal point" : "Введите количество цифр после запятой",
+		"First number string" : "Первый номер строки",
+		"Number of decimals" : "Количество знаков после запятой",
+		"Number of digits" : "Количество цифр",
+		"Number string" : "Количество строк",
+		"Second number string" : "Второй номер строки",
+		"Set Format to %0 digits" : "Задать размер в %0 цифр",
+		"Set Format to %0 digits after decimal point" : "Задать размер в %0 цифр после запятой",
+		"Set Standard Format" : "Установить стандартный формат"
+	},
+	"menu_20000" : {
+		"&Standard" : "Стандарт",
+		"N digits" : "N цифр",
+		"N digits after decimal point" : "N цифр после запятой",
+		"Set Format" : "Установить формат"
+	},
+	"menu_20002" : {
+		"&Add" : "Добавить",
+		"&Divide" : "Разделить",
+		"&Multiply" : "Умножить",
+		"&Subtract" : "Вычесть",
+		"Format ..." : "Формат...",
+		"N digits" : "N цифр",
+		"N digits after decimal point" : "N цифр после запятой"
+	}
+}

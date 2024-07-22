@@ -1,0 +1,48 @@
+﻿{
+	"version" : 1,
+	"lang" : 1049,
+	"general" : {
+		"A new location is available" : "Доступно новое место",
+		"Accuracy" : "Точность",
+		"Are location services enabled?" : "Услуги определения местоположения включены?",
+		"Best accuracy" : "Высокая точность",
+		"Choose the device accuracy" : "Выберите точность определения",
+		"Distance" : "Расстояние",
+		"Enter the accuracy (0 to 4)" : "Введите точность (0 до 4)",
+		"Enter the distance filter in meters" : "Введите фильтр расстояния в метрах",
+		"Enter the minimal distance in meters between two location updates" : "Введите минимальное расстояние в метрах между двумя местоположениями для обновления.",
+		"Force location retrieval" : "Принудительный поиск места",
+		"Hundred meters" : "Сто метров",
+		"Kilometer" : "Километр",
+		"Location object" : "Местоположение (Объект )",
+		"Nearest ten meters" : "Ближайшие десять метров",
+		"Retrieves the current location from the GPS on devices that support it (such as the iPhone or Android)." : "Получает текущее местоположение с GPS на устройствах, которые поддерживают его (например, iPhone или Android).",
+		"Set distance filter to %0" : "Установить фильтр расстояния %0",
+		"Set location accuracy to %0" : "Установить точность местоположения %0",
+		"Three kilometers" : "В трёх километрах"
+	},
+	"menu_20000" : {
+		"Actions" : "Действия",
+		"Get location" : "Получить местоположение",
+		"Set accuracy" : "Установить точность",
+		"Set distance filter" : "Установить фильтр расстояния"
+	},
+	"menu_20001" : {
+		"A new location is available" : "Доступно новое место",
+		"Conditions" : "Условия",
+		"Location services enabled?" : "Услуги определения местоположения включены?"
+	},
+	"menu_20002" : {
+		"Accuracy" : "Точность",
+		"Altitude" : "Высота",
+		"Coordinates" : "Координаты",
+		"Course" : "Курс",
+		"Distance filter" : "Фильтр расстояния",
+		"Expressions" : "Выражения",
+		"Latitude" : "Широта",
+		"Longitude" : "Долгота",
+		"Other values" : "Другие значения",
+		"Speed" : "Скорость",
+		"Time since last update" : "Время с момента последнего обновления"
+	}
+}

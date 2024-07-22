@@ -1,0 +1,52 @@
+﻿{
+	"version" : 1,
+	"lang" : 1049,
+	"general" : {
+		"%o: On Ad Clicked" : "%o: При нажатии на Ad?",
+		"%o: On Ad Closed" : "%o: При закрытии Ad?",
+		"%o: On Ad Error" : "%o: При ошибке Ad?",
+		"%o: On Ad Loaded" : "%o: При загрузке Ad?",
+		"%o: On Ad Shown" : "%o: При показе Ad?",
+		"%o: On Api Ready" : "%o: При готовности Api?",
+		"6V4" : "6V4",
+		"Disable Ads" : "Отключить Ads",
+		"Enable Ads" : "Включить Ads",
+		"Enter Ad Size (0:320x250, 1:90x90)" : "Ввести размеры Ad (0:320x250, 1:90x90)",
+		"Enter Delay Value (in msecs, default is 3000)" : "Введите значение задержки (в миллисекундах, по умолчанию 3000)",
+		"Enter Timeout Value (in msecs, default is 0)" : "Введите значение оставшегося времени (в миллисекундах, по умолчанию 0)",
+		"FGL - flash" : "FGL - flash",
+		"FGL Flash" : "FGL Flash",
+		"FGL Object for Flash. Provides special functionalities for FGL Ads in flash applications." : "FGL Объект для Flash. Обеспечивает специальные функции для FGL Ads в приложениях Flash.",
+		"Game Id (from FGL dashboard)" : "ID игры (в панели настроек FGL)",
+		"Request Ad" : "Запрос Ad",
+		"Set Ad Delay to %0" : "Установить задержку Ad %0",
+		"Set Ad Size to %0" : "Установить размер Ad %0",
+		"Set Ad Timeout to %0" : "Установить оставшиеся время %0",
+		"Set Game ID to %0" : "Установить  ID игры %0",
+		"Show Ad" : "Показать Ad",
+		"просто обзор." : "..."
+	},
+	"menu_20000" : {
+		"Disable Ads" : "Отключить Ads",
+		"Enable Ads" : "Включить Ads",
+		"Request Ad" : "Запрос Ad",
+		"Set Ad Delay" : "Установить задержку Ad",
+		"Set Ad Size" : "Установить размер Ad",
+		"Set Ad Timeout" : "Установить оставшиеся время",
+		"Set Game ID" : "Установить  ID игры",
+		"Show Ad" : "Показать Ad"
+	},
+	"menu_20001" : {
+		"On Ad Clicked" : "При нажатии на Ad",
+		"On Ad Closed" : "При закрытии Ad",
+		"On Ad Error" : "При ошибке Ad",
+		"On Ad Loaded" : "При загрузке Ad",
+		"On Ad Shown" : "При показе Ad",
+		"On Api Ready" : "При готовности Api"
+	},
+	"menu_20002" : {
+		"Error String" : "Ошибка строки",
+		"Error Value" : "Ошибка значения",
+		"Get Status" : "Узнать статус"
+	}
+}

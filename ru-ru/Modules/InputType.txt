@@ -1,0 +1,47 @@
+﻿{
+	"version" : 1,
+	"lang" : 1049,
+	"general" : {
+		"%o: Is Keyboard Visible?" : "%o: Клавиатура видна?",
+		"Action Id (0:Default, 1:Go, 2:Send, 3:Search, 4:Previous, 5:None)" : "ID действия (0: По умолчанию 1: Перейти 2: Отправить 3: Поиск 4: Назад 5: Нет)",
+		"Android InputType" : "Android - InputType",
+		"Android InputType object." : "Объект, позволяющий установить нужный вид клавиатуры для ввода определённой информации.",
+		"G2F2 Media & Inv." : "G2F2 Media & Inv.",
+		"Input Type Value (0: General, 1:Date, 2:Time)" : "Значение типа ввода (0: Общее, 1: Дата, 2: Время)",
+		"Object" : "Объект",
+		"Set Keyboard as DATETIME type, with subtype %0 and IMEOptions %1 to object %2" : "Установить тип клавиатуры - ДАТА-ВРЕМЯ (DATETIME), с подтипом %0 и IME настройками %1 для объекта %2",
+		"Set Keyboard as EMAIL type, with IMEOptions %0 to object %1" : "Установить тип клавиатуры - ЭЛЕКТРОННАЯ ПОЧТА (EMAIL), с IME настройками %0 для объекта %1",
+		"Set Keyboard as NUMERIC type, with subtype %0 and IMEOptions %1 to object %2" : "Установить тип клавиатуры - ЦИФРЫ (NUMERIC), с подтипом %0 и IME настройками %1 для объекта %2",
+		"Set Keyboard as PHONE type, with IMEOptions %0 to object %1" : "Установить тип клавиатуры - ТЕЛЕФОН (PHONE), с IME настройками %0 для объекта %1",
+		"Set Keyboard as POSTAL type, with IMEOptions %0 to object %1" : "Установить тип клавиатуры - ПОЧТА (POSTAL), с IME настройками %0 для объекта %1",
+		"Set Keyboard as SYSTEM type, with IMEOptions %0 to object %1" : "Установить тип клавиатуры - СИСТЕМА (SYSTEM), с IME настройками %0 для объекта %1",
+		"Set Keyboard as TEXT type, with subtype %0 and IMEOptions %1 to object %2" : "Установить тип клавиатуры - ТЕКСТ (TEXT), с подтипом %0 и IME настройками %1 для объекта %2",
+		"Set Keyboard as URI type, with IMEOptions %0 to object %1" : "Установить тип клавиатуры - URI, с IME настройками %0 для объекта %1",
+		"Subtype Value (0:Default, 1:Signed, 2:Decimal, 4:Password)" : "Значение подтипа (0: По умолчанию 1: Подпись, 2: Десятичный, 4: Пароль)",
+		"Subtype value (0:Default, 1:Uppercase, 2:Capitalized, 4:Autocorrection, 8:AutoComplete)" : "Значение подтипа (0: По умолчанию 1: В верхнем регистре, 2: Заглавными, 4: Автоисправление, 8: Автозавершение)",
+		"http://www.g2f2media.com" : "http://www.g2f2media.com"
+	},
+	"dialog_20003" : {
+		"Cancel" : "Отмена",
+		"OK" : "OK",
+		"Object" : "Объект",
+		"Remember to use/check:\r\n    permission" : "Не забудьте использовать:\r\n    permission"
+	},
+	"menu_20000" : {
+		"Set DATETIME Keyboard to ..." : "Установить тип клавиатуры - ДАТА-ВРЕМЯ (DATETIME)…",
+		"Set EMAIL Keyboard to ..." : "Установить тип клавиатуры - ЭЛЕКТРОННАЯ ПОЧТА (EMAIL)…",
+		"Set NUMERIC Keyboard to ..." : "Установить тип клавиатуры – ЦИФРЫ (NUMERIC)…",
+		"Set PHONE Keyboard to ..." : "Установить тип клавиатуры – ТЕЛЕФОН (PHONE)…",
+		"Set POSTAL Keyboard to ..." : "Установить тип клавиатуры – ПОЧТА (POSTAL)…",
+		"Set SYSTEM Keyboard to ..." : "Установить тип клавиатуры – СИСТЕМА (SYSTEM)…",
+		"Set TEXT Keyboard to ..." : "Установить тип клавиатуры – ТЕКСТ (TEXT)…",
+		"Set URI input type to ..." : "Установить тип ввода - URI..."
+	},
+	"menu_20001" : {
+		"Is Keyboard Visible" : "Клавиатура видна?"
+	},
+	"menu_20002" : {
+		"Last Keyboard SubType" : "Последний подтип клавиатуры",
+		"Last Keyboard Type" : "Последний тип клавиатуры"
+	}
+}

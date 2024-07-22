@@ -1,0 +1,50 @@
+﻿{
+	"version" : 1,
+	"lang" : 1049,
+	"general" : {
+		"#Title#Enter the name of the destination file..." : "#Title#Введите название файла назначения...",
+		"%o: Connection error in slot %0" : "%o: Ошибка подключения к порту %0",
+		"%o: Download aborted in slot %0" : "%o: Загрузка прервана, порт %0",
+		"%o: Download in progress slot %0" : "%o: Загрузка в процессе, порт %0",
+		"%o: Download successfully completed slot %0" : "%o: Загрузка успешно завершена, порт %0",
+		"Abort download slot %0" : "Прервать загрузку, порт %0",
+		"Allows you to download file from the Internet." : "Позволяет загрузить файл из Интернета.",
+		"Average speed : %i bytes per second" : "Средняя скорость : %i байт в секунду",
+		"Current URL : %s" : "Текущий URL : %s",
+		"Download Object" : "Скачивание",
+		"Download file, Url=%0, destination=%1, slot %2" : "Загрузить файл, Url=%0, назначение=%1, порт %2",
+		"Download object" : "Скачивание",
+		"Enter file URL" : "Введите URL файла",
+		"Enter the URL of the file. It must begin with HTTP:// or HTTPS://" : "Введите URL файла. Он должен начинаться с HTTP:// или HTTPS://",
+		"Enter the slot number (1-4)" : "Введите номер порта (1-4)",
+		"Number of bytes read : %i" : "Количество прочитанных байт : %i",
+		"Pause download slot %0" : "Пауза загрузки, порт %0",
+		"Resume download slot %0" : "Возобновить загрузку, порт %0",
+		"Size of the file to download : %i" : "Размер файла для загрузки : %i",
+		"Slot 1" : "Порт 1",
+		"Slot 2" : "Порт 2",
+		"Slot 3" : "Порт 3",
+		"Slot 4" : "Порт 4"
+	},
+	"menu_20000" : {
+		"Abort download" : "Прервать загрузку",
+		"Download file" : "Загрузка файла",
+		"Pause download" : "Пауза загрузки",
+		"Resume download" : "Возобновить загрузку"
+	},
+	"menu_20001" : {
+		"Connection error?" : "Ошибка соединения?",
+		"Download aborted?" : "Загрузка прервана?",
+		"Download in progress?" : "Загрузка в процессе?",
+		"Download successfully completed?" : "Загрузка успешно завершена?"
+	},
+	"menu_20002" : {
+		"Current URL" : "Текущий URL",
+		"Current download percentage" : "Текущий процент загрузки",
+		"Current download position" : "Текущая позиция загрузки",
+		"Current speed (bytes per second)" : "Текущая скорость (байт в секунду)",
+		"Estimated download time" : "Предположительное время загрузки",
+		"Get file size (without download)" : "Получить размер файла (без скачивания)",
+		"Total file size" : "Общий размер файла"
+	}
+}

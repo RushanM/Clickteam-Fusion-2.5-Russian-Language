@@ -1,0 +1,52 @@
+﻿{
+	"version" : 1,
+	"lang" : 1049,
+	"general" : {
+		"00Change printing method to best fit" : "Изменить метод печати - \"наиболее подходящий размер\"",
+		"00Change printing method to scale" : "Изменить метод печати - изменить размер",
+		"00Change printing method to stretch to page" : "Изменить метод печати - растянуть на страницу",
+		"00Print blank page" : "Печать пустой страницы",
+		"00Print client zone" : "Печать рабочей области",
+		"00Print screen" : "Печать экрана",
+		"00Print window" : "Печать окна",
+		"00Setup printer" : "Настройка принтера",
+		"01Print Text %s" : "Печать текста %0",
+		"01Print Text file %s" : "Печать текстового файла %0",
+		"01Print zone %s" : "Печать области %0",
+		"01Set x scale to %s" : "Установить шкалу X %0",
+		"01Set y scale to %s" : "Установить шкалу Y %0",
+		"Allows you to print the screen or an area of your application window." : "Позволяет печатать экран или область окна приложения.",
+		"Print" : "Печать",
+		"Print object" : "Печать объекта",
+		"Printing '%s'" : "Печать %s",
+		"Printing band #%d" : "Печать группы #%d",
+		"Printing datas" : "Печать данные",
+		"Printing page #%d" : "Печать страницы #%d",
+		"Sending datas to printer..." : "Отправка данных на печать...",
+		"on %s on %s" : "на %s на %s"
+	},
+	"dialog_PRINTING" : {
+		"Cancel" : "Отмена",
+		"PRINTER" : "ПРИНТЕР",
+		"Print Bitmap" : "Печать растрового изображения",
+		"Printing" : "Печать",
+		"Spooling..." : "Диспетчер очереди печати...",
+		"on Printer" : "на печать"
+	},
+	"menu_20000" : {
+		"Best fit" : "Наиболее подходящий размер",
+		"Print Client zone" : "Печать рабочей области",
+		"Print Screen" : "Печать экрана",
+		"Print Text" : "Печать текста",
+		"Print Text file" : "Печать текстового файла",
+		"Print Window" : "Печать окна",
+		"Print blank page" : "Печать пустой страницы",
+		"Print zone..." : "Печать области...",
+		"Printer Setup" : "Настройка принтера",
+		"Printing method" : "Метод печати",
+		"Scale" : "Шкала",
+		"Set x scale" : "Установить шкалу X",
+		"Set y scale" : "Установить шкалу Y",
+		"Stretch to page" : "Растянуть на страницу"
+	}
+}

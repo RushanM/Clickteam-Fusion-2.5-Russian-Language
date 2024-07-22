@@ -1,0 +1,55 @@
+﻿{
+	"version" : 1,
+	"lang" : 1049,
+	"general" : {
+		"Allows you to control the virtual joystick input." : "Вы можете управлять с помощью виртуального джойстика",
+		"Enter 1 for left handed" : "Введите 1 для левши",
+		"Enter 1 to display button 1, 0 to hide it" : "Введите 1 для отображения кнопки 1, чтобы скрыть её 0",
+		"Enter 1 to display button 2, 0 to hide it" : "Введите 1 для отображения кнопки 2, чтобы скрыть её 0",
+		"Enter 1 to display joystick, 0 to hide it" : "Введите 1 для отображения джойстика, чтобы скрыть его 0",
+		"Enter the binary mask. 0001:top 0010:bottom 0100:left 1000:right 10000:fire1 100000:fire2" : "Введите бинарную маску. 0001:Вверх 0010:Вниз 0100:Влево 1000:Вправо 10000:Огонь1 100000:Огонь2",
+		"Joystick Control object" : "Джойстик управления (объект)",
+		"Set X button 1 to %0" : "Установить X кнопки 1 на %0",
+		"Set X button 2 to %0" : "Установить X кнопки 2 на %0",
+		"Set X joystick to %0" : "Установить X джойстика на %0",
+		"Set Y button 1 to %0" : "Установить Y кнопки 1 на %0",
+		"Set Y button 2 to %0" : "Установить Y кнопки 2 на %0",
+		"Set Y joystick to %0" : "Установить Y джойстика на %0",
+		"Set button 1 position to %0" : "Установить позицию кнопки 1 на %0",
+		"Set button 2 position to %0" : "Установить позицию кнопки 2 на %0",
+		"Set joystick mask to %0" : "Установить маску джойстика %0",
+		"Set joystick position to %0" : "Установить позицию джойстика на %0",
+		"Start accelerometer joystick" : "Запустить акселерометр джойстика",
+		"Start/stop touch joystick %0 (joystick), %1 (button 1), %2 (button 2), %3 (left handed)" : "Запустить/Остановить сенсорный джойстик %0 (джойстик), %1 (кнопка 1), %2 (кнопка 2), %3 (левша)",
+		"Stop accelerometer joystick" : "Остановить акселерометр джойстика"
+	},
+	"menu_20000" : {
+		"Accelerometer" : "Акселерометр",
+		"Actions" : "Действия",
+		"Set button 1 X coordinate" : "Установить координату X кнопки 1",
+		"Set button 1 Y coordinate" : "Установить координату Y кнопки 1",
+		"Set button 1 position" : "Установить позицию кнопки 1",
+		"Set button 2 X coordinate" : "Установить координату X кнопки 2",
+		"Set button 2 Y coordinate" : "Установить координату Y кнопки 2",
+		"Set button 2 position" : "Установить позицию кнопки 2",
+		"Set joystick X coordinate" : "Установить координату X джойстика",
+		"Set joystick Y coordinate" : "Установить координату Y джойстика",
+		"Set joystick mask" : "Установить маску джойстика",
+		"Set joystick position" : "Установить позицию джойстика",
+		"Start accelerometer joystick" : "Запустить акселерометр джойстика",
+		"Start/stop touch joystick" : "Запустить/Остановить сенсорный джойстик",
+		"Stop accelerometer joystick" : "Остановить акселерометр джойстика",
+		"Touch joystick" : "Сенсорный джойстик"
+	},
+	"menu_20001" : {
+		"Conditions" : "Условия"
+	},
+	"menu_20002" : {
+		"Button 1" : "Кнопка 1",
+		"Button 2" : "Кнопка 2",
+		"Expressions" : "Выражения",
+		"Touch joystick" : "Сенсорный джойстик",
+		"X Coordinate" : "Координата X",
+		"Y Coordinate" : "Координата Y"
+	}
+}

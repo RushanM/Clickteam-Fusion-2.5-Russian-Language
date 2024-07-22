@@ -1,0 +1,81 @@
+﻿{
+	"version" : 1,
+	"lang" : 1049,
+	"general" : {
+		"%o: %0 selected" : "%o: %0 выбрано",
+		"%o: Add Item (%0, %1, %2)" : "%o: Добавить элемент (%0, %1, %2)",
+		"%o: Add Menu (%0, %1, %2)" : "%o: Добавить меню (%0, %1, %2)",
+		"%o: Add Separator (%0)" : "%o: Добавить разделитель (%0)",
+		"%o: Create Menu" : "%o: Создать меню",
+		"%o: Delete Item (%0)" : "%o: Удалить элемент (%0)",
+		"%o: Item %0 Selected" : "%o: Элемент %0 выбран",
+		"%o: Set Check (%0, %1)" : "%o: Отметить (%0, %1)",
+		"%o: Set Enable (%0, %1)" : "%o: Включить (%0, %1)",
+		"%o: Set Item Text (%0, %1)" : "%o: Установить текст элемента (%0, %1)",
+		"%o: Show Menu" : "%o: Показать меню",
+		"%o: Show Menu at %0" : "%o: Показать меню %0",
+		"1 to check, 0 to uncheck" : "1 отметить, 0 снять отметку",
+		"1 to enable, 0 to disable" : "1 включить, 0 выключить",
+		"Content of the menu" : "Содержимое меню",
+		"Edit content" : "Редактировать содержание",
+		"Filename" : "Название файла",
+		"Height" : "Высота",
+		"Item ID" : "ID элемента",
+		"Item String" : "Строка элемента",
+		"Item identifier" : "Идентификатор элемента",
+		"Last selection: %i" : "Последний выбранный элемент: %i",
+		"Lets you create customizable popup menus in your applications." : "Позволяет создавать всплывающие меню в приложениях.",
+		"Menu Index" : "Индекс меню",
+		"New item" : "Новый элемент",
+		"Opens a dialog box to edit the content of the popup menu" : "Открывает диалоговое окно для редактирования содержимого всплывающего меню.",
+		"Popup Menu" : "Всплывающие меню",
+		"Position" : "Позиция",
+		"SubMenu Index" : "Индекс саб-меню",
+		"Value" : "Значение"
+	},
+	"dialog_109" : {
+		"Cancel" : "Отмена",
+		"Item Text" : "Текст элемента",
+		"OK" : "OK"
+	},
+	"dialog_20003" : {
+		"&Add" : "Добавить",
+		"&Del" : "Удал.",
+		"&Help" : "Помощь",
+		"Add &Separator" : "Разделитель",
+		"Cancel" : "Отмена",
+		"Default Menu" : "Меню по умолчанию",
+		"Down" : "Вниз",
+		"Item Identifier" : "Идентификатор элемента",
+		"Left" : "Влево",
+		"OK" : "OK",
+		"Right" : "Вправо",
+		"Setup PopupMenu" : "Настройка всплывающих меню",
+		"Tree1" : "Tree1",
+		"Up" : "Вверх"
+	},
+	"menu_20000" : {
+		"Actions" : "Действия",
+		"Add Item" : "Добавить элемент",
+		"Add Menu" : "Добавить меню",
+		"Add Separator" : "Добавить разделитель",
+		"Check / Uncheck" : "Отметить / Снять отметку",
+		"Create Menu" : "Создать меню",
+		"Delete Item" : "Удалить элемент",
+		"Enable / Disable" : "Включить/Отключить",
+		"Set Item Text" : "Установить текст элемента",
+		"Show At" : "Показать в",
+		"Show At Mouse" : "Показать под курсором мыши"
+	},
+	"menu_20001" : {
+		"Conditions" : "Условия",
+		"Item Selected (ID)" : "Элемент выбран (ID)",
+		"Item Selected (Text)" : "Элемент выбран (Текст)"
+	},
+	"menu_20002" : {
+		"Expressions" : "Выражения",
+		"Get Item Text" : "Получить текст элемента",
+		"Get Last Selected Item" : "Получить последний выбранный элемент",
+		"Get Menu Count" : "Получить кол-во меню"
+	}
+}

@@ -1,0 +1,32 @@
+﻿{
+	"version" : 1,
+	"lang" : 1049,
+	"general" : {
+		"About" : "Информация",
+		"Author" : "Автор",
+		"Central x co-ordinate of movement." : "Центральные Х координаты движения.",
+		"Central y co-ordinate of movement." : "Центральные Y координаты движения.",
+		"Centre X" : "Центр X",
+		"Centre Y" : "Центр Y",
+		"Clickteam Movement Controller" : "Контроллер движения Clickteam",
+		"Control Ext." : "Расширение контроллера",
+		"General Properties" : "Основные свойства",
+		"Initially moving at start of frame." : "Начальное движение при старте сцены.",
+		"Move at Start" : "Начать движение при запуске",
+		"Name of the extension used to interact with this movement." : "Название расширения, которое используется для взаимодействия с этим движением.",
+		"Number of Sides" : "Количество сторон",
+		"Number of polygon sides, three for a triangle, four for a square etc." : "Количество сторон многоугольника, три для треугольника, четыре для квадрата и т. д.",
+		"Outer radius of the polygon in pixels." : "Внешний радиус многоугольника в пикселях.",
+		"Polygon Properties" : "Свойства многоугольника",
+		"Properties relating to the movement." : "Свойства относящиеся к движению.",
+		"Properties relating to the regular polygon movement." : "Свойства относящиеся к движению правильного многоугольника.",
+		"Radius" : "Радиус",
+		"Regular Polygon" : "Правильный многоугольник",
+		"Released October 2006" : "Выход Октябрь 2006",
+		"Rotation Angle" : "Угол поворота",
+		"Rotational angle of the polygon." : "Угол поворота многоугольника.",
+		"Velocity" : "Скорость",
+		"Velocity of the object, negative values reverse the movement direction." : "Скорость объекта, отрицательные значения изменяют направление движения.",
+		"Version" : "Версия"
+	}
+}

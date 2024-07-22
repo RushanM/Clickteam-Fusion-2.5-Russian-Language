@@ -1,0 +1,63 @@
+﻿{
+	"version" : 1,
+	"lang" : 1049,
+	"general" : {
+		"%o: Friends list has been loaded" : "%o: Список друзей загружен",
+		"%o: Invitations sent" : "%o: Приглашения отправлены",
+		"%o: Local player has just authenticated" : "%o: Локальный игрок только что аутентифицирован",
+		"%o: Local player is authenticated" : "%o: Локальный игрок аутентифицирован",
+		"Add invitation to friend number %0" : "Добавить приглашение другу номер %0",
+		"Allows Apple's Game Center features in your iOS application." : "Обеспечивает особенности Game Center от Apple в вашем приложении IOS.",
+		"Authenticate OK" : "Аутентификация OK",
+		"Authenticate at start of frame" : "Аутентификация при старте сцены",
+		"Authenticate local player" : "Аутентификация локального игрока",
+		"Enter friend index (starting at 0)" : "Введите индекс друга (начиная с 0)",
+		"Enter the alias name of the simulated local player" : "Введите псевдоним имитируемого локального игрока",
+		"Enter the player's simulated ID" : "Введите ID имитируемого игрока",
+		"Friend number 1" : "Друг номер 1",
+		"Friend number 1 ID" : "ID друга номер 1",
+		"Friend number 2" : "Друг номер 2",
+		"Friend number 2 ID" : "ID друга номер 2",
+		"Game Center Connect" : "Game Center - Подключение",
+		"If checked, the local player will be authenticated at start of frame" : "Если флажок установлен, локальный игрок будет аутентифицирован при старте сцены",
+		"Load friends list" : "Загрузить список друзей",
+		"Player's Alias" : "Псевдоним игрока",
+		"Player's ID" : "ID игрока",
+		"Reset invitations" : "Сбросить приглашения",
+		"Send invitations" : "Отправить приглашения",
+		"Simulates a correct local player authentication" : "Имитирует аутентификацию корректного локального игрока",
+		"Simulation" : "Имитация",
+		"The best player" : "Лучший игрок",
+		"Welcome back %s" : "Добро пожаловать %s",
+		"johnny@gmail.com" : "johnny@gmail.com"
+	},
+	"menu_20000" : {
+		"Actions" : "Действия",
+		"Add invitation" : "Добавить приглашение",
+		"Authenticate local player" : "Аутентификация локального игрока",
+		"Friends" : "Друзья",
+		"Load friends list" : "Загрузить список друзей",
+		"Local player" : "Локальный игрок",
+		"Reset invitations" : "Сбросить приглашения",
+		"Send invitations" : "Отправить приглашения"
+	},
+	"menu_20001" : {
+		"Conditions" : "Условия",
+		"Friend list has been loaded" : "Список друзей загружен",
+		"Friends" : "Друзья",
+		"Invitations have been sent" : "Приглашения отправлены",
+		"Local player" : "Локальный игрок",
+		"Local player has just authenticated" : "Локальный игрок только что аутентифицирован",
+		"Local player is authenticated" : "Локальный игрок аутентифицирован"
+	},
+	"menu_20002" : {
+		"Expressions" : "Выражения",
+		"Friends" : "Друзья",
+		"Get friend ID" : "Получить ID друга",
+		"Get friend alias" : "Получить псевдоним друга",
+		"Get local player ID" : "Получить ID локального игрока",
+		"Get local player alias" : "Получить псевдоним локального игрока ",
+		"Get number of friends" : "Получить количество друзей",
+		"Local player" : "Локальный игрок"
+	}
+}

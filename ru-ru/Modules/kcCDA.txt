@@ -1,0 +1,60 @@
+﻿{
+	"version" : 1,
+	"lang" : 1049,
+	"general" : {
+		"00Close door" : "Закрыть лоток",
+		"00Next track" : "Следующий трек",
+		"00Open door" : "Открыть лоток",
+		"00Pause" : "Пауза",
+		"00Previous track" : "Предыдущий трек",
+		"00Resume" : "Возобновить проигрывание",
+		"00Stop" : "Стоп",
+		"01Play at %s" : "Воспроизвести %0",
+		"01Play from track %s" : "Воспроизвести с трека %0",
+		"01Play track %s" : "Воспроизвести трек %0",
+		"11%s:time position %s" : "%o: позиция времени %0",
+		"11%s:time position within track %s" : "%o: позиция времени в треке %0",
+		"CD Audio object" : "Звуковой компакт-диск",
+		"CD-Audio" : "Звуковой компакт-диск",
+		"Continues playing even when the application is minimized" : "Продолжить воспроизведение, даже если приложение свернуто",
+		"Current track number: %i" : "Номер текущего трека: %i",
+		"Enter the number of the track to play" : "Введите номер трека, для его воспроизведения",
+		"Last known error: %i" : "Последняя известная ошибка: %i",
+		"Length of current track: %02i:%02i" : "Продолжительность текущего трека: %02i:%02i",
+		"Lets you play compact disc audio tracks." : "Позволяет воспроизводить треки с компакт диска",
+		"Number of tracks on disk: %i" : "Количество треков на диске: %i",
+		"Open driver at start" : "Открыть драйвер при запуске",
+		"Opening the driver at start of frame makes the object faster during runtime" : "Открытие драйвера при старте сцены, делает объект быстрым во время выполнения приложения",
+		"Play track at start" : "Воспроизвести трек при запуске",
+		"Play when minimized" : "Воспроизвести при сворачивании",
+		"Position in current track: %02i:%02i" : "Позиция в текущем треке: %02i:%02i",
+		"Stop playing at end of frame" : "Остановить воспроизведение в конце сцены",
+		"Stops the music at end of frame" : "Остановить музыку в конце сцены",
+		"Total length of disk: %02i:%02i:%02i" : "Общая продолжительность диска: %02i:%02i:%02i"
+	},
+	"menu_20000" : {
+		"Close door" : "Закрыть лоток",
+		"Next track" : "Следующий трек",
+		"Open door" : "Открыть лоток",
+		"Pause" : "Пауза",
+		"Play a track" : "Воспроизвести трек",
+		"Play a track and continue" : "Воспроизвести трек и продолжить",
+		"Play at position" : "Воспроизвести с позиции",
+		"Previous track" : "Предыдущий трек",
+		"Resume" : "Возобновить",
+		"Stop" : "Стоп"
+	},
+	"menu_20001" : {
+		"Compare to time position" : "Сравнить с позицией времени",
+		"Compare to track's elapsed time" : "Сравнить с прошедшим временем трека"
+	},
+	"menu_20002" : {
+		"Last error number" : "Номер последней ошибки",
+		"Length of current track (1/1000s)" : "Продолжительность текущего трека (1/1000с)",
+		"Length of disk (1/1000s)" : "Продолжительность диска (1/1000с)",
+		"Number of current track" : "Номер текущего трека",
+		"Number of tracks" : "Количество треков",
+		"Position in current track (1/1000s)" : "Позиция текущего трека (1/1000с)",
+		"Position in disk (1/1000s)" : "Позиция диска (1/1000с)"
+	}
+}

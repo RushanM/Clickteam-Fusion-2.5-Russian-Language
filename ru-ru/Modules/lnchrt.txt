@@ -1,0 +1,13 @@
+﻿{
+	"version" : 1,
+	"lang" : 1049,
+	"general" : {
+		"Cannot create file in temporary directory !" : "Не удаётся создать файл во временном каталоге !",
+		"Cannot create subdirectory in temporary directory !" : "Не удаётся создать подкаталог во временном каталоге !",
+		"Cannot open executable file !" : "Не удаётся открыть исполняемый файл !",
+		"Cannot write to temporary file !" : "Не удаётся записать во временный файл !",
+		"Invalid data in executable file !" : "Неверные данные в исполняемом файле !",
+		"Not enough memory !" : "Недостаточно памяти !",
+		"The disk that contains the Windows temporary directory is full !\n\nPlease free some space and retry." : "Диск, который содержит временный каталог Windows, заполнен !\n\nПожалуйста освободите место и повторите попытку."
+	}
+}

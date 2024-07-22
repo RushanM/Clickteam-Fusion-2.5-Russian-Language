@@ -1,0 +1,43 @@
+﻿{
+	"version" : 1,
+	"lang" : 1049,
+	"general" : {
+		"00Get row" : "Получить строку",
+		"00New statement" : "Новая инструкция",
+		"00Select a data source" : "Выбрать источник данных",
+		"00Select a data source via a selector" : "Выбрать источник данных с помощью селектора",
+		"01Send SQL command %s" : "Отправить команду SQL %0",
+		"01Set row max length to %s" : "Установить максимальную длину строки %0",
+		"10%s: can get data" : "%o: данные готовы?",
+		"Column number" : "Номер столбца",
+		"ODBC" : "ODBC",
+		"ODBC object" : "Объект ODBC",
+		"Provides a direct way of accessing information from an external database." : "Обеспечивает прямой путь доступа к информации из внешней базы данных."
+	},
+	"dialog_20003" : {
+		"&Browse" : "Проводник",
+		"&Help" : "Помощь",
+		"Cancel" : "Отмена",
+		"Data source" : "Источник данных",
+		"OK" : "OK",
+		"Setup ODBC object" : "Настройка объекта ODBC"
+	},
+	"menu_20000" : {
+		"Get row" : "Получить строку",
+		"New statement" : "Новая инструкция",
+		"Select data source" : "Выбрать источник данных",
+		"Select data source via a selector" : "Выбрать источник данных с помощью селектора",
+		"Send SQL command" : "Отправить команду SQL",
+		"Set row max length" : "Установить максимальную длину строки"
+	},
+	"menu_20001" : {
+		"Can get data ?" : "Готово к передаче данных?"
+	},
+	"menu_20002" : {
+		"Get columns count" : "Получить количество столбцов",
+		"Get name of column" : "Получить название столбца",
+		"Get number in column" : "Получить номер в столбце",
+		"Get rows count" : "Получить количество строк",
+		"Get text in column" : "Получить текст в столбце"
+	}
+}

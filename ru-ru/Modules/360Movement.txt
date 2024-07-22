@@ -1,0 +1,18 @@
+{
+	"version" : 1,
+	"lang" : 1049,
+	"general" : {
+		"360° Movement Object" : "Объект «Движение на 360°»",
+		"Lets you easily create flexible custom 360° movement." : "Позволяет легко создавать гибкие пользовательские движения на 360°.",
+		"Lets you easily create flexible custom 360° movement. " : "Позволяет легко создавать гибкие пользовательские движения на 360°.",
+		"Max speed" : "Макс. скорость",
+		"Max speed " : "Макс. скорость",
+		"Max speed in 1/256 units." : "Максимальная скорость в 1/256 единиц. ",
+		"Acceleration " : "Ускорение",
+		"Deceleration " : "Замедление",
+		"Is movement paused? " : "Движение приостановлено?",
+		"On colission test " : "При проверке столкновений",
+		"Set object... " : "Установить объект...",
+		"Pause movement " : "Приостановить движение",
+	}
+}

@@ -1,0 +1,24 @@
+﻿{
+	"version" : 1,
+	"lang" : 1049,
+	"general" : {
+		"Controller for the InAndOut movement." : "Контроллер для движения «В и ИЗ».",
+		"InAndOut Movement Controller" : "Контроллер движений «В и ИЗ»",
+		"Move object in" : "Движение объекта в",
+		"Move object out" : "Движение объекта из",
+		"Position object at end" : "Позиция объекта в конце",
+		"Position object at start" : "Позиция объекта в начале",
+		"Select an object" : "Выбрать объект",
+		"Set object to %0" : "Установить объект %0",
+		"Set object with fixed value %0" : "Установить объект с помощью фиксированного значения %0",
+		"fixed value" : "Фиксированное значение"
+	},
+	"menu_20000" : {
+		"Move object in" : "Движение объекта в",
+		"Move object out" : "Движение объекта из",
+		"Position object at end" : "Позиция объекта в конце",
+		"Position object at start" : "Позиция объекта в начале",
+		"Set object" : "Установить объект",
+		"Set object from fixed value" : "Установить объект с помощью фиксированного значения"
+	}
+}

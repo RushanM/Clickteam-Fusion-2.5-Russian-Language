@@ -1,0 +1,26 @@
+﻿{
+	"version" : 1,
+	"lang" : 1049,
+	"general" : {
+		"Advanced" : "Расширенные",
+		"Bottom to top" : "Снизу вверх",
+		"Choose how the objects will collide with the ground" : "Выберите как объекты будут сталкиваться с землей",
+		"Choose the direction of the ground to be created." : "Выберите направление земли для создания",
+		"Collision" : "Столкновение",
+		"Defines the ground of the playfield" : "Определяет землю на сцене",
+		"Direction" : "Направление",
+		"Elasticity" : "Эластичность",
+		"Engine ID" : "ID Физического движка",
+		"Enter the elasticity parameter of the ground." : "Введите параметр эластичности земли",
+		"Enter the friction parameter of the ground." : "Введите параметр трения земли",
+		"Enter the identifier of the engine to use for the ground." : "Введите идентификатор физического двигателя для его использования.",
+		"Friction" : "Трение",
+		"Left to right" : "Слева направо",
+		"Object" : "Объект",
+		"Obstacle" : "Препятствие",
+		"Physics - Ground" : "Физика - земля",
+		"Platform" : "Платформа",
+		"Right to left" : "Справа налево",
+		"Top to bottom" : "Сверху вниз"
+	}
+}

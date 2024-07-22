@@ -1,0 +1,30 @@
+﻿{
+	"version" : 1,
+	"lang" : 1049,
+	"general" : {
+		"About" : "Информация",
+		"Author" : "Автор",
+		"Automatically handle speed increase" : "Автоматически увеличивать скорость",
+		"By how many pixels the invaders move in the x-direction." : "На сколько пикселей захватчики двигаются по горизонтали.",
+		"By how many pixels the invaders move in the y-direction." : "На сколько пикселей захватчики двигаются по вертикали.",
+		"Clickteam Movement Controller" : "Контроллер движения Clickteam",
+		"Control Ext." : "Расширение контроллера",
+		"Global Invader Properties" : "Глобальные свойства Захватчиков",
+		"Handle speed increase when fewer invaders automatically." : "Автоматически увеличивать скорость, когда Захватчиков остаётся меньше.",
+		"How often the invaders move." : "Частота движения Захватчиков.",
+		"Initial direction" : "Начальное направление",
+		"Invaders" : "Захватчики",
+		"Left" : "Влево",
+		"Move at Start" : "Начать движение при запуске",
+		"Name of the extension used to interact with this movement." : "Название расширения, которое используется для взаимодействия с этим движением.",
+		"Properties relating to the invader movement." : "Свойства относящиеся к движению Захватчиков.",
+		"Released October 2006" : "Выход Октябрь 2006",
+		"Right" : "Вправо",
+		"Speed" : "Скорость",
+		"Step Size in X" : "Размер шага по X",
+		"Step Size in Y" : "Размер шага по Y",
+		"The direction in which all invaders will move at initially." : "Направление в котором Захватчики двигаются при запуске.",
+		"Version" : "Версия",
+		"Will the invaders be moving at start of frame." : "Указывает, будут ли захватчики перемещаються при старте сцены."
+	}
+}

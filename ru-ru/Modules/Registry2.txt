@@ -1,0 +1,66 @@
+﻿{
+	"version" : 1,
+	"lang" : 1049,
+	"general" : {
+		"%o: current key exists" : "%o: текущий ключ существует",
+		"%o: key %0\\%1 exists" : "%o: ключ %0\\%1 существует",
+		"%o: last action successful" : "%o: последнее действие успешно",
+		"%o: value %0 of current key exists" : "%o: значение  %0 текущего ключа существует",
+		"%o: value %2 of key %0\\%1 exists" : "%o: значение %2 ключа %0\\%1 существует",
+		"Create current key" : "Создать текущий ключ",
+		"Create key %0\\%1" : "Создать ключ %0\\%1",
+		"Current Key = %s" : "Текущий ключ = %s",
+		"Current Root Key = %s" : "Текущий корневой ключ = %s",
+		"Delete current key" : "Удалить текущий ключ",
+		"Delete key %0\\%1" : "Удалить ключ %0\\%1",
+		"Delete value %0 of current key" : "Удалить значение %0 текущего ключа",
+		"Delete value %2 of key %0\\%1" : "Удалить значение %2 ключа %0\\%1",
+		"Invalid parameters." : "Неправильный(е) параметр(ы).",
+		"Key name" : "Название ключа",
+		"Registry2" : "Реестр 2",
+		"Root key" : "Корневой ключ",
+		"Set current key to %0" : "Установить текущий ключ  %0",
+		"Set root key to %0" : "Установить корневой ключ %0",
+		"Set value %0 of current key to %1" : "Установить значение %0 текущего ключа на %1",
+		"Set value %2 of key %0\\%1 to %3" : "Установить значение %0 ключа %0\\%1 на %3",
+		"The Registry2 object allows you to retrieve or write values from or to the registry." : "Объект Реестр2 позволяет считывать или записывать значения в(из) реестр(а).",
+		"The value you try to read from is not a DWORD value." : "Значение которое вы пытались считать не является значением DWORD.",
+		"The value you try to read from is not a string value." : "Значение которое вы пытались считать не является значением строки.",
+		"Value name" : "Название значения"
+	},
+	"dialog_101" : {
+		"Cancel" : "Отмена",
+		"OK" : "OK",
+		"Select a root key" : "Выбрать корневой ключ"
+	},
+	"menu_20000" : {
+		"Any Key" : "Любая клавиша",
+		"Create Current Key" : "Создать текущий ключ",
+		"Create Key" : "Создать ключ",
+		"Current Key" : "Текущий ключ",
+		"Delete Current Key" : "Удалить текущий ключ",
+		"Delete Key" : "Удалить ключ",
+		"Delete Value" : "Удалить значение",
+		"Set Current Key" : "Установить текущий ключ",
+		"Set Current Root Key" : "Установить текущий корневой ключ",
+		"Set DWORD Value" : "Установить значение DWORD",
+		"Set String Value" : "Установить значение строки"
+	},
+	"menu_20001" : {
+		"Current key exists" : "Текущий ключ существует",
+		"Key exists" : "Ключ существует?",
+		"Last action successful" : "Последнее действие успешно?",
+		"Value exists" : "Данное значение существует?",
+		"Value exists in current key" : "Данное значение существует в текущем ключе?"
+	},
+	"menu_20002" : {
+		"Any Key" : "Любая клавиша",
+		"Current Key" : "Текущий ключ",
+		"Get Current Key" : "Получить текущий ключ",
+		"Get Current Root Key" : "Получить текущий корневой ключ",
+		"Get DWORD Value" : "Получить значение DWORD",
+		"Get String Value" : "Получить значение строки",
+		"Last error code" : "Код последней ошибки",
+		"Last error message" : "Последнее сообщение об ошибке"
+	}
+}

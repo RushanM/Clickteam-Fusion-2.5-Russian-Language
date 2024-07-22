@@ -1,0 +1,26 @@
+﻿{
+	"version" : 1,
+	"lang" : 1049,
+	"general" : {
+		"Allow the user to edit the picture or movie" : "Позволяет пользователю редактировать изображения и видео.",
+		"Camera" : "iOS - Камера",
+		"Editable" : "Редактирование",
+		"Extra function for iOS applications." : "Дополнительная функция для приложений iOS",
+		"Is camera available?" : "Камера доступна?",
+		"Record and save movie" : "Запись и сохранение видео",
+		"Save picture" : "Сохраненить фото",
+		"Take picture" : "Сделать фото"
+	},
+	"menu_20000" : {
+		"Actions" : "Действия",
+		"Movie" : "Видео",
+		"Pictures" : "Фото",
+		"Record and save movie" : "Запись и сохранение видео",
+		"Save picture" : "Сохраненить фото",
+		"Take picture" : "Сделать фото"
+	},
+	"menu_20001" : {
+		"Conditions" : "Условия",
+		"Is camera available?" : "Камера доступна?"
+	}
+}

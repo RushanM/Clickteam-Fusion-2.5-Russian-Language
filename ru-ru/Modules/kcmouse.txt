@@ -1,0 +1,34 @@
+{
+	"version" : 1,
+	"lang" : 1049,
+	"general" : {
+		"01Actual Mouse X position %s" : "01Текущая позиция X мыши %s",
+		"01Actual Mouse Y position %s" : "01Текущая позиция Y мыши %s",
+		"01Distance Mouse Rolled %s" : "01Дистанция движения мыши %s пикс.",
+		"01Set Actual Mouse X to %s" : "01Установить текущий X мыши %s",
+		"01Set Actual Mouse Y to %s" : "01Установить текущий Y мыши %s",
+		"Mouse object" : "Мышь (объект)",
+		"Mouse Object" : "Мышь (объект)",
+	},
+	"menu_20000" : {
+		"Set Actual Mouse X" : "Установить текущий X мыши",
+		"Set Actual Mouse Y" : "Установить текущий Y мыши",
+	},
+	"menu_20001" : {
+		"Compare Actual Mouse X" : "Сравнить текущий X мыши",
+		"Compare Actual Mouse Y" : "Сравнить текущий Y мыши",
+		"Compare Distance rolled" : "Сравнить дистанцию движения мыши (пикс.)",
+	},
+	"menu_20002" : {
+		"Get Actual Mouse X Position" : "Получить текущую позицию X мыши",
+		"Get Actual Mouse Y Position" : "Получить текущую позицию Y мыши",
+		"Get Distance Rolled" : "Получить дистанцию движения мыши (пикс.)",
+	},
+	"dialog_20003" : {
+		"Mouse Object" : "Мышь (объект)",
+		"This object is made by Marcello Bastea-Forte.\n\nhttp://www.cellosoft.com/" : "Этот объект создан Marcello Bastea-Forte.\n\nhttp://www.cellosoft.com/",
+		"Cancel" : "Отмена",
+		"OK" : "ОК",
+	}
+}
+

@@ -1,0 +1,28 @@
+{
+	"version" : 1,
+	"lang" : 1049,
+	"general" : {
+		"String tokenizer" : "Токенизатор строк",
+		"Can split a string up based on single character delimiters. Requested by Nifflas." : "Может разделять строки, используя односимвольный разделитель. Сделано по просьбе Nifflas.",
+		"String" : "Строка",
+		"Delimiters" : "Разделители",
+		"X delimiters" : "X-разделители",
+		"Y delimiters" : "Y-разделители",
+		"Index (0 based)" : "Номер (начиная с 0)",
+		"X index (0 based)" : "X-номер (начинается с 0)",
+		"Y index (0 based)" : "Y-номер (начиная с 0)",
+		"Split string %0 with delimiters %1 (1D)" : "Разделить строку %0 разделителями %1 (1Р)",
+		"Split string %0 with delimiters %1 and %2 (2D)" : "Разделить строку %0 разделителями %1 и %2 (2Р)",
+	},
+	"menu_20000" : {
+		"Split string" : "Разделить строку",
+		"Split string (2D)" : "Разделить строку (2Р)",
+	},
+	"menu_20002" : {
+		"Number of elements" : "Количество элементов",
+		"Get element" : "Получить элемент",
+		"Number of X elements (2D)" : "Количество элементов X (2Р)",
+		"Number of Y elements (2D)" : "Количество элементов Y (2Р)",
+		"Get element (2D)" : "Получить элемент (2Р)",
+	}
+}

@@ -1,0 +1,30 @@
+body {
+font-family: Verdana, Arial, Helvetica, Sans-Serif;
+font-size: 12px;
+font-weight: normal;
+color: #000000;
+background-color: #FFFFFF;
+}
+
+h1 { font-size: 24px; font-weight: bold; }
+h2 { font-size: 20px; font-weight: bold; }
+h3 { font-size: 16px; font-weight: bold; }
+h4 {font-size: 12px; font-weight: bold; }
+
+a { color: #0000FF; text-decoration: underline; }
+a:hover { color: #FF0000; text-decoration: underline; }
+
+img { border:0; }
+a img { border:0; }
+
+li { margin-bottom: 12px; }
+
+.code {
+background-color: #CCCCCC;
+padding: 10px;
+font-family: Courier New, Courier;
+}
+
+.small {
+font-size: 10px;
+}

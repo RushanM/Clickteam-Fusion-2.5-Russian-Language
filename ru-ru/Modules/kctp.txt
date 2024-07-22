@@ -1,0 +1,50 @@
+﻿{
+	"version" : 1,
+	"lang" : 1049,
+	"general" : {
+		"00Read Info" : "Читать информацию",
+		"00Reset info" : "Сбросить информацию",
+		"10%s: Application never used?" : "%o: Приложение никогда не использовалось?",
+		"10%s: Data Integrity Problem?" : "%o: Проблема целостности данных?",
+		"10%s: Is trial period expired?" : "%o: Пробный период истёк?",
+		"11%s: number of days since first use %s" : "%o: Количество дней с момента первого использования %0",
+		"11%s: number of days since highest last use %s" : "%o: Количество дней с момента последнего использования %0",
+		"Allows you to make demo versions that expire after a given time." : "Позволяет создавать демо-версии, которые работают определённое время.",
+		"Display Message %0 (title=%1)" : "Показать сообщение %0 (название=%1)",
+		"Message Text" : "Текст сообщения",
+		"Set Private Data to %0" : "Установить личные данные на %0",
+		"Trial Period Object" : "Объект «Пробный период»",
+		"Window Title" : "Заголовок окна"
+	},
+	"dialog_101" : {
+		"&Help" : "Помощь",
+		"&Reset" : "Сброс",
+		"&Shared by all users (requires administrator rights)" : "Для всех пользователей (нужны права администратора)",
+		"Cancel" : "Отмена",
+		"Compatible with V1" : "Совместимость с V1",
+		"Expiration" : "Истечение",
+		"OK" : "OK",
+		"Product ID (8 characters)" : "Код ID (8 символов)",
+		"Tests" : "Проверка",
+		"Trial Period Duration (number of days)" : "Количество дней пробного периода",
+		"Trial Period Object Setup" : "Настройка объекта «Пробный период»"
+	},
+	"menu_20000" : {
+		"Display Message" : "Показать сообщение",
+		"Read Info" : "Читать информацию",
+		"Reset Info" : "Сбросить информацию",
+		"Set Private Data" : "Установить личные данные"
+	},
+	"menu_20001" : {
+		"Compare number of days since first use" : "Сравнить количество дней с момента первого использования",
+		"Compare number of days since highest use" : "Сравнить количество дней с момента последнего использования",
+		"Data Integrity Problem?" : "Проблема целостности данных",
+		"Is Trial Period Expired?" : "Пробный период закончился?",
+		"Never used?" : "Ранее никогда не использовалось?"
+	},
+	"menu_20002" : {
+		"Number of days since first use" : "Количество дней с момента первого использования",
+		"Number of days since highest use" : "Количество дней с момента последнего использования",
+		"Private Data" : "Личные данные"
+	}
+}
