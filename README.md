@@ -7,7 +7,7 @@
 ### GitHub
 
 1. Нажмите зелёную кнопку над репозиторием Code.
-2. Нажмите Download ZIP внизу появившегося окна, чтобы скачать архив.
+2. [Нажмите Download ZIP](https://github.com/RushanM/Clickteam-Fusion-2.5-Russian-Translation/archive/refs/heads/main.zip) cнизу появившегося окна, чтобы скачать архив.
 3. Откройте архив.
 4. Распакуйте папку ru-ru по пути C:\Program Files (x86)\Steam\steamapps\common\Clickteam Fusion 2.5\Languages.
 5. Если у вас нет папок по этому пути, найдите папку расположения вашей копии Clickteam Fusion 2.5 и распакуйте содержимое архива в папку Languages в ней.
