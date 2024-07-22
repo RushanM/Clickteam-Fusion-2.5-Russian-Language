@@ -1,7 +1,7 @@
 # Русский язык для Clickteam Fusion 2.5
 
 <div align="center">
-    <img title="" src="cover.png">
+    <img title="" src="screenshot.png">
     <br>
     <br>
 </div>
