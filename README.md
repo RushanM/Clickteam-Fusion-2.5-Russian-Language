@@ -21,8 +21,8 @@
 
 ## На других ресурсах
 
-Game Jolt: https://gamejolt.com/games/fusion-ru/625501
-c2community: http://c2community.ru/forum/viewtopic.php?t=17398
-Steam: https://steamcommunity.com/sharedfiles/filedetails/?id=2369261143
-Мой сайт: https://rushan.neocities.org/clickteam-fusion-2-5-ru-lang
-Яндекс Диск: https://disk.yandex.ru/d/sWhcljP7rKj5Sw
+* Game Jolt: https://gamejolt.com/games/fusion-ru/625501
+* Мой сайт: https://rushan.neocities.org/clickteam-fusion-2-5-ru-lang
+* Яндекс Диск: https://disk.yandex.ru/d/sWhcljP7rKj5Sw
+* Steam: https://steamcommunity.com/sharedfiles/filedetails/?id=2369261143
+* c2community: http://c2community.ru/forum/viewtopic.php?t=17398
