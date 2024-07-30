@@ -3,7 +3,7 @@
     "lang": 1049,
     "general": {
         "Allows the use of Discord's Rich Presence feature in your application.": "Позволяет использовать особенность Discord'а, названную Rich Presence, в вашем приложении.",
-        "Copyright © 2018 by Bartek B": "Охраняемо авторским правом © 2018 от Bartek B",
+        "Copyright © 2018 by Bartek B": "Охраняется авторским правом © 2018 от Bartek B",
         "States": "Состояния",
         "Triggers": "Триггеры"
     }

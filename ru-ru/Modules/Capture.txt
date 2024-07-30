@@ -33,7 +33,7 @@
 		"Executable files|*.exe;*.bat||" : "Исполняемые файлы|*.exe;*.bat||",
 		"Illegal macro in string %s..." : "Макро запрещены в строке %s...",
 		"Lets you capture screen areas and save them as graphic files." : "Позволяет захватить область экрана и сохранить в виде графических файлов.",
-		"Not enough free space on drive %s \nPlease free more than 50 Mbytes and try again..." : "Недостаточно свободного места на диске %s.\nПожалуйста освободите более 50 Мбайт и попробуйте еще раз...",
+		"Not enough free space on drive %s \nPlease free more than 50 Mbytes and try again..." : "Недостаточно свободного места на диске %s.\nПожалуйста освободите более 50 Мбайт и попробуйте ещё раз...",
 		"Please choose a capture object tool file..." : "Выберите файл инструмента захвата объекта...",
 		"Please enter a filename" : "Введите название файла",
 		"Screen Capture object" : "Захват экрана (объект)",

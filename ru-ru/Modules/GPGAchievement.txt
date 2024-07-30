@@ -16,7 +16,7 @@
 		"Achievement Value" : "Значение прогресса достижения",
 		"All Achievement ..." : "Все достижения...",
 		"All Achievement Readed" : "Все достижения прочтены",
-		"Copyright © 2015-2020 Clickteam" : "Охраняемо авторским правом © 2015-2020 Clickteam",
+		"Copyright © 2015-2020 Clickteam" : "Охраняется авторским правом © 2015-2020 Clickteam",
 		"Display Achievements" : "Показать достижения",
 		"Error" : "Ошибка",
 		"Error String" : "Строка ошибки",

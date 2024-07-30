@@ -4,7 +4,7 @@
 	"general" : {
 		"GPG Connector" : "GPG - Соединитель",
 		"Google Play Games Connector" : "Соединитель с Google Play Игры",
-		"Copyright © 2015-2020 Clickteam" : "Охраняемо авторским правом © 2015-2020 Clickteam",
+		"Copyright © 2015-2020 Clickteam" : "Охраняется авторским правом © 2015-2020 Clickteam",
 		"Google Play Games Connector object V-2.0" : "Объект, соединяющий с Google Play Игры, версии 2.0.",
 		"Play Games Connector" : "Соединитель с Google Play Игры",
 		"Specific settings for Google Play Games Connector" : "Особые настройки соединителя с Google Play Игры.",

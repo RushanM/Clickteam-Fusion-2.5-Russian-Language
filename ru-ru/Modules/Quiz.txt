@@ -132,7 +132,7 @@
 		"Display time is out dialog" : "Показать окно затраченного времени",
 		"Display wrong answer dialog (ask retry: %0)" : "Показать окно неправильного ответа (повторить: %0)",
 		"Do nothing" : "Ничего не делать",
-		"Do you want to try again?" : "Вы хотите попробовать еще раз?",
+		"Do you want to try again?" : "Вы хотите попробовать ещё раз?",
 		"Edit answer" : "Редактировать ответ",
 		"Edit entry" : "Редактировать запись",
 		"Email address" : "Адрес электронной почты",

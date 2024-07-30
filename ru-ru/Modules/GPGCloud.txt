@@ -4,7 +4,7 @@
 	"general" : {
 		"GPG Cloud" : "GPG - Облако",
 		"Google Play Games Cloud" : "Облако Google Play Игры",
-		"Copyright © 2015-2020 Clickteam" : "Охраняемо авторским правом © 2015-2020 Clickteam",
+		"Copyright © 2015-2020 Clickteam" : "Охраняется авторским правом © 2015-2020 Clickteam",
 		"Google Play Games Cloud object V-2.00" : "Объект, предоставляющий функционал облачного хранилища Google Play Игры, версии 2.0.",
 		"Play Games Cloud" : "Облако Google Play Игры",
 		"Specific settings for Google Play Games Snapshots" : "Особые параметры, присущие только для снапшотов Google Play Игры.",
