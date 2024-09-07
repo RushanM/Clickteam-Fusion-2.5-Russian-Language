@@ -95,7 +95,7 @@
 		"Number of frames" : "Количество кадров",
 		"Program directory" : "Каталог программы",
 		"System directory" : "Системный каталог",
-		"Temp directory" : "Временный каталог",
+		"Temp directory" : "Каталог временных файлов",
 		"Windows directory" : "Каталог Windows"
 	},
 	"menu_20000" : {

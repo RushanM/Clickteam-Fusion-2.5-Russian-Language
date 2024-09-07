@@ -53,7 +53,7 @@
 		"Center Horizontally in Dialog" : "Центрировать горизонтально в диалоговом окне",
 		"Center Vertically in Dialog" : "Центрировать вертикально в диалоговом окне",
 		"Check Box" : "Флажок",
-		"Check State (0=unchecked, 1=checked, 2=indeterminate)" : "Состояние флажка(0=не отмечен, 1=отмечен, 2=не определено)",
+		"Check State (0=unchecked, 1=checked, 2=indeterminate)" : "Состояние флажка (0 = не отмечен, 1 = отмечен, 2 = не определено)",
 		"Check radio button %0" : "Отметить радио кнопку %0",
 		"Child" : "Дочерний",
 		"Close" : "Закрыть",
