@@ -30,7 +30,7 @@
 		"Activate" : "Активировано",
 		"ActiveX" : "ActiveX",
 		"ActiveX download URL is invalid." : "Загрузка ActiveX, URL является неверным",
-		"ActiveX object" : "Объект «ActiveX»",
+		"ActiveX object" : "ActiveX (объект)",
 		"All Files (*.*)" : "Все файлы (*.*)",
 		"An attempt was made to access %1 past its end." : "Была предпринята попытка доступа к %1 по достижении его окончания.",
 		"An attempt was made to read from the writing %1." : "Была предпринята попытка чтения из записи %1.",

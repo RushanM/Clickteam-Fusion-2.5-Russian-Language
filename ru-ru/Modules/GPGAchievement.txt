@@ -38,7 +38,7 @@
 		"Get Achievement XP Value" : "Получить значение очков опыта достижения",
 		"Google Play Games Achievement" : "Достижения Google Play Игры",
 		"Google Play Games Achievement object V-2.0" : "Объект достижений Google Play Игры v2.0",
-		"GPG Achievement" : "GPG - Достижения",
+		"GPG Achievement" : "GPG: достижения",
 		"Increment Achievement Id %0 with %1 steps" : "Достижение с прогрессом с идентификатором %0 и с %1 шагами прогресса",
 		"Index (zero based)" : "Номер (начиная с нуля)",
 		"Last Achievement Read ..." : "Последнее прочтённое достижение...",

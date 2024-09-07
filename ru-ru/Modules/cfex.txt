@@ -91,7 +91,7 @@
 		"Start profiling at start of frame" : "Начинать профилирование при запуске сцены",
 		"Start time" : "Время запуска",
 		"Times" : "Время",
-		"Toggle event list mode" : "Переключить режим списка событий",
+		"Toggle event list mode" : "Переключить вид списка событий",
 		"Total time" : "Общее время",
 		"Unknown" : "Неизвестно",
 		"Unselect this option if you want to start/end profiling the application manually with profiling actions." : "Выключите эту опцию, если вы хотите запускать/завершать профилирование приложения вручную с помощью действий профилирования.",

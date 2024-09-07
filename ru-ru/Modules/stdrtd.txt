@@ -22,7 +22,7 @@
 		"Escape" : "Esc.",
 		"Execute" : "Выполнить",
 		"File error!" : "Ошибка файла!",
-		"Frame %d" : "Сцена %d",
+		"Frame %d" : "Фрейм %d",
 		"Heap" : "Heap",
 		"Home" : "Home",
 		"Ins" : "Ins",

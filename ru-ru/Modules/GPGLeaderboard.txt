@@ -2,7 +2,7 @@
 	"version" : 1,
 	"lang" : 1049,
 	"general" : {
-		"GPG Leadboard" : "GPG - Таблицы рекордов",
+		"GPG Leadboard" : "GPG: таблицы рекордов",
 		"Google Play Games Leadboard" : "Таблицы рекордов Google Play Игры",
 		"Google Play Games Leadboard object V-2.0" : "Объект таблиц рекордов Google Play Игры v2.0",
 		"Read Leaderboards Available" : "Прочесть доступные таблицы рекордов",

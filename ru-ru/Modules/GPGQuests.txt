@@ -8,7 +8,7 @@
 		"Automatically accept the quest reward on completed" : "Автоматически принимать награду за квест после его завершения.",
 		"Claim Quest with Id %0" : "Получить квест с идентификатором %0",
 		"Event Id" : "Идентификатор события",
-		"GPG Quests" : "GPG - Квесты",
+		"GPG Quests" : "GPG: квесты",
 		"Google Play Games Quests & Events object V-1.0a" : "Объект квестов и событий Google Play Игры версии 1.0 альфа.",
 		"Google Play Games Quests & Events" : "Квесты и события Google Play Игры",
 		"Play Games Quests" : "Квесты Google Play Игры",

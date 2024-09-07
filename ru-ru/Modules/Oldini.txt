@@ -1,11 +1,11 @@
 {   "About":
     {
-        "Name": "Android - Старый INI (Объект)",
+        "Name": "Android: старый INI (объект)",
         "Author": "Clickteam",
         "Copyright": "Copyright (C) 2014 Clickteam",
         "Website": "http://www.clickteam.com",
 
-        "Comment": "Часть Android экспортера. Клон старого объекта INI, для совместимости со старыми приложениями.",
+        "Comment": "Часть Android-экспортера. Клон старого объекта INI, для совместимости со старыми приложениями.",
         "URL": "http://www.clickteam.com",
         "Help": "",
         "Identifier": "AOin",

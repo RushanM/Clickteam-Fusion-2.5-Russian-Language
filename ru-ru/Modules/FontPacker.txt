@@ -9,7 +9,7 @@
 		"%o: On Packed Fonts Read" : "%o: Как только упакованные шрифты были прочтены",
 		"%o: Read Internal Fonts" : "%o: Прочитать внутренние шрифты",
 		"%o: Read Packed Fonts" : "%o: Прочитать упакованные шрифты",
-		"Android Font Packer" : "Android - Упаковщик шрифтов",
+		"Android Font Packer" : "Android: упаковщик шрифтов",
 		"Android Font Packer Control" : "Управление упаковщиком шрифтов Android",
 		"Clear Checked" : "Очистить отмеченное",
 		"File must be named according their typeface" : "Имя файла должно соответствовать имени шрифта",

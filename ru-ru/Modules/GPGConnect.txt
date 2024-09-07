@@ -2,7 +2,7 @@
 	"version" : 1,
 	"lang" : 1049,
 	"general" : {
-		"GPG Connector" : "GPG - Соединитель",
+		"GPG Connector" : "GPG: соединитель",
 		"Google Play Games Connector" : "Соединитель с Google Play Игры",
 		"Copyright © 2015-2020 Clickteam" : "Охраняется авторским правом © 2015-2020 Clickteam",
 		"Google Play Games Connector object V-2.0" : "Объект, соединяющий с Google Play Игры, версии 2.0.",

@@ -62,7 +62,7 @@
 		"Displays a vertical scrollbar if necessary" : "Отображает вертикальную полосу прокрутки при необходимости.",
 		"Displays an horizontal scrollbar" : "Отображает горизонтальную полосу прокрутки.",
 		"Edit Box" : "Поле ввода",
-		"Edit object" : "Объект «Редактирование»",
+		"Edit object" : "Редактирование (объект)",
 		"Edit object settings" : "Настройки объекта «Редактирование»",
 		"Enforce a case type on the text" : "Позволяет выбрать тип регистра у текста.",
 		"Enter line number" : "Введите номер строки",

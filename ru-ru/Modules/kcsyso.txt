@@ -7,7 +7,7 @@
 		"Computer name: %s" : "Имя компьютера: %s",
 		"Langage name: %s" : "Название языка: %s",
 		"OS" : "ОС",
-		"OS object" : "Объект - ОС",
+		"OS object" : "ОС (объект)",
 		"User langage name: %s" : "Название языка пользователя: %s",
 		"User langage: %i" : "Язык пользователя: %i",
 		"User name: %s" : "Имя пользователя: %s",

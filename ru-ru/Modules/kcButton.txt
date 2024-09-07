@@ -28,8 +28,8 @@
 		"Bitmap Push button" : "Нажимная кнопка с растровым изображением",
 		"Button" : "Кнопка",
 		"Button %o is enabled" : "Кнопка %o включена",
-		"Button number (radio  only)" : "Номер кнопки (только для переключателей)",
-		"Button object" : "Объект «Кнопка»",
+		"Button number (radio  only)" : "Номер кнопки (применимо только к радиокнопкам)",
+		"Button object" : "Кнопка (объект)",
 		"Checkbox" : "Галочка",
 		"Colors" : "Цвета",
 		"Disabled" : "Отключить",
@@ -98,14 +98,14 @@
 		"Box checked ?" : "Поставлена галочка?",
 		"Button clicked ?" : "Кнопка нажата?",
 		"Is enabled ?" : "Включено?",
-		"Is radio button enabled ?" : "Переключатель включён?",
+		"Is radio button enabled ?" : "Радиокнопка включена?",
 		"Is visible ?" : "Видимый?"
 	},
 	"menu_20002" : {
 		"Text of the button" : "Текст кнопки",
 		"Text of the tooltip" : "Текст подсказки",
 		"Value of set Radio button" : "Значение установленного переключателя",
-		"X Size of Button" : "Размер по X кнопки",
-		"Y Size of Button" : "Размер по Y кнопки"
+		"X Size of Button" : "Размер кнопки по X",
+		"Y Size of Button" : "Размер кнопки по Y"
 	}
 }

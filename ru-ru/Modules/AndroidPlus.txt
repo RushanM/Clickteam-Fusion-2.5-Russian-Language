@@ -105,7 +105,7 @@
         "Flashlight On/Off": "Переключить режим фонаря",
         "Inject Key": "Ввести ключ",
         "Joysticks ...": "Джойстики...",
-        "Preferences": "Предпочтения",
+        "Preferences": "Настройки",
         "Read Locale List": "Читать список местоположений",
         "Read Timezone List": "Читать список часового пояса",
         "Refresh Display": "Обновить отображение",
@@ -179,7 +179,7 @@
         "Get Timezone Qty": "Получить количество часовых поясов",
         "Get Unique Hardware ID": "Получить уникальный идентификатор оборудования",
         "Get Volume": "Получить громкость",
-        "Preferences": "Предпочтения",
+        "Preferences": "Настройки",
         "Settings": "Настройки"
     }
 }

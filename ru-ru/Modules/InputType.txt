@@ -4,7 +4,7 @@
 	"general" : {
 		"%o: Is Keyboard Visible?" : "%o: Клавиатура видна?",
 		"Action Id (0:Default, 1:Go, 2:Send, 3:Search, 4:Previous, 5:None)" : "ID действия (0: По умолчанию 1: Перейти 2: Отправить 3: Поиск 4: Назад 5: Нет)",
-		"Android InputType" : "Android - InputType",
+		"Android InputType" : "Android: InputType",
 		"Android InputType object." : "Объект, позволяющий установить нужный вид клавиатуры для ввода определённой информации.",
 		"G2F2 Media & Inv." : "G2F2 Media & Inv.",
 		"Input Type Value (0: General, 1:Date, 2:Time)" : "Значение типа ввода (0: Общее, 1: Дата, 2: Время)",

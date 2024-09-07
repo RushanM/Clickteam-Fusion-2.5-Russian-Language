@@ -3,7 +3,7 @@
 	"lang" : 1049,
 	"general" : {
 		"3D Actives" : "3D-активы",
-		"Turns normal active object to (flat) 3D sprites" : "Превращает обычный объект «Актив» в (плоские) 3D-спрайты",
+		"Turns normal active object to (flat) 3D sprites" : "Превращает обычный объект «актив» в (плоские) 3D-спрайты",
 		"Select Object" : "Выбрать объект",
 		"Value (Floats allowed)" : "Значение (разрешены плавающие)",
 		"X (Float, 0-360)" : "Х (плавающие, 0-360)",
