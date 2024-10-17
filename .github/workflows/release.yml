@@ -1,0 +1,70 @@
+name: Выпуск
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'ru_ru/**'
+  pull_request:
+    branches:
+      - main
+    paths:
+      - 'ru_ru/**'
+  workflow_dispatch:
+    inputs:
+      release_type:
+        description: 'Ветка выпуска'
+        required: true
+        default: 'beta'
+        options:
+          - release
+          - beta
+
+jobs:
+  create_release:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Клонирование репозитория
+        uses: actions/checkout@v4
+
+      - name: Установка утилиты ZIP
+        run: sudo apt-get install zip
+
+      - name: Определение тега и названия для следующего выпуска
+        id: get_tag
+        run: |
+          git fetch --tags
+
+          # Определение последнего релизного или бета-выпуска
+          last_release_tag=$(git tag --list '[0-9]*' | sort -nr | head -n 1 || echo "0")
+          last_beta_tag=$(git tag --list 'B[0-9]*' | sed 's/^B//' | sort -nr | head -n 1 || echo "0")
+
+          # Определение ветки выпуска
+          if [ "${{ github.event.inputs.release_type }}" == "release" ]; then
+            next_tag=$((last_release_tag + 1))
+            release_name="${next_tag}-й выпуск"
+            file_tag=$next_tag
+          else
+            next_tag=$((last_beta_tag + 1))
+            release_name="${next_tag}-й бета-выпуск"
+            file_tag=B$next_tag
+          fi
+
+          echo "next_tag=$file_tag" >> $GITHUB_ENV
+          echo "release_name=$release_name" >> $GITHUB_ENV
+
+      - name: Архивация ru-ru
+        run: |
+          zip -r "Fusion-2.5-Russian-Language-${{ env.next_tag }}.zip" ru-ru
+
+      - name: Создание выпуска на GitHub
+        uses: softprops/action-gh-release@v2
+        with:
+          files: "Fusion-2.5-Russian-Language-${{ env.next_tag }}.zip"
+          name: "${{ env.release_name }}"
+          body: |
+            Автоматический выпуск.
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -82,7 +82,7 @@
 		"Non-physical objects" : "Не физические объекты",
 		"Number of iterations when moving an object" : "Количество итераций при перемещении объекта",
 		"Number of iterations when solving the world position" : "Количество итераций при определении мировой позиции",
-		"Physics - Engine" : "Физика - движок",
+		"Physics - Engine" : "Физика: движок",
 		"Please enter the horizontal coordinate" : "Введите горизонтальные координаты",
 		"Please enter the vertical coordinate" : "Введите вертикальные координаты",
 		"Position iterations" : "Позиция итераций",

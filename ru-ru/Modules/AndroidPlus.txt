@@ -15,7 +15,7 @@
         "%o: On App return from pause?": "%o: При возврате приложения из паузы?",
         "%o: On read TimeZone list": "%o: При чтении списка часовых поясов",
         "%o: On read locale list": "%o: При чтении списка местоположений",
-        "%o: On return from share": "%o: Вернулся из меню шейринга",
+        "%o: On return from share": "%o: вернулся из меню шейринга",
         "Android key value": "Значение ключа Android",
         "AndroidPlus": "Android+",
         "Auto-release (0:No-Default, 1:Yes)": "Автоматически отпустить (0: нет - по умолчанию, 1: да)",

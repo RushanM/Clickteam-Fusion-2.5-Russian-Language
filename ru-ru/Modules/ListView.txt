@@ -96,7 +96,7 @@
 		"Show grid lines" : "Показать линии сетки",
 		"Show grid lines (as in an Excel sheet" : "Показать линии сетки (как в листе Excel)",
 		"Show selection" : "Показать выбранное",
-		"Shows the objet at start of frame" : "Показать объект при старте сцены",
+		"Shows the objet at start of frame" : "Показывает объект при запуске сцены",
 		"Thick border" : "Толстая граница",
 		"Visible at start" : "Видимый при запуске",
 		"Window" : "Окно",

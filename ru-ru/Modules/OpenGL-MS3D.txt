@@ -1,10 +1,10 @@
 {
     "general": {
-        "%o: On animation finished": "%o — Анимация завершена",
-        "%o: On model loaded": "%o — Модель загрузилась",
-        "%o: On model loading failed": "%o — Загрузка модели не удалась",
-        "%o: On object loop": "%o — Объектный цикл",
-        "%o: On texture handle request": "%o — Запрощена обработка текстуры",
+        "%o: On animation finished": "%o: анимация завершена",
+        "%o: On model loaded": "%o: модель загрузилась",
+        "%o: On model loading failed": "%o: загрузка модели не удалась",
+        "%o: On object loop": "%o: объектный цикл",
+        "%o: On texture handle request": "%o: запрощена обработка текстуры",
         "Add object with model %0": "Добавить объект с моделью %0",
         "Add...": "Добавить",
         "Animation end ( -1 = last frame )...": "Конец анимации (-1 = последний кадр)",

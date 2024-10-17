@@ -18,7 +18,7 @@
 		"Left to right" : "Слева направо",
 		"Object" : "Объект",
 		"Obstacle" : "Препятствие",
-		"Physics - Ground" : "Физика - земля",
+		"Physics - Ground" : "Физика: земля",
 		"Platform" : "Платформа",
 		"Right to left" : "Справа налево",
 		"Top to bottom" : "Сверху вниз"

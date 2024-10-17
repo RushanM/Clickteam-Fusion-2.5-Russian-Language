@@ -1,11 +1,11 @@
 {
     "general": {
-        "OpenGL Texture External": "OpenGL — Текстуры из внешних",
+        "OpenGL Texture External": "OpenGL: текстуры из внешних",
 		"Load textures from external image files.": "Позволяет загружать текстуры из внешних файлов изображений.",
 		"On texture loaded": "Текстура загружена?",
 		"On loading failed": "Загрузка не удалась?",
-		"%o: On texture loaded": "%o — Текстура загружена",
-		"%o: On loading failed": "%o — Загрузка не удалась",
+		"%o: On texture loaded": "%o: текстура загружена",
+		"%o: On loading failed": "%o: загрузка не удалась",
 		"Load texture from file...": "Загрузить текстуру из файла",
 		"Load texture from object...": "Загрузить текстуру из объекта",
 		"Load texture from object ( fixed value )...": "Загрузить текстуру из объекта (фиксированное значение)",

@@ -39,7 +39,7 @@
 		"%o: Current answer is wrong" : "%o: Текущий ответ неправильный",
 		"%o: Every second of the timer" : "%o: Каждую секунду таймера",
 		"%o: Page %0 has been seen" : "%o: Страница %0 была просмотрена",
-		"%o: The quiz has been completed" : "%o: Викторина завершена",
+		"%o: The quiz has been completed" : "%o: викторина завершена",
 		"%o: Timer is equal to zero" : "%o: Таймер равен нулю",
 		"%s %i" : "%s %i",
 		"%s %i %s" : "%s %i %s",

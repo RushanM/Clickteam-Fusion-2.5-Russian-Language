@@ -30,7 +30,7 @@
 		"Opens a dialog box to edit the content of the popup menu" : "Открывает диалоговое окно для редактирования содержимого всплывающего меню.",
 		"Popup Menu" : "Всплывающие меню",
 		"Position" : "Позиция",
-		"SubMenu Index" : "Индекс саб-меню",
+		"SubMenu Index" : "Индекс подменю",
 		"Value" : "Значение"
 	},
 	"dialog_109" : {

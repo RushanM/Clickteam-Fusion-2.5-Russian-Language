@@ -132,7 +132,7 @@
 		"Keep file internal" : "Хранить внутренний файл",
 		"Keep file internal, you wont need an external file" : "Сохраняет файл во внутренней структуре, во внешнем файле более обходимости не будет.",
 		"Link text" : "Текст ссылки",
-		"Makes the object visible at start of frame" : "Сделать объект видимым при старте сцены",
+		"Makes the object visible at start of frame" : "Сделать объект видимым при запуске сцены",
 		"Makes the text unmodifiable" : "Делает текст не редактируемым",
 		"Multilevel UNDO" : "Много-уровневая отмена последних опреций",
 		"Name of RTF file" : "Название файла RTF",

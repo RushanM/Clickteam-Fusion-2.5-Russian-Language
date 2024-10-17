@@ -11,7 +11,7 @@
 		"Initial direction" : "Начальное направление",
 		"Initial speed" : "Начальная скорость",
 		"Move at start" : "Начать движение при запуске",
-		"Pinball movement" : "Движение «Пинбол»",
+		"Pinball movement" : "Движение пинбола",
 		"Please choose the intial direction of the object" : "Пожалуйста, выберите начальное направление объекта"
 	}
 }

@@ -1,8 +1,8 @@
 {
     "general": {
-        "%o: On animation finished": "%o — Анимация завершена",
-        "%o: On object loop": "%o — Прошёл цикл объекта",
-        "%o: On texture handle request": "%o — Запрошена обработка текстур",
+        "%o: On animation finished": "%o: анимация завершена",
+        "%o: On object loop": "%o: прошёл цикл объекта",
+        "%o: On texture handle request": "%o: запрошена обработка текстур",
         "Add object with sprite %0": "Добавить объект со спрайтом %0",
         "Add object...": "Добавить объект",
         "Addative": "Добавление",

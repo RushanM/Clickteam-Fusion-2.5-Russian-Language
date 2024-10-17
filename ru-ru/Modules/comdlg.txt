@@ -21,7 +21,7 @@
 		"10%s: Save Dialog - OK" : "10%s: Сохранить диалог - ОК",
 		"10%s: Show Open Dialog" : "10%s: Показать диалог открытия",
 		"10%s: Show Save Dialog" : "10%s: Показать диалог сохранения",
-		"11%s: Add Filter %s for %s" : "11%s: Добавить фильтр %s для %s",
+		"11%s: Add Filter %s for %s" : "11%s: добавить фильтр %s %s",
 		"11%s: Set Default Filename Extension to %s" : "11%s: Установить название расширения по умолчанию %s",
 		"11%s: Set Dialog Title to %s" : "11%s: Установить заголовок диалога %s",
 		"11%s: Set Filename to %s" : "11%s: Установить название файла %s",
