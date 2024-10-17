@@ -33,14 +33,14 @@
 		"Password String" : "Введите строковое значение пароля",
 		"Set timeout to %0 msecs." : "Установить время ожидания в %0 миллисекунд",
 		"timeout in millisecs." : "время ожидания в миллисекундах",
-		"Set user agent to %0" : "Установить user agent значение %0",
+		"Set user agent to %0" : "Установить пользовательскому агенту значение %0",
 		"User Agent String" : "Введите строковое значение user agent",
 		"On get complete" : "При успешном получении данных",
 		"Is get pending?" : "Данные ещё ожидаются?",
 		"On get timeout" : "Когда время ожидания истекло",
-		"%o: On get complete" : "%o: При успешном получении данных",
-		"%o: Get is pending" : "%o: При ожидании получения данных",
-		"%o: On get timeout" : "%o: Когда время ожидания истекло",
+		"%o: On get complete" : "%o: при успешном получении данных",
+		"%o: Get is pending" : "%o: при ожидании получения данных",
+		"%o: On get timeout" : "%o: когда время ожидания истекло",
 		"Get URL" : "Указать URL-адрес",
 		"Add POST data" : "Добавить данные POST",
 		"Special Config ..." : "Особая конфигурация",
@@ -48,6 +48,6 @@
 		"Set User" : "Установить пользователя",
 		"Set Password" : "Установить пароль",
 		"Set Timeout" : "Установить время ожидания",
-		"Set User Agent" : "Установить user agent"
+		"Set User Agent" : "Установить пользовательский агент"
 	}
 }
