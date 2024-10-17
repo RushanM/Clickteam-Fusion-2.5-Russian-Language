@@ -7,9 +7,10 @@ on:
         description: 'Ветка выпуска'
         required: true
         default: 'beta'
+        type: choice
         options:
-          - beta
-          - release
+          - 'beta'
+          - 'release'
   pull_request:
     paths:
       - 'ru-ru/**'
@@ -17,59 +18,54 @@ on:
     paths:
       - 'ru-ru/**'
 
+env:
+  REPO_NAME: ${{ github.repository }}
+  BASE_DIR: ru-ru
+
 jobs:
-  create_release:
+  release:
     runs-on: ubuntu-latest
 
     steps:
       - name: Клонирование репозитория
         uses: actions/checkout@v4
 
-      - name: Установка утилиты ZIP
-        run: sudo apt-get install -y zip
+      - name: Установка ветки выпуска
+        if: github.event_name == 'workflow_dispatch'
+        run: echo "release_type=${{ github.event.inputs.release_type }}" >> $GITHUB_ENV
 
-      - name: Определение тега и названия для следующего выпуска
-        id: get_tag
+      - name: Определение существующих тегов
+        id: tags
         run: |
-          git fetch --tags
-
-          # Получение последнего релизного и бета-тега
-          last_release_tag=$(git tag --list '[0-9]*' | sort -nr | head -n 1 || echo "0")
-          last_beta_tag=$(git tag --list 'B[0-9]*' | sed 's/^B//' | sort -nr | head -n 1 || echo "0")
-
-          # Определение ветки выпуска
-          release_type="${{ github.event.inputs.release_type }}"
-
-          if [ "$release_type" == "release" ]; then
-            next_tag=$((last_release_tag + 1))
-            release_name="${next_tag}-й выпуск"
-            file_tag=$next_tag
+          # Получаем все теги и сортируем их
+          tags=$(git tag --list)
+          if [[ "${{ env.release_type }}" == "beta" ]]; then
+            prefix="B"
           else
-            next_tag=$((last_beta_tag + 1))
-            release_name="${next_tag}-й бета-выпуск"
-            file_tag=B$next_tag
+            prefix=""
           fi
 
-          echo "next_tag=$file_tag" >> $GITHUB_ENV
-          echo "release_name=$release_name" >> $GITHUB_ENV
+          last_tag=$(echo "$tags" | grep "^$prefix" | sort -Vr | head -n 1)
+
+          if [ -z "$last_tag" ]; then
+            next_tag="${prefix}1"
+          else
+            next_tag="${prefix}$((${last_tag#$prefix} + 1))"
+          fi
+
+          echo "next_tag=$next_tag" >> $GITHUB_ENV
 
       - name: Архивация ru-ru
         run: |
-          zip -r "Fusion-2.5-Russian-Language-${{ env.next_tag }}.zip" ru-ru
+          zip -r Fusion-2.5-Russian-Language-${{ env.next_tag }}.zip $BASE_DIR
 
-      - name: Создание тега для выпуска
-        id: create_tag
-        run: |
-          git config user.name "GitHub Actions"
-          git config user.email "actions@github.com"
-          git tag ${{ env.next_tag }}
-          git push origin ${{ env.next_tag }}
-
-      - name: Создание выпуска на GitHub
+      - name: Создание выпуска
         uses: softprops/action-gh-release@v2
         with:
-          files: "Fusion-2.5-Russian-Language-${{ env.next_tag }}.zip"
-          name: "${{ env.release_name }}"
-          body: Автоматический выпуск.
+          tag_name: ${{ env.next_tag }}
+          files: Fusion-2.5-Russian-Language-${{ env.next_tag }}.zip
+          name: ${{ env.next_tag }}-й ${{ env.release_type == 'beta' && 'бета-' || '' }}выпуск
+          body: |
+            Автоматический ${{ env.release_type == 'beta' && 'бета-' || '' }}выпуск.
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
