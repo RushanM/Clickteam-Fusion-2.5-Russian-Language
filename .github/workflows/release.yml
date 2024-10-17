@@ -37,20 +37,18 @@ jobs:
       - name: Определение существующих тегов
         id: tags
         run: |
-          # Получаем все теги и сортируем их
           tags=$(git tag --list)
           if [[ "${{ env.release_type }}" == "beta" ]]; then
             prefix="B"
+            last_tag=$(echo "$tags" | grep "^$prefix" | sed "s/^$prefix//" | sort -Vr | head -n 1)
           else
-            prefix=""
+            last_tag=$(echo "$tags" | grep -E "^[0-9]+$" | sort -Vr | head -n 1)
           fi
 
-          last_tag=$(echo "$tags" | grep "^$prefix" | sort -Vr | head -n 1)
-
           if [ -z "$last_tag" ]; then
-            next_tag="${prefix}1"
+            next_tag="1"
           else
-            next_tag="${prefix}$((${last_tag#$prefix} + 1))"
+            next_tag="$(($last_tag + 1))"
           fi
 
           echo "next_tag=$next_tag" >> $GITHUB_ENV
@@ -62,9 +60,11 @@ jobs:
       - name: Создание выпуска
         uses: softprops/action-gh-release@v2
         with:
-          tag_name: ${{ env.next_tag }}
+          tag_name: |
+            ${{ env.release_type == 'beta' && 'B' || '' }}${{ env.next_tag }}
           files: Fusion-2.5-Russian-Language-${{ env.next_tag }}.zip
-          name: ${{ env.next_tag }}-й ${{ env.release_type == 'beta' && 'бета-' || '' }}выпуск
+          name: |
+            ${{ env.next_tag }}-й ${{ env.release_type == 'beta' && 'бета-' || '' }}выпуск
           body: |
             Автоматический ${{ env.release_type == 'beta' && 'бета-' || '' }}выпуск.
         env:
