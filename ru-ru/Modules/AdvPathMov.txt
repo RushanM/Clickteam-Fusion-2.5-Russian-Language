@@ -46,7 +46,7 @@
 		"Create paths with multiple branches where the player can chose to take the shortest route from their current position to a new position." : "Создание пути с несколькими переходами, где игрок может выбрать кратчайший путь от текущей позиции в новую позицию.",
 		"Decision flag" : "Определить флаг",
 		"File Directory" : "Каталог файла",
-		"Node ID" : "ID узла",
+		"Node ID" : "Идентификатор узла",
 		"Number of steps" : "Количество шагов",
 		"Object Speed ( 1: normal 2: fast 0.5: slow" : "Скорость объекта (1:Нормальная 2:Быстрая 0.5:Медленая)",
 		"Pause Movement" : "Поставить движение на паузу",
@@ -61,7 +61,7 @@
 		"Y Pixels" : "Y Пикселей",
 		"Y Position" : "Позиция Y",
 		"Y position" : "позиция Y",
-		"node ID" : "ID узла",
+		"node ID" : "Идентификатор узла",
 	},
 	"menu_20000" : {
 		"Add path node" : "Добавить узел пути",

@@ -17,7 +17,7 @@
 		"FGL - flash" : "FGL - flash",
 		"FGL Flash" : "FGL Flash",
 		"FGL Object for Flash. Provides special functionalities for FGL Ads in flash applications." : "FGL Объект для Flash. Обеспечивает специальные функции для FGL Ads в приложениях Flash.",
-		"Game Id (from FGL dashboard)" : "ID игры (в панели настроек FGL)",
+		"Game Id (from FGL dashboard)" : "Идентификатор игры (в панели настроек FGL)",
 		"Request Ad" : "Запрос Ad",
 		"Set Ad Delay to %0" : "Установить задержку Ad %0",
 		"Set Ad Size to %0" : "Установить размер Ad %0",

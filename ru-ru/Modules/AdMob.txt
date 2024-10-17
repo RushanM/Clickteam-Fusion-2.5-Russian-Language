@@ -39,23 +39,23 @@
 		"AdMob object V-2.00" : "Объект AdMob В-2.00",
 		"AdMob v2" : "AdMob v2",
 		"AdMob zOrder (0:Above, 1:Behind)" : "AdMob по Z оси (0: Перед, 1: Позади)",
-		"Android Banner ID. Comes from AdMob campaign dashboard." : "ID баннера Android. Находится в панели настроек компании AdMob.",
+		"Android Banner ID. Comes from AdMob campaign dashboard." : "Идентификатор баннера Android. Находится в панели настроек компании AdMob.",
 		"Android Interstitial ID. Comes from AdMob campaign dashboard." : "Интерстициальный ID Android. Находится в панели настроек компании AdMob.",
-		"Banner Id: " : "ID баннера",
+		"Banner Id: " : "Идентификатор баннера",
 		"Background Color" : "Цвет фона",
-		"Birthday String (e.g.: 20100122)" : "Строка даты рождения (например: 20100122)",
+		"Birthday String (e.g.: 20100122)" : "Строка даты рождения (например, «20100122»)",
 		"Border Color" : "Цвет границы",
 		"Bottom" : "Низ",
 		"Campaign for Android" : "Компания для Android",
 		"Campaign for iOS" : "Компания для iOS",
 		"Center" : "Центр",
-		"Check here, if you want to display the ads over the frame" : "Выберите эту опцию, чтобы показать AdMob поверх фрейма",
+		"Check here, if you want to display the ads over the frame" : "Выберите эту опцию, чтобы показать AdMob поверх сцены",
 		"Devices list: " : "Список устройств",
-		"Display Overframe " : "Показать на фрейме",
+		"Display Overframe " : "Показать на сцене",
 		"Full" : "Полный",
-		"Gender (0: Unknown, 1: Male, 1: Female)" : "Пол (0: Не указан, 1: Муж., 1: Жен.)",
-		"Information for Ads configuration" : "Информация для настройки Ad баннера",
-		"Interstitial Id: " : "ID интерстициального Ad баннера",
+		"Gender (0: Unknown, 1: Male, 1: Female)" : "Пол (0: неизвестный, 1: мужской, 1: женский)",
+		"Information for Ads configuration" : "Информация для настройки рекламного баннера",
+		"Interstitial Id: " : "Идентификатор интерстициального рекламного баннера",
 		"Latitude" : "Широта",
 		"Leaderboard" : "Таблица результатов",
 		"Link Color" : "Цвет ссылки",
@@ -77,7 +77,7 @@
 		"Text Color" : "Цвет текста",
 		"Top" : "Вверху",
 		"URL Color" : "Цвет URL",
-		"iOS Banner ID. Comes from AdMob campaign dashboard" : "ID баннера iOS. Находится в панели настроек компании AdMob.",
+		"iOS Banner ID. Comes from AdMob campaign dashboard" : "Идентификатор баннера iOS. Находится в панели настроек компании AdMob.",
 		"iOS Interstitial ID. Comes from AdMob campaign dashboard" : "Интерстициальный ID iOS. Находится в панели настроек компании AdMob."
 	},
 	"menu_20000" : {
@@ -115,7 +115,7 @@
 		"On Return from Ad" : "При возвращении в приложение из Ad баннера"
 	},
 	"menu_20002" : {
-		"Device Id for AdMob" : "ID устройства для AdMob",
+		"Device Id for AdMob" : "Идентификатор устройства для AdMob",
 		"Last Error" : "Последняя ошибка"
 	}
 }

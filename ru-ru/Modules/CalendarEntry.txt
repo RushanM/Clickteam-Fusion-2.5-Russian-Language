@@ -81,7 +81,7 @@
 		"All Calendars" : "Все календари",
 		"All Events Saved" : "Все сохранённые события",
 		"All Events of a Calendar" : "Все события календаря",
-		"An Event Id" : "ID события",
+		"An Event Id" : "Идентификатор события",
 		"Create a Local Calendar" : "Создать локальный календарь",
 		"Delete ..." : "Удалить…",
 		"Do Event Entry" : "Запись о событии",

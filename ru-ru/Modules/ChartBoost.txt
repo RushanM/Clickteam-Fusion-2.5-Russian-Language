@@ -36,7 +36,7 @@
 		"App ID uniquely identifies your app on the network. Comes from ChartBoost dashboard" : "App ID идентифицирует ID вашего приложения в сети. Находится в панели настроек ChartBoost",
 		"App Signature uniquely identifies your app on the network. Each app has it's own pair that remains the same for the lifetime of the app." : "App Signature идентифицирует подпись вашего приложения в сети. Каждое приложение имеет свою собственную пару, которая остается неизменной в течение всего срока существования приложения.",
 		"App Signature: " : "Подпись приложения: ",
-		"Application Id: " : "ID приложения: ",
+		"Application Id: " : "Идентификатор приложения: ",
 		"Cache InPlay with location %0" : "Кэш в игре (InPlay) с позицией %0",
 		"Cache Interstitial with location %0" : "Кэш интерстициального с позицией %0",
 		"Cache More Apps with location %0" : "Кэш других приложений с позицией %0",

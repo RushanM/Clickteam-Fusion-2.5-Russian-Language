@@ -5,7 +5,7 @@
 		"%o: is visible" : "%o: видимый",
 		"Active Backdrop" : "Актив-фон",
 		"Changeable backdrop object" : "Изменяемый объект фона.",
-		"Check this box to make the object visible at start of frame" : "Выберите эту опцию чтобы объект был видимым при старте фрейма",
+		"Check this box to make the object visible at start of frame" : "Выберите эту опцию чтобы объект был видимым при запуске сцены",
 		"Click on the edit button to add/change the images" : "Нажмите на кнопку редактировать, чтобы добавить/изменить изображения",
 		"Enter the X coordinate" : "Введите координату Х",
 		"Enter the Y coordinate" : "Введите координату Y",

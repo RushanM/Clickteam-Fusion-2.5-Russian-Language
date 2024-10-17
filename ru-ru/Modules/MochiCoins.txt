@@ -10,7 +10,7 @@
 		"Consumable name" : "Название расхода",
 		"Decrement consumable %0" : "Уменьшенный расход %0",
 		"Increment consumable %0" : "Увеличенный расход %0",
-		"Item ID" : "ID элемента",
+		"Item ID" : "Идентификатор элемента",
 		"Item tag or unique ID" : "Тег элемента или уникальный ID",
 		"Mochi Coins" : "Mochi - Монеты",
 		"Obsolete. This object is provided for compatibility reasons only." : "Устаревшее. Этот объект предоставляется только в целях совместимости.",

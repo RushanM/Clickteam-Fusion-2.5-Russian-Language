@@ -10,7 +10,7 @@
 		"Defines the ground of the playfield" : "Определяет землю на сцене",
 		"Direction" : "Направление",
 		"Elasticity" : "Эластичность",
-		"Engine ID" : "ID Физического движка",
+		"Engine ID" : "Идентификатор Физического движка",
 		"Enter the elasticity parameter of the ground." : "Введите параметр эластичности земли",
 		"Enter the friction parameter of the ground." : "Введите параметр трения земли",
 		"Enter the identifier of the engine to use for the ground." : "Введите идентификатор физического двигателя для его использования.",

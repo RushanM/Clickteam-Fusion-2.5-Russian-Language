@@ -4,7 +4,7 @@
 	"general" : {
 		"%o : On leaderboard closed" : "%o : Закрытие таблицы результатов",
 		"%o : On leaderboard displayed" : "%o : Открытие таблицы результатов",
-		"Leaderboard ID" : "ID таблицы результатов",
+		"Leaderboard ID" : "Идентификатор таблицы результатов",
 		"Mochi Scores" : "Mochi - Очки",
 		"Name" : "Имя",
 		"Obsolete. This object is provided for compatibility reasons only." : "Устаревшее. Этот объект предоставляется только в целях совместимости.",

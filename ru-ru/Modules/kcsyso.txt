@@ -28,9 +28,9 @@
 		"&Environment Variable" : "Переменная среда",
 		"&Windows Version (index)" : "Версия Windows (индекс)",
 		"Computer &Name" : "Имя компьютера",
-		"System Default &Language ID" : "ID Языка системы по умолчанию",
+		"System Default &Language ID" : "Идентификатор Языка системы по умолчанию",
 		"System Default &Language Name" : "Название языка системы по умолчанию",
-		"User Default L&anguage ID" : "ID Языка пользователя по умолчанию",
+		"User Default L&anguage ID" : "Идентификатор Языка пользователя по умолчанию",
 		"User Default L&anguage Name" : "Название языка пользователя по умолчанию",
 		"User Na&me" : "Имя пользователя",
 		"Windows Version (text)" : "Версия Windows (текст)"

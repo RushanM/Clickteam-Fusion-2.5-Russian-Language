@@ -17,7 +17,7 @@
 		"Destination Dir" : "Каталог назначения",
 		"Directory String (optional)" : "Строка каталога (опционально)",
 		"Download File %0, to dir %1 with name %2" : "Загрузить файл %0, в каталог %1 с именем %2",
-		"Element ID, ejem: HTML=1" : "ID элемента, ejem: HTML=1",
+		"Element ID, ejem: HTML=1" : "Идентификатор элемента, ejem: HTML=1",
 		"Execute Function %0" : "Выполнить функцию %0",
 		"Execute Snippet=%0 with Arguments=%1" : "Выполнить фрагмент %0 с аргументами %1",
 		"Fernando Vivolo: Windows, Android" : "Fernando Vivolo: Windows, Android",

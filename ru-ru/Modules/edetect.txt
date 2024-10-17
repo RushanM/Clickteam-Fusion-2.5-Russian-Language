@@ -4,8 +4,8 @@
 	"general" : {
 		"%o On Detect" : "%o При обнаружении",
 		"Detect overlaps %0 , %1 pixels from the object for detector number %2" : "Обнаруживать перекрытие X=%0 , Y=%1 пикс. от объекта для детектора %2",
-		"Detector ID" : "ID детектора",
-		"Detector id" : "ID детектора",
+		"Detector ID" : "Идентификатор детектора",
+		"Detector id" : "Идентификатор детектора",
 		"Detector number %0 is overlaping an obscale" : "Детектор номер: %0 перекрывает препятствие",
 		"Easy Detector" : "Лёгкий детектор",
 		"Object is overlapping an obscale" : "Объект перекрывает препятствие",
@@ -26,7 +26,7 @@
 	},
 	"menu_20002" : {
 		"On detection" : "При обнаружении",
-		"Detector ID" : "ID детектора",
+		"Detector ID" : "Идентификатор детектора",
 	}
 }
 
