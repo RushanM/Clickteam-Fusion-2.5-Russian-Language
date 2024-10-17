@@ -59,6 +59,13 @@ jobs:
         run: |
           zip -r "Fusion-2.5-Russian-Language-${{ env.next_tag }}.zip" ru-ru
 
+      - name: Создание тега для выпуска
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git tag ${{ env.next_tag }}
+          git push origin ${{ env.next_tag }}
+
       - name: Создание выпуска на GitHub
         uses: softprops/action-gh-release@v2
         with:
