@@ -35,7 +35,7 @@ jobs:
       - name: Просмотр текущих тегов
         run: git tag --list
 
-      - name: Определение тега и названия для следующего выпуска
+      - name: Получение последнего релизного и бета-тега
         id: get_tag
         run: |
           git fetch --tags
@@ -68,6 +68,7 @@ jobs:
           zip -r "Fusion-2.5-Russian-Language-${{ env.next_tag }}.zip" ru-ru
 
       - name: Создание тега для выпуска
+        id: create_tag
         run: |
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
@@ -80,7 +81,6 @@ jobs:
         with:
           files: "Fusion-2.5-Russian-Language-${{ env.next_tag }}.zip"
           name: "${{ env.release_name }}"
-          body: |
-            Автоматический выпуск.
+          body: Автоматический выпуск.
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
