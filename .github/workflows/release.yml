@@ -35,7 +35,7 @@ jobs:
         run: echo "release_type=${{ github.event.inputs.release_type }}" >> $GITHUB_ENV
 
       - name: Определение существующих тегов
-        id: tags
+        id: determine-tags
         run: |
           tags=$(git tag --list)
           
@@ -53,6 +53,17 @@ jobs:
           fi
 
           echo "next_tag=$next_tag" >> $GITHUB_ENV
+
+      - name: Проверка существующего выпуска с таким тегом
+        id: check-release
+        run: |
+          release_exists=$(gh release view ${{ env.release_type == 'beta' && 'B' || '' }}${{ env.next_tag }} --json tagName --jq '.tagName' || echo "not_found")
+          
+          if [[ "$release_exists" != "not_found" ]]; then
+            echo "Релиз с тегом $release_exists уже существует. Увеличиваем тег."
+            next_tag="$((${{ env.next_tag }} + 1))"
+            echo "next_tag=$next_tag" >> $GITHUB_ENV
+          fi
 
       - name: Архивация ru-ru
         run: |
