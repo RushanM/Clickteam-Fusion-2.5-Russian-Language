@@ -42,7 +42,9 @@ jobs:
           last_beta_tag=$(git tag --list 'B[0-9]*' | sed 's/^B//' | sort -nr | head -n 1 || echo "0")
 
           # Определение ветки выпуска
-          if [ "${{ github.event.inputs.release_type }}" == "release" ]; then
+          release_type="${RELEASE_TYPE:-${GITHUB_EVENT_PATH:=$(jq -r .inputs.release_type < $GITHUB_EVENT_PATH) || echo 'beta'}}"
+
+          if [ "$release_type" == "release" ]; then
             next_tag=$((last_release_tag + 1))
             release_name="${next_tag}-й выпуск"
             file_tag=$next_tag
@@ -54,6 +56,9 @@ jobs:
 
           echo "next_tag=$file_tag" >> $GITHUB_ENV
           echo "release_name=$release_name" >> $GITHUB_ENV
+
+        env:
+          RELEASE_TYPE: ${{ github.event.inputs.release_type }}
 
       - name: Архивация ru-ru
         run: |
