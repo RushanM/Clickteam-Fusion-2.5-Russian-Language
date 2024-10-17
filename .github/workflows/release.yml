@@ -46,77 +46,115 @@ jobs:
             echo "Event: Other. Set release_type to release."
           fi
 
-      - name: Определение существующих тегов
-        id: determine-tags
+      - name: Определение следующей релизной версии
+        id: determine-next-release
         run: |
-          tags=$(git tag --list)
+          last_release_tag=$(git tag --list | grep -E '^[0-9]+$' | sort -V | tail -n 1)
           
+          if [ -z "$last_release_tag" ]; then
+            echo "last_release_tag не найден. Используем 0."
+            last_release_tag=0
+          fi
+          
+          next_release_number=$((last_release_tag + 1))
+          echo "next_release_number=$next_release_number" >> $GITHUB_ENV
+          echo "Следующий номер релизной версии: $next_release_number"
+
+      - name: Определение следующего тега
+        id: determine-tag
+        run: |
           if [[ "${{ env.release_type }}" == "beta" ]]; then
-            prefix="B"
-            last_tag=$(echo "$tags" | grep "^$prefix" | sed "s/^$prefix//" | sort -V | tail -n 1)
+            base_release_number=${{ env.next_release_number }}
+            
+            # Поиск существующих бета-тегов для базовой релизной версии
+            existing_beta_tags=$(git tag --list "${base_release_number}-B*" )
+            
+            if [ -z "$existing_beta_tags" ]; then
+              beta_number=1
+            else
+              max_beta=$(echo "$existing_beta_tags" | sed -E "s/${base_release_number}-B([0-9]+)/\1/" | sort -n | tail -n1)
+              beta_number=$((max_beta + 1))
+            fi
+            
+            next_tag="${base_release_number}-B${beta_number}"
+            echo "next_tag=${next_tag}" >> $GITHUB_ENV
+            echo "Следующий тег для бета-выпуска: $next_tag"
           else
-            last_tag=$(echo "$tags" | grep -E "^[0-9]+$" | sort -V | tail -n 1)
+            next_tag="${{ env.next_release_number }}"
+            echo "next_tag=${next_tag}" >> $GITHUB_ENV
+            echo "Следующий тег для релизного выпуска: $next_tag"
           fi
-
-          if [ -z "$last_tag" ]; then
-            next_tag="1"
-          else
-            next_tag="$(($last_tag + 1))"
-          fi
-
-          echo "next_tag=$next_tag" >> $GITHUB_ENV
-          echo "Следующий тег определён: $next_tag"
 
       - name: Проверка существующего выпуска с таким тегом
         id: check-release
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          if [[ "${{ env.release_type }}" == "beta" ]]; then
-            tag="B${{ env.next_tag }}"
-          else
-            tag="${{ env.next_tag }}"
-          fi
-
+          tag="${{ env.next_tag }}"
           echo "Проверка существования релиза с тегом: $tag"
           release_exists=$(gh release view "$tag" --json tagName --jq '.tagName' || echo "not_found")
           
           if [[ "$release_exists" != "not_found" ]]; then
             echo "Релиз с тегом $release_exists уже существует. Увеличиваем тег."
-            next_tag="$(( ${{ env.next_tag }} + 1 ))"
-            echo "next_tag=$next_tag" >> $GITHUB_ENV
+            if [[ "${{ env.release_type }}" == "beta" ]]; then
+              IFS='-' read -r base release_num <<< "$tag"
+              beta_num=$(echo "$release_num" | sed -E "s/B([0-9]+)/\1/")
+              new_beta_num=$((beta_num + 1))
+              new_tag="${base}-B${new_beta_num}"
+              echo "new_tag=${new_tag}" >> $GITHUB_ENV
+              echo "Новый тег после увеличения: $new_tag"
+            else
+              new_tag=$((tag + 1))
+              echo "new_tag=${new_tag}" >> $GITHUB_ENV
+              echo "Новый тег после увеличения: $new_tag"
+            fi
           else
             echo "Релиз с тегом $tag не найден."
           fi
 
-      - name: Дополнительная проверка существования после увеличения тега
-        if: env.next_tag != ${{ env.next_tag }}
+      - name: Повторная проверка существования после увеличения тега
+        if: env.new_tag != ''
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          if [[ "${{ env.release_type }}" == "beta" ]]; then
-            tag="B${{ env.next_tag }}"
-          else
-            tag="${{ env.next_tag }}"
-          fi
-
+          tag="${{ env.new_tag }}"
           echo "Повторная проверка релиза с тегом: $tag"
           release_exists=$(gh release view "$tag" --json tagName --jq '.tagName' || echo "not_found")
           
           if [[ "$release_exists" != "not_found" ]]; then
             echo "Релиз с тегом $release_exists уже существует. Увеличиваем тег снова."
-            next_tag="$(( ${{ env.next_tag }} + 1 ))"
-            echo "next_tag=$next_tag" >> $GITHUB_ENV
+            if [[ "${{ env.release_type }}" == "beta" ]]; then
+              IFS='-' read -r base release_num <<< "$tag"
+              beta_num=$(echo "$release_num" | sed -E "s/B([0-9]+)/\1/")
+              new_beta_num=$((beta_num + 1))
+              new_tag="${base}-B${new_beta_num}"
+              echo "new_tag=${new_tag}" >> $GITHUB_ENV
+              echo "Новый тег после повторного увеличения: $new_tag"
+            else
+              new_tag=$((tag + 1))
+              echo "new_tag=${new_tag}" >> $GITHUB_ENV
+              echo "Новый тег после повторного увеличения: $new_tag"
+            fi
           else
             echo "Релиз с тегом $tag не найден после увеличения."
+          fi
+
+      - name: Установка окончательного тега
+        run: |
+          if [ -n "${{ env.new_tag }}" ]; then
+            echo "Используем тег: ${{ env.new_tag }}"
+            echo "final_tag=${{ env.new_tag }}" >> $GITHUB_ENV
+          else
+            echo "Используем тег: ${{ env.next_tag }}"
+            echo "final_tag=${{ env.next_tag }}" >> $GITHUB_ENV
           fi
 
       - name: Архивация ru-ru
         run: |
           if [[ "${{ env.release_type }}" == "beta" ]]; then
-            archive_name="Fusion-2.5-Russian-Language-B${{ env.next_tag }}.zip"
+            archive_name="Fusion-2.5-Russian-Language-${{ env.final_tag }}.zip"
           else
-            archive_name="Fusion-2.5-Russian-Language-${{ env.next_tag }}.zip"
+            archive_name="Fusion-2.5-Russian-Language-${{ env.final_tag }}.zip"
           fi
           echo "Создание архива: $archive_name"
           zip -r "$archive_name" "$BASE_DIR"
@@ -124,10 +162,18 @@ jobs:
       - name: Создание выпуска
         uses: softprops/action-gh-release@v2
         with:
-          tag_name: ${{ env.release_type == 'beta' && 'B' || '' }}${{ env.next_tag }}
-          files: Fusion-2.5-Russian-Language-${{ env.release_type == 'beta' && 'B' || '' }}${{ env.next_tag }}.zip
-          name: "${{ env.next_tag }}-й ${{ env.release_type == 'beta' && 'бета-' || '' }}выпуск"
-          body: "Автоматический ${{ env.release_type == 'beta' && 'бета-' || '' }}выпуск."
+          tag_name: ${{ env.final_tag }}
+          files: Fusion-2.5-Russian-Language-${{ env.final_tag }}.zip
+          name: >
+            ${{ 
+              if (env.release_type == 'beta') { 
+                split(env.final_tag, '-')[1] + '-я бета-версия ' + split(env.final_tag, '-')[0] + '-го выпуска' 
+              } else { 
+                split(env.final_tag, '-')[0] + '-й выпуск' 
+              } 
+            }}
+          body: >
+            Автоматический ${{ env.release_type == 'beta' && 'бета-' || '' }}выпуск.
           prerelease: ${{ env.release_type == 'beta' }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
