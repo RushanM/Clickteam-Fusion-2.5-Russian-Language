@@ -149,6 +149,23 @@ jobs:
             echo "final_tag=${{ env.next_tag }}" >> $GITHUB_ENV
           fi
 
+      - name: Формирование названия релиза
+        id: release-name
+        run: |
+          if [[ "${{ env.release_type }}" == "beta" ]]; then
+            if [[ "${{ env.final_tag }}" =~ ^([0-9]+)-B([0-9]+)$ ]]; then
+              base_release=${BASH_REMATCH[1]}
+              beta_num=${BASH_REMATCH[2]}
+              release_name="${beta_num}-я бета-версия ${base_release}-го выпуска"
+            else
+              release_name="${{ env.final_tag }}-й бета-выпуск"
+            fi
+          else
+            release_name="${{ env.final_tag }}-й выпуск"
+          fi
+          echo "release_name=$release_name" >> $GITHUB_ENV
+          echo "Название релиза: $release_name"
+
       - name: Архивация ru-ru
         run: |
           if [[ "${{ env.release_type }}" == "beta" ]]; then
@@ -164,16 +181,8 @@ jobs:
         with:
           tag_name: ${{ env.final_tag }}
           files: Fusion-2.5-Russian-Language-${{ env.final_tag }}.zip
-          name: >
-            ${{ 
-              if (env.release_type == 'beta') { 
-                split(env.final_tag, '-')[1] + '-я бета-версия ' + split(env.final_tag, '-')[0] + '-го выпуска' 
-              } else { 
-                split(env.final_tag, '-')[0] + '-й выпуск' 
-              } 
-            }}
-          body: >
-            Автоматический ${{ env.release_type == 'beta' && 'бета-' || '' }}выпуск.
+          name: "${{ env.release_name }}"
+          body: "Автоматический ${{ env.release_type == 'beta' && 'бета-' || '' }}выпуск."
           prerelease: ${{ env.release_type == 'beta' }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
