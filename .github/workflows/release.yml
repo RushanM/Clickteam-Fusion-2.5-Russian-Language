@@ -33,8 +33,18 @@ jobs:
           fetch-depth: 0
 
       - name: Установка ветки выпуска
-        if: github.event_name == 'workflow_dispatch'
-        run: echo "release_type=${{ github.event.inputs.release_type }}" >> $GITHUB_ENV
+        id: set-release-type
+        run: |
+          if [[ "${{ github.event_name }}" == "push" && "${{ github.ref }}" == "refs/heads/main" ]]; then
+            echo "release_type=beta" >> $GITHUB_ENV
+            echo "Event: Push to main branch. Set release_type to beta."
+          elif [[ "${{ github.event_name }}" == "workflow_dispatch" ]]; then
+            echo "release_type=${{ github.event.inputs.release_type }}" >> $GITHUB_ENV
+            echo "Event: Workflow dispatch. Set release_type to ${{ github.event.inputs.release_type }}."
+          else
+            echo "release_type=release" >> $GITHUB_ENV
+            echo "Event: Other. Set release_type to release."
+          fi
 
       - name: Определение существующих тегов
         id: determine-tags
@@ -55,33 +65,50 @@ jobs:
           fi
 
           echo "next_tag=$next_tag" >> $GITHUB_ENV
+          echo "Следующий тег определён: $next_tag"
 
       - name: Проверка существующего выпуска с таким тегом
         id: check-release
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          tag="${{ env.release_type == 'beta' && 'B' || '' }}${{ env.next_tag }}"
+          if [[ "${{ env.release_type }}" == "beta" ]]; then
+            tag="B${{ env.next_tag }}"
+          else
+            tag="${{ env.next_tag }}"
+          fi
+
+          echo "Проверка существования релиза с тегом: $tag"
           release_exists=$(gh release view "$tag" --json tagName --jq '.tagName' || echo "not_found")
           
           if [[ "$release_exists" != "not_found" ]]; then
             echo "Релиз с тегом $release_exists уже существует. Увеличиваем тег."
-            next_tag="$((${{ env.next_tag }} + 1))"
+            next_tag="$(( ${{ env.next_tag }} + 1 ))"
             echo "next_tag=$next_tag" >> $GITHUB_ENV
+          else
+            echo "Релиз с тегом $tag не найден."
           fi
 
-      - name: Повторная проверка существования после увеличения тега
-        if: steps.check-release.outputs.release_exists != 'not_found'
+      - name: Дополнительная проверка существования после увеличения тега
+        if: env.next_tag != ${{ env.next_tag }}
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          tag="${{ env.release_type == 'beta' && 'B' || '' }}${{ env.next_tag }}"
+          if [[ "${{ env.release_type }}" == "beta" ]]; then
+            tag="B${{ env.next_tag }}"
+          else
+            tag="${{ env.next_tag }}"
+          fi
+
+          echo "Повторная проверка релиза с тегом: $tag"
           release_exists=$(gh release view "$tag" --json tagName --jq '.tagName' || echo "not_found")
           
           if [[ "$release_exists" != "not_found" ]]; then
             echo "Релиз с тегом $release_exists уже существует. Увеличиваем тег снова."
-            next_tag="$((${{ env.next_tag }} + 1))"
+            next_tag="$(( ${{ env.next_tag }} + 1 ))"
             echo "next_tag=$next_tag" >> $GITHUB_ENV
+          else
+            echo "Релиз с тегом $tag не найден после увеличения."
           fi
 
       - name: Архивация ru-ru
@@ -91,6 +118,7 @@ jobs:
           else
             archive_name="Fusion-2.5-Russian-Language-${{ env.next_tag }}.zip"
           fi
+          echo "Создание архива: $archive_name"
           zip -r "$archive_name" "$BASE_DIR"
 
       - name: Создание выпуска
@@ -100,5 +128,6 @@ jobs:
           files: Fusion-2.5-Russian-Language-${{ env.release_type == 'beta' && 'B' || '' }}${{ env.next_tag }}.zip
           name: "${{ env.next_tag }}-й ${{ env.release_type == 'beta' && 'бета-' || '' }}выпуск"
           body: "Автоматический ${{ env.release_type == 'beta' && 'бета-' || '' }}выпуск."
+          prerelease: ${{ env.release_type == 'beta' }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
