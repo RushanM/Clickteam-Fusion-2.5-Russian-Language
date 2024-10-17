@@ -38,11 +38,12 @@ jobs:
         id: tags
         run: |
           tags=$(git tag --list)
+          
           if [[ "${{ env.release_type }}" == "beta" ]]; then
             prefix="B"
-            last_tag=$(echo "$tags" | grep "^$prefix" | sed "s/^$prefix//" | sort -Vr | head -n 1)
+            last_tag=$(echo "$tags" | grep "^$prefix" | sed "s/^$prefix//" | sort -V | tail -n 1)
           else
-            last_tag=$(echo "$tags" | grep -E "^[0-9]+$" | sort -Vr | head -n 1)
+            last_tag=$(echo "$tags" | grep -E "^[0-9]+$" | sort -V | tail -n 1)
           fi
 
           if [ -z "$last_tag" ]; then
@@ -55,14 +56,20 @@ jobs:
 
       - name: Архивация ru-ru
         run: |
-          zip -r Fusion-2.5-Russian-Language-${{ env.next_tag }}.zip $BASE_DIR
+          if [[ "${{ env.release_type }}" == "beta" ]]; then
+            archive_name="Fusion-2.5-Russian-Language-B${{ env.next_tag }}.zip"
+          else
+            archive_name="Fusion-2.5-Russian-Language-${{ env.next_tag }}.zip"
+          fi
+          zip -r $archive_name $BASE_DIR
 
       - name: Создание выпуска
         uses: softprops/action-gh-release@v2
         with:
           tag_name: |
             ${{ env.release_type == 'beta' && 'B' || '' }}${{ env.next_tag }}
-          files: Fusion-2.5-Russian-Language-${{ env.next_tag }}.zip
+          files: |
+            Fusion-2.5-Russian-Language-${{ env.release_type == 'beta' && 'B' || '' }}${{ env.next_tag }}.zip
           name: |
             ${{ env.next_tag }}-й ${{ env.release_type == 'beta' && 'бета-' || '' }}выпуск
           body: |
