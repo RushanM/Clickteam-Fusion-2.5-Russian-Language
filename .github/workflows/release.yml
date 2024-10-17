@@ -1,16 +1,6 @@
 name: Выпуск
 
 on:
-  push:
-    branches:
-      - main
-    paths:
-      - 'ru_ru/**'
-  pull_request:
-    branches:
-      - main
-    paths:
-      - 'ru_ru/**'
   workflow_dispatch:
     inputs:
       release_type:
@@ -18,8 +8,14 @@ on:
         required: true
         default: 'beta'
         options:
-          - release
           - beta
+          - release
+  pull_request:
+    paths:
+      - 'ru-ru/**'
+  push:
+    paths:
+      - 'ru-ru/**'
 
 jobs:
   create_release:
