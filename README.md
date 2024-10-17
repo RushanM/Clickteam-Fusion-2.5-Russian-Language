@@ -89,6 +89,15 @@
 * [**Глеб Капустин**](https://github.com/GKProduction): подал множество идей и исправлений по поводу перевода
 * [**Даниил Струц**](https://github.com/RedmanEXE): позволил решить одну из проблем несовместимости перевода с системой
 
+## Материальная поддержка
+
+Если моя работа нравится вам настолько, что вы готовы поблагодарить меня деньгами, можно сделать это по следующим ссылкам:
+
+* [Boosty](https://boosty.to/rushanm)
+* [VK Pay](https://vk.me/moneysend/deflecta)
+* [Donation Alerts](https://www.donationalerts.com/r/deflecta)
+* [ЮMoney](https://yoomoney.ru/to/410015215253910)
+
 ## На других ресурсах
 
 * [Game Jolt](https://gamejolt.com/games/fusion-ru/625501)
