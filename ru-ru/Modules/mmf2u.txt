@@ -2264,7 +2264,7 @@
 		"Output.prn": "Output.prn",
 		"Overlapping a backdrop": "Перекрывает фон",
 		"Overlapping another object": "Перекрывает другой объект",
-		"Overrides Enabled property of the application.": "Переопределяет свойство приложения: Включено",
+		"Overrides Enabled property of the application.": "Переопределяет свойство приложения: включено",
 		"Overrides Visible property of the application.": "Переопределяет свойство приложения: Видимый",
 		"PS Vita Options": "Параметры PS Vita",
 		"PS Vita application (*.sln)|*.sln|All Files (*.*)|*.*||": "Приложение PS VIta (*.sln)|*.sln|Все файлы(*.*)|*.*||",

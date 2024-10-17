@@ -33,7 +33,7 @@
 		"02Insert line %s at line %s" : "Вставить строку %1 на строку %0",
 		"1-based index" : "Идентификатор начинается с 1",
 		"10%s: Double clicked" : "%o: Двойной клик",
-		"10%s: Enable" : "%o: Включить",
+		"10%s: Enable" : "%o: включить",
 		"10%s: Has Focus" : "%o: Имеет фокус",
 		"10%s: Selection changed" : "%o: Выбор изменён",
 		"10%s: Visible" : "%o: Видимый",

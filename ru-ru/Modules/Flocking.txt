@@ -14,7 +14,7 @@
 		"Attract all boids of type %0 towards (%1,%2) weight: %3" : "Привлечь всю стаю с типом %0 к (%1,%2) с скоплением: %3",
 		"Attract all boids of type %0 towards (%1,%2) within radius %3 weight: %4" : "Привлечь всю стаю с типом %0 к (%1,%2) с радиусом %3 и с скоплением: %4",
 		"Avoid obstacles" : "Избегать препятствий",
-		"Avoid obstacles? (0=NO, 1=YES)" : "Избегать препятствий? (0: Нет, 1: Да)",
+		"Avoid obstacles? (0=NO, 1=YES)" : "Избегать препятствий? (0: нет, 1: да)",
 		"Avoidance radius" : "Радиус уклонения",
 		"Best if slightly bigger than the view radius of the most common boid-type." : "Чуть больше, чем радиус обзора наиболее распространённый тип стаи.",
 		"Boid %0: Set acceleration: %1" : "Стая %0: Установить ускорение: %1",

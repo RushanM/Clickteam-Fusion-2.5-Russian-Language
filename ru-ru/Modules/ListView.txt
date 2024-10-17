@@ -13,7 +13,7 @@
 		"%o: Disable" : "%o: Отключить",
 		"%o: Double click" : "%o: Двойной клик",
 		"%o: Edit item at line %0, column %1" : "%o: Редактировать элемент в строке %0, столбце %1",
-		"%o: Enable" : "%o: Включить",
+		"%o: Enable" : "%o: включить",
 		"%o: Hide" : "%o: Скрыть",
 		"%o: Insert column %1 at position %0, size %2, alignement %3" : "%o: Вставить столбец %1 на позицию %0, размер %2, выравнивание %3",
 		"%o: Is object enabled?" : "%o: Объект включён?",

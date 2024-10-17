@@ -31,7 +31,7 @@
 		"01Set Object Y offset to %s" : "01Установить смещение объекта по Y на: %s пикс.",
 		"01Set Object speed to %s" : "01Установить скорость объекта: %s",
 		"01Set object X offset to %s" : "01Установить смещение объекта по X на: %s пикс.",
-		"1 = Yes 0 = No" : "1: Да, 0: Нет",
+		"1 = Yes 0 = No" : "1: да, 0: нет",
 		"10%sHas reached the end of the journey?" : "10%sДостиг конца путешествия?",
 		"10%sHas touched a new node ?" : "10%sЗадел новый узел?",
 		"10%sIs moving ?" : "10%sДвижется?",

@@ -5,7 +5,7 @@
 		"10%s: Comparisons are case insensitive" : "10%s: При сравнении регистр не учитывается.",
 		"10%s: Comparisons are case sensitive" : "10%s: При сравнении учитывается регистр",
 		"10%s: Disable wildcards" : "10%s: Отключить подстановочные знаки",
-		"10%s: Enable wildcards" : "10%s: Включить подстановочные знаки",
+		"10%s: Enable wildcards" : "10%s: включить подстановочные знаки",
 		"10%s: Reset delimiters" : "10%s: Сбросить разделители",
 		"11%s: Add delimiter %s" : "11%s: Добавить разделитель %s",
 		"11%s: Append from file %s" : "11%s: Добавить из файла %s",

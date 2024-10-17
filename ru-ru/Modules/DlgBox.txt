@@ -13,7 +13,7 @@
 		"%o: Is %0 visible" : "%o: %0 Видимый?",
 		"%o: Is Maximized" : "%o: Развёрнуто?",
 		"%o: Is Minimized" : "%o: Свёрнуто?",
-		"%o: Is enabled" : "%o: Включено?",
+		"%o: Is enabled" : "%o: включено?",
 		"%o: Is opened" : "%o: Открыт?",
 		"%o: Is visible" : "%o: Видимый?",
 		"%o: Maximize button pressed" : "%o: Развернуть, если нажата кнопка",
