@@ -53,7 +53,7 @@
 		"Export as text" : "Экспортировать в виде текста",
 		"Find" : "Найти",
 		"Find occurrences of %s in all applications..." : "Найти запросы %s во всех приложениях...",
-		"Find occurrences of %s in all frames of current application..." : "Найти запросы %s во всех фреймах текущего приложения",
+		"Find occurrences of %s in all frames of current application..." : "Найти запросы %s во всех сценых текущего приложения",
 		"Find occurrences of %s in current frame..." : "Найти совпадения %s в текущем фрейме",
 		"Frame events" : "События сцены",
 		"Frame events, Behaviors, Global events" : "События сцены, поведения, глобальные события",

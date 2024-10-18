@@ -27,7 +27,7 @@
 		"01Set title to %s" : "Установить заголовок %0 для окна приложения",
 		"01Set vertical position to %s" : "Установить вертикальную позицию %0",
 		"01Set vertical size to %s" : "Установить высоту окна на %0",
-		"1 = adjust frame size, 0 = do not change frame size" : "1 = изменить размер фрейма, 0 = не изменять размер сцены",
+		"1 = adjust frame size, 0 = do not change frame size" : "1 = изменить размер сцены, 0 = не изменять размер сцены",
 		"Allows you to control the window used to display your application." : "Позволяет управлять окном, используемым для отображения приложения.",
 		"Attach window to desktop" : "Закрепить окно на рабочем столе",
 		"Background color: RGB(%i,%i,%i)" : "Цвет фона: RGB(%i,%i,%i)",
