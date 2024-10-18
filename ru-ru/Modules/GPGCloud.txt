@@ -46,7 +46,7 @@
 		"Launch UI with title %0" : "Запустить пользовательский интерфейс с заголовком %0",
 		"Read Snapshot Data" : "Прочесть данные снапшота",
 		"Snapshot Description" : "Описание снапшота",
-		"Snapshot Icon" : "Иконка снапшота",
+		"Snapshot Icon" : "Значок снапшота",
 		"Snapshot Owner" : "Владелец снапшота",
 		"Snapshot Played Time" : "Сыгранное время снапшота",
 		"Snapshot Last Modify" : "Последнее изменение снапшота",

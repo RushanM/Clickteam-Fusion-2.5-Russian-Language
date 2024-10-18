@@ -56,7 +56,7 @@
 		"Use system colors" : "Использовать системные цвета",
 		"Value in milliseconds. How long the tooltip will be displayed. Leave to -1 to use system default." : "Значение в миллисекундах. Как долго будет отображаться подсказка. Оставить -1, чтобы использовать систему по умолчанию.",
 		"Value in milliseconds. Time taken for the tooltip to appear. Leave to -1 to use system defaults." : "Значение в миллисекундах. Время затраченное на появление всплывающей подсказки. Оставить -1, чтобы использовать систему по умолчанию.",
-		"Warning icon" : "Иконка предупреждения",
+		"Warning icon" : "Значок предупреждения",
 		"Window width" : "Ширина окна"
 	},
 	"menu_20000" : {
