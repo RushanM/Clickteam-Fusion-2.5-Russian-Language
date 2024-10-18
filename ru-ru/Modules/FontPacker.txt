@@ -12,7 +12,7 @@
 		"Android Font Packer" : "Android: упаковщик шрифтов",
 		"Android Font Packer Control" : "Управление упаковщиком шрифтов Android",
 		"Clear Checked" : "Очистить отмеченное",
-		"File must be named according their typeface" : "Имя файла должно соответствовать имени шрифта",
+		"File must be named according their typeface" : "Название файла должно соответствовать названию шрифта",
 		"Font #10: " : "Шрифт №10",
 		"Font #1: " : "Шрифт №1",
 		"Font #2: " : "Шрифт №2",
