@@ -70,7 +70,7 @@
 		"Image number" : "Номер изображения",
 		"Magnifying Glass" : "Лупа",
 		"Set Cursor Shape" : "Установите форму курсор",
-		"Set shape from Active object" : "Установить форму курсора из объекта «Актив»",
+		"Set shape from Active object" : "Установить форму курсора из актива",
 		"Slashed circle" : "Перечёркнутый круг",
 		"Standard arrow" : "Стандартная стрелка",
 		"Standard arrow and small hourglass" : "Стандартная стрелка и маленькие песочные часы",

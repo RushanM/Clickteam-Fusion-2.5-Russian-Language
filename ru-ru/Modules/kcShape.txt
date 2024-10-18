@@ -51,7 +51,7 @@
         "Set &rounded rectangle shape": "Установить округлую форму прямоугольника",
         "Set &standard shape": "Установить стандартную форму",
         "Set shape from &picture file": "Установить форму из файла изображения",
-        "Set shape from Active object": "Установить форму из объекта «Актив»"
+        "Set shape from Active object": "Установить форму из актива"
     },
     "menu_20002": {
         "Current image number": "Номер текущего изображения",

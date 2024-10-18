@@ -16,7 +16,7 @@
 		"%s: False" : "%s: выключен",
 		"%s: True " : "%s: включён",
 		"Acceleration: %i   " : "Ускорение: %i   ",
-		"Active objects" : "Объекты «Актив»",
+		"Active objects" : "Активы",
 		"Alterable String %s" : "Переменная строка %s",
 		"Alterable Value %s" : "Переменное значение %s",
 		"Alterable strings" : "Переменные строки",
