@@ -13,7 +13,7 @@
 		"Enter the Y coordinate out of the frame. Leave to 0 to use automatica calculation" : "Введите координату Y вне сцены. Оставить 0 для автоматического расчёта",
 		"Enter the direction of the movement, 0 for right, 90 top, 180 left and 270 bottom" : "Введите направление движения, 0 вправо, 90 вверх, 180 влево и 270 вниз",
 		"Enter the length of the movement, in milliseconds" : "Введите длину движения в миллисекундах",
-		"InAndOut movement" : "Движение «В и ИЗ»",
+		"InAndOut movement" : "Движение «в и из»",
 		"Linear" : "Линейно",
 		"Move at start" : "Начать движение при запуске",
 		"Movement type" : "Тип движения",

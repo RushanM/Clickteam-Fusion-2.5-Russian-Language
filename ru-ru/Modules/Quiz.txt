@@ -243,7 +243,7 @@
 		"Please type the new entry :" : "Введите новую запись :",
 		"Previous" : "Предыдущий",
 		"Priority sequence" : "Приоритеты",
-		"Quiz object" : "Викторина (Объект)",
+		"Quiz object" : "Викторина (объект)",
 		"Quiz report" : "Отчет викторины",
 		"Quiz result page" : "Страница результата викторины",
 		"Report" : "Отчёт",

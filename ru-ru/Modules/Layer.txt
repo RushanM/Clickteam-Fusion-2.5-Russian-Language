@@ -27,7 +27,7 @@
 		"Increasing Y Sort" : "Сортировать по возрастанию по Y",
 		"Layer index (1-based)" : "Индекс слоя (начинается с 1)",
 		"Layer name" : "Название слоя",
-		"Layer object" : "Слой (Объект)",
+		"Layer object" : "Слой (объект)",
 		"Level number" : "Номер уровня",
 		"Move %0 Above %1" : "Перенести %0 выше %1",
 		"Move %0 Below %1" : "Перенести %0 ниже %1",

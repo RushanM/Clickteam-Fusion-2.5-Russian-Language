@@ -49,7 +49,7 @@
 		"Set text to %0" : "Установить текст %0",
 		"Set title to %0" : "Установить заголовок %0",
 		"Title" : "Заголовок",
-		"ToolTip object" : "Подсказка (Объект)",
+		"ToolTip object" : "Подсказка (объект)",
 		"Tooltip text" : "Текст всплывающей подсказки",
 		"Type of tooltip" : "Тип подсказки",
 		"Uncheck to specify the colors of the background and the text" : "Снять отметку для указания цвета фона и текста",

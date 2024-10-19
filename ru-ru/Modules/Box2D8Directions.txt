@@ -60,7 +60,7 @@
 		"Movement" : "Движение",
 		"None" : "Нет",
 		"Object" : "Объект",
-		"Physics - 8 Directions movement" : "Физика: движение «8 направлений»",
+		"Physics - 8 Directions movement" : "Физика: движение восьми направлений",
 		"Please choose the authorised directions" : "Выберите допустимые направления",
 		"Please choose the shape of the collision box" : "Выберите форму для расчёта столкновения",
 		"Please drop a 'Physics Engine' object in your frame." : "Пожалуйста, поместите объект «Физика: движок» на свою сцену.",
