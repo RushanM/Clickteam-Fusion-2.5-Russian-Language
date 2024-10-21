@@ -4,6 +4,7 @@
     "general": {
 	    "Font Embed Object": "Встраивание шрифта",
 		"Registers a font for use without installing it and without allowing other programs to use it.": "Регистрирует шрифт для использования без установки и без предоставления доступа к нему другим программам.",
+		"Registers a font for use without installing it and without allowing other programs to use it. ": "Регистрирует шрифт для использования без установки и без предоставления доступа к нему другим программам.",
 		"Embed a font": "Встроить шрифт",
 		"Embed Font": "Встроить шрифт %0 %1 %2",
 		"Number of fonts added": "Количество добавленных шрифтов",
