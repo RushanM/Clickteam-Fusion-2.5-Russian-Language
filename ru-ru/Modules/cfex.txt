@@ -19,7 +19,7 @@
 		"All applications" : "Все приложения",
 		"All frames of current application" : "Все сцены данного приложения",
 		"Allow alterable values for counters and strings" : "Переменные у счётчиков и строк",
-		"Allows you to customize qualifiers names and icons for this application." : "Позволяет вам настроить имена и значки групп в этом приложении.",
+		"Allows you to customize qualifiers names and icons for this application." : "Позволяет вам настроить названия и значки групп в этом приложении.",
 		"Application %s, Frame %s, behaviors..." : "Приложение %s, сцена %s, поведения",
 		"Application %s, Frame %s, events..." : "Приложение %s, сцена %s, события",
 		"Application %s, Frame %s, objects..." : "Приложение %s, сцена %s, объекты",
