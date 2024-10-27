@@ -68,7 +68,7 @@
 		"Key file" : "Файл ключа",
 		"Key file name, downloaded from OUYA Dev dashboard specific for this application" : "Название файла ключа, загруженное с панели разработчика OUYA указанной для этого приложения.",
 		"OUYA - Options" : "OUYA: настройки",
-		"OUYA object" : "OUYA (объект)",
+		"OUYA object" : "OUYA",
 		"Part of the Android exporter. Provides special functionality when running on an OUYA console." : "Часть Android экспортёра. Предоставляет специальные функциональные возможности при работе на консоли Ouya.",
 		"Player Number (0-3)" : "Номер игрока (0—3)",
 		"Product ID" : "Идентификатор продукта",

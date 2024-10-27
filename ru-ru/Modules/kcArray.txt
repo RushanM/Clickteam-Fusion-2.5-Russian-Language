@@ -21,7 +21,7 @@
 		"An array can't have a dimension set to 0." : "Массив не может иметь размеры, равные 0",
 		"Array" : "Массив",
 		"Array Files|*.arr|" : "Файлы массива|*.arr|",
-		"Array object" : "Массив (объект)",
+		"Array object" : "Массив",
 		"Base 1 index" : "Номер начинается с 1",
 		"Choose between numeric or text" : "Выбор между числовым или текстовым массивом",
 		"Dimensions" : "Размеры",

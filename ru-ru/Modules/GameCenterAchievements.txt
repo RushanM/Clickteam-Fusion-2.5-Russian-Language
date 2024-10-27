@@ -31,7 +31,7 @@
 		"Display completion banner of number %0" : "Показать баннер завершения номер %0",
 		"Display default achievement panel" : "Отображает таблицу достижений по умолчанию",
 		"Display duration (ms)" : "Продолжительность показа (мс)",
-		"Displays Apple's Game Center achievements in your iOS application." : "Отображает достижения Game Center от Apple в вашем приложении IOS.",
+		"Displays Apple's Game Center achievements in your iOS application." : "Отображает достижения Game Center от Apple в приложении IOS.",
 		"Double size" : "Двойной размер",
 		"Enter the achivement index" : "Введите индекс достижения",
 		"Enter the list of simulated achievements" : "Введите список имитируемых достижений",

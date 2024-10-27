@@ -7,8 +7,8 @@
 		"01Distance Mouse Rolled %s" : "01Дистанция движения мыши %s пикс.",
 		"01Set Actual Mouse X to %s" : "01Установить курсору положение по X: %s",
 		"01Set Actual Mouse Y to %s" : "01Установить курсору положение по Y: %s",
-		"Mouse object" : "Мышь (объект)",
-		"Mouse Object" : "Мышь (объект)",
+		"Mouse object" : "Мышь",
+		"Mouse Object" : "Мышь",
 	},
 	"menu_20000" : {
 		"Set Actual Mouse X" : "Задать курсору положение по X",
@@ -25,7 +25,7 @@
 		"Get Distance Rolled" : "Получить дистанцию движения мыши (пикс.)",
 	},
 	"dialog_20003" : {
-		"Mouse Object" : "Мышь (объект)",
+		"Mouse Object" : "Мышь",
 		"This object is made by Marcello Bastea-Forte.\n\nhttp://www.cellosoft.com/" : "Этот объект создан Marcello Bastea-Forte.\n\nhttp://www.cellosoft.com/",
 		"Cancel" : "Отмена",
 		"OK" : "ОК",

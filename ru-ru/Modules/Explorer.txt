@@ -10,7 +10,7 @@
 		"%o: Right Click" : "%o: Правый клик",
 		"%o: Selection Changed" : "%o: Выбор изменён",
 		"Allows double click on files to open them" : "Разрешает двойной клик на файлах, чтобы открыть их",
-		"Allows you to include a file browser in your application. For Pro version only." : "Разрешает включить файловый браузер в вашем приложении. Только для версии Pro.",
+		"Allows you to include a file browser in your application. For Pro version only." : "Разрешает включить файловый браузер в приложении. Только для версии Pro.",
 		"Border" : "Граница",
 		"Choose the type of explorer to create" : "Выберите тип проводника, чтобы создать",
 		"Client edge" : "Граница окна",

@@ -67,7 +67,7 @@
 		"Enter value" : "Введите значение",
 		"Enter X co-ordinate" : "Введите координату X",
 		"Enter Y co-ordinate" : "Введите координату Y",
-		"Isometric Grid object" : "Изометрическая сетка (объект)",
+		"Isometric Grid object" : "Изометрическая сетка",
 		"Jump %0 in to cell %1, %2 height %3 jumping up %4 (for %5)" : "Прыжок %0 к ячейке %1, %2 на высоту %3 с высотой прыжка %4 пикс. (%5 повторов)",
 		"Limit columns to %0" : "Предел столбцов %0",
 		"Limit levels to %0" : "Предел уровней %0",
@@ -233,6 +233,6 @@
 		"Max Step up:" : "Шагов вверх",
 		"OK" : "ОК",
 		"Row limit:" : "Ряд:",
-		"The Isometric Grid object" : "Изометрическая сетка (объект)",
+		"The Isometric Grid object" : "Изометрическая сетка",
 	}
 }

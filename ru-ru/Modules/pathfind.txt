@@ -85,7 +85,7 @@
 		"Map height" : "Высота карты",
 		"Map width" : "Ширина карты",
 		"Only a 2 color, non-compressed bitmap" : "Только 2 цвета, несжатый растровый",
-		"Pathfinding object" : "Поиск пути (объект)",
+		"Pathfinding object" : "Поиск пути",
 		"Restore map" : "Восстановить карту",
 		"Reverse one position in array %0" : "Обратить одну позицию в массиве %0",
 		"Save map the array %0, %1 = Path, %2 = Obstacle" : "Сохранить карту в массив %0, %1 = Путь, %2 = Препятствие",

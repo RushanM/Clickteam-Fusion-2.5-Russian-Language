@@ -71,7 +71,7 @@
 		"Values (1: Enabled, 0: Disabled)" : "Значения (1:Вкл, 0:Выкл)",
 		"Web View Object v1.50" : "Web View Object v1.50",
 		"Web View Object v1.51" : "Web View Object v1.51",
-		"Web View Object" : "Просмотр Web (объект)",
+		"Web View Object" : "Просмотр Web",
 		"Where to Insert(0:beforeBegin, 1:afterBegin 2: beforeEnd 3:afterEnd)" : "Где вставлять (0: перед началом, 1: после начала, 2: перед концом, 3: после конца)",
 		"class_name" : "название класса",
 		"id_name" : "название идентификатора",

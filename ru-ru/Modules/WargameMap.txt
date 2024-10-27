@@ -38,7 +38,7 @@
 		"The movement cost of this tile" : "Стоимость движения этой плитки",
 		"Tile X coordinate" : "X координата плитки",
 		"Tile Y coordinate" : "Y координата плитки",
-		"Wargame Map Object" : "Карта военной игры (объект)",
+		"Wargame Map Object" : "Карта военной игры",
 		"Width of the map" : "Ширина карты",
 		"Width of the map, in tiles." : "Ширина карты в плитках",
 	},

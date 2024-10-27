@@ -86,7 +86,7 @@
 		"Joystick %0 - Create hard rumble, ID: %1" : "Контроллер: %0 - Создать жёсткую отдачу, ID: %1",
 		"Joystick %0 - Create soft rumble, ID: %1" : "Контроллер: %0 - Создать мягкую отдачу, ID: %1",
 		"Joystick 1 to 16" : "Контроллер от 1 до 16",
-		"Joystick 2 object" : "Джойстик 2 (объект)",
+		"Joystick 2 object" : "Джойстик 2",
 		"Joystick object 2 v1.4" : "Объект «Джойстик» 2 версии 1.4",
 		"Left/right axis (0 = X, 1 = Y, 2 = Z, 3 = X Rot, 4 = YRot, 5 = X Rot, 6 = Slider)" : "Оси влево/вправо (0: X, 1: Y, 2: Z, 3: X-вращ., 4:Y-вращ., 5:Z-вращ., 6: слайдер)",
 		"Map right stick axis for joystick %0 to up/down: %1, left/right %2" : "Определение осей правого рычажка контроллера: %0 для вверх/вниз: %1, влево/вправо %2",

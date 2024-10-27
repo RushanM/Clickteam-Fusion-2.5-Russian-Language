@@ -13,7 +13,7 @@
 		"Display Message %0 (title=%1)" : "Показать сообщение %0 (название=%1)",
 		"Message Text" : "Текст сообщения",
 		"Set Private Data to %0" : "Установить личные данные на %0",
-		"Trial Period Object" : "Пробный период (объект)",
+		"Trial Period Object" : "Пробный период",
 		"Window Title" : "Заголовок окна"
 	},
 	"dialog_101" : {

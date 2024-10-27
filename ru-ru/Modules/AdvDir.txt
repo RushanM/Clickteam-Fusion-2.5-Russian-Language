@@ -49,7 +49,7 @@
 		"Stored objects" : "Сохранённые объекты",
 	},
 	"dialog_20003" : {
-		"Advanced Direction Object" : "Дополнительные направления (объект)",
+		"Advanced Direction Object" : "Дополнительные направления",
 		"Cancel" : "Отмена",
 		"Made by Olle Fredriksson (Fodo) in Feb 2003." : "Создано Olle Fredriksson (Fodo) в феврале 2003",
 		"Mail to ollef@hotmail.com for questions or suggestions" : "Почта ollef@hotmail.com",

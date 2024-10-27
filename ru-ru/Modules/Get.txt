@@ -17,7 +17,7 @@
 		"Define which codepage to use" : "Определите, какую использовать кодовую страницу.",
 		"Android 9 and above need all http domain to be declared for GET to work." : "Android 9 и более поздние версии требуют объявления всего домена HTTP для работы GET.",
 		"Domain List" : "Список доменов",
-		"Please add your domain.ext for each http used in your application separated by line" : "Пожалуйста, добавьте ваш domain.ext к каждому HTTP, используемому в вашем приложении, разделяя их новыми строками.",
+		"Please add your domain.ext for each http used in your application separated by line" : "Пожалуйста, добавьте ваш domain.ext к каждому HTTP, используемому в приложении, разделяя их новыми строками.",
 		"From web page" : "С веб-страницы",
 		"Use application language" : "Использовать язык приложения",
 		"Get URL %0" : "Загрузить URL-адрес %0",

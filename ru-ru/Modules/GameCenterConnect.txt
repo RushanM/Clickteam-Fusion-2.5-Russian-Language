@@ -7,7 +7,7 @@
 		"%o: Local player has just authenticated" : "%o: Локальный игрок только что аутентифицирован",
 		"%o: Local player is authenticated" : "%o: Локальный игрок аутентифицирован",
 		"Add invitation to friend number %0" : "Добавить приглашение другу номер %0",
-		"Allows Apple's Game Center features in your iOS application." : "Обеспечивает особенности Game Center от Apple в вашем приложении IOS.",
+		"Allows Apple's Game Center features in your iOS application." : "Обеспечивает особенности Game Center от Apple в приложении IOS.",
 		"Authenticate OK" : "Аутентификация OK",
 		"Authenticate at start of frame" : "Аутентификация при старте сцены",
 		"Authenticate local player" : "Аутентификация локального игрока",

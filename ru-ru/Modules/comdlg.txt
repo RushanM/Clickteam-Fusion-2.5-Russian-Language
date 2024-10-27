@@ -26,7 +26,7 @@
 		"11%s: Set Dialog Title to %s" : "11%s: Установить заголовок диалога %s",
 		"11%s: Set Filename to %s" : "11%s: Установить название файла %s",
 		"11%s: Set Initial Directory to %s" : "11%s: Установить исходный каталог %s",
-		"Common Dialog object" : "Общий диалог (объект)",
+		"Common Dialog object" : "Общий диалог",
 		"This object gives you control of the save and load common dialog that is used by most Windows programs." : "Позволяет вам сохранять и загружать общий диалог, который используется в большинстве программ Windows.",
 	},
 	"menu_20000" : {

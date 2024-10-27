@@ -29,7 +29,7 @@
 		"Button" : "Кнопка",
 		"Button %o is enabled" : "Кнопка %o включена",
 		"Button number (radio  only)" : "Номер кнопки (применимо только к радиокнопкам)",
-		"Button object" : "Кнопка (объект)",
+		"Button object" : "Кнопка",
 		"Checkbox" : "Галочка",
 		"Colors" : "Цвета",
 		"Disabled" : "Отключить",

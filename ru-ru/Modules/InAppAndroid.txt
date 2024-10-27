@@ -18,7 +18,7 @@
 		"Developer Payload string" : "Строка данных разработчика",
 		"Id" : "Идентификатор",
 		"Identifier" : "Идентификатор",
-		"In App Android object." : "Android: In-App (объект)",
+		"In App Android object." : "Android: In-App",
 		"In-App Android" : "Android: In-App",
 		"Integer value" : "Значение целого числа",
 		"Name string value" : "Значение строки названия",

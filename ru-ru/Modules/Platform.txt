@@ -116,7 +116,7 @@
 		"Max Y velocity" : "Максимальная скорость Y",
 		"Measuring in 1/100th of a pixel per game frame" : "Измерение в 1/100-пикселей на сцену игры",
 		"Ok" : "Ok",
-		"Platform movement object" : "Платформер (объект)",
+		"Platform movement object" : "Платформер",
 		"Presets" : "Предустановки",
 		"Setup Platform Movement object" : "Настройки объекта Платформер",
 		"Thanks to Mattis Lorentzon for the icon" : "Спасибо Mattis Lorentzon за иконку",

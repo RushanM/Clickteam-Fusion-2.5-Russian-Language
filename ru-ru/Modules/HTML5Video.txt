@@ -11,7 +11,7 @@
 		"Check to have the video loop" : "Отметьте, чтобы видео повторялось",
 		"Controls" : "Управление",
 		"Display as sprite" : "Показать как спрайт",
-		"Displays a video file from the Internet in your HTML5 application" : "Показывает видео файл из Интернета в вашем приложении HTML5",
+		"Displays a video file from the Internet in your HTML5 application" : "Показывает видео файл из Интернета в приложении HTML5",
 		"Enter 1 to display the controls, 0 to hide them" : "Введите 1, чтобы отобразить  управление, 0, чтобы скрыть",
 		"Enter a time in milliseconds" : "Введите время в миллисекундах",
 		"Enter an URL of a video file" : "Введите URL видео файла",

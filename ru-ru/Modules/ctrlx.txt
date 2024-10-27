@@ -57,7 +57,7 @@
 		"11%s: Repeat while pressing %s" : "11%s: Повторять при зажатой %s",
 		"11%s: Repeat while pressing number %s" : "11%s: Повторять при зажатой номер %s",
 		"Control X" : "Управление X",
-		"Control X object" : "Управление X (объект)",
+		"Control X object" : "Управление X",
 		"Detect key presses using the key name or values, block certain key combinations, and simulate key presses and mouse clicks." : "Определяет нажатия используя название клавиш или значения.",
 		"Disables/Enables a key in this exstension." : "Отключить/Включить клавиши в этом расширении.",
 		"Enter a value for the key (e.g. 32 for 'space')" : "Нет возможности перевести неверные кавычки!",
@@ -164,7 +164,7 @@
 		"Player" : "Игрок",
 	},
 	"dialog_20003" : {
-		"Control X object" : "Управление X (объект)",
+		"Control X object" : "Управление X",
 		"Control X object v3.5" : "Управление X в3.5",
 		"Cancel" : "Отмена",
 		"OK" : "ОК",

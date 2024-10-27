@@ -9,7 +9,7 @@
 		"01Set Distance %s" : "01Установить дистанцию %s",
 		"01Stop Safety Procedure and keep in obstacle" : "01Остановить безопасную процедуру и держаться в препятствии",
 		"Allow multiple objects to move 'safely' from one point to another taking 'in-between steps' rather than jumping, allowing you to test for collisions." : "Позволяет нескольким объектам, двигаться 'безопасно' из одной точки в другую методом 'между шагами', а не прыгая, что позволит проверить столкновения.",
-		"Move Safely 2 Object" : "Безопасное движение 2 (объект)",
+		"Move Safely 2 Object" : "Безопасное движение 2",
 		"On Safety" : "При безопасной процедуре",
 		"Pixel Distance of each 'step'" : "Расстояние в пикселях каждого шага",
 		"Release protected objects" : "Снять защиту с объектов",

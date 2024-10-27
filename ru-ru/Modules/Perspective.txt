@@ -18,7 +18,7 @@
 		"Orientation" : "Ориентация",
 		"Panorama" : "Панорама",
 		"Perspective" : "Перспектива",
-		"Perspective Object" : "Перспектива (объект)",
+		"Perspective Object" : "Перспектива",
 		"Resample (slow)" : "Передискретизация изображений (медленно)",
 		"Right/Top" : "Право/Низ",
 		"Set Horizontal" : "Установить горизонталь",

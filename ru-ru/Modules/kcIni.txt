@@ -1,7 +1,7 @@
 ﻿{
     "dialog_20003": {
         "Cancel": "Отмена",
-        "Enter the name of the ini file to use": "Введите название файла .ini для использования",
+        "Enter the name of the ini file to use": "Введите название файла INI для использования",
         "OK": "OK"
     },
     "general": {
@@ -31,9 +31,9 @@
         "Enter String": "Введите строку",
         "Enter Value": "Введите значение",
         "Group name": "Название группы",
-        "Ini": "Ini",
-        "Ini file to use": "Настройки файла .ini",
-        "Ini object": "Объект .ini",
+        "Ini": "INI",
+        "Ini file to use": "Настройки файла INI",
+        "Ini object": "Объект INI",
         "Item name": "Название элемента",
         "Name:": "Название файла",
         "Save characters in UTF8 format": "Сохранять символы в формате UTF8.",

@@ -4,7 +4,7 @@
 	"general" : {
 		"%o: User has clicked on a link" : "%o: Пользователь нажал на ссылку",
 		"0-> No icon, 1-> Infos, 2-> Warning, 3-> Error" : "0-> Без иконки, 1-> Информация, 2-> Предупреждение, 3-> Ошибка",
-		"Allows you to display tooltips and balloon windows in your application." : "Позволяет отображать подсказки и шарообразные окна в вашем приложении.",
+		"Allows you to display tooltips and balloon windows in your application." : "Позволяет отображать подсказки и шарообразные окна в приложении.",
 		"Appearance timer" : "Таймер появления",
 		"Automatic" : "Автоматически",
 		"Automatic : the tooltip will automatically popup, manual : you have to use events to display it." : "Автоматический: подсказки будут автоматически всплывать, ручной: вы должны использовать события чтобы отобразить подсказки.",
@@ -49,7 +49,7 @@
 		"Set text to %0" : "Установить текст %0",
 		"Set title to %0" : "Установить заголовок %0",
 		"Title" : "Заголовок",
-		"ToolTip object" : "Подсказка (объект)",
+		"ToolTip object" : "Подсказка",
 		"Tooltip text" : "Текст всплывающей подсказки",
 		"Type of tooltip" : "Тип подсказки",
 		"Uncheck to specify the colors of the background and the text" : "Снять отметку для указания цвета фона и текста",

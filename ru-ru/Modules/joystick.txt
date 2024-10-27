@@ -38,7 +38,7 @@
 		"Direction 0 - 8 counter-clockwise starting with right (8 is centered)" : "Направление 0-8 против часовой стрелки, начиная с права (8 по центру)",
 		"Get the state of up to 32 joystick buttons, 6 axes and the point-of-view hat for two joysticks." : "Позволяет получить состояние от 32 кнопок контроллера, 6 осей и точки обзора(POV) от двух контроллеров",
 		"Joypad 1 or 2" : "Контроллер 1 или 2",
-		"Joypad object" : "Контроллер (объект)",
+		"Joypad object" : "Контроллер",
 	},
 	"menu_20000" : {
 		"Buttons" : "Кнопки",
@@ -118,7 +118,7 @@
 		"Cancel" : "Отмена",
 		"Copyright © 2k z33z" : "Права © 2k z33z",
 		"Joypad object v3.0" : "Контроллер (объект) в3.0",
-		"Joypad object" : "Контроллер (объект)",
+		"Joypad object" : "Контроллер",
 		"OK" : "ОК",
 	}
 }

@@ -7,7 +7,7 @@
 		"Click Edit to draw the images of the achievement" : "Нажмите кнопку Изменить, чтобы редактировать изображения достижения",
 		"Description of the achievement, after completion" : "Описание достижения, после завершения",
 		"Description of the achievement, before completion" : "Описание достижения, до завершения",
-		"Displays one Game Center achievement in your iOS application." : "Отображает достижение Game Center от Apple в вашем приложении IOS.",
+		"Displays one Game Center achievement in your iOS application." : "Отображает достижение Game Center от Apple в приложении IOS.",
 		"Enter the achievement identifier as defined in iTunes Connect" : "Введите идентификатор достижения, как определено в Itunes Connect",
 		"Game Center Achievement" : "Game Center - Достижение",
 		"Identifier" : "Идентификатор",

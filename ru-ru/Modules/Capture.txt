@@ -36,7 +36,7 @@
 		"Not enough free space on drive %s \nPlease free more than 50 Mbytes and try again..." : "Недостаточно свободного места на диске %s.\nПожалуйста освободите более 50 Мбайт и попробуйте ещё раз...",
 		"Please choose a capture object tool file..." : "Выберите файл инструмента захвата объекта...",
 		"Please enter a filename" : "Введите название файла",
-		"Screen Capture object" : "Захват экрана (объект)",
+		"Screen Capture object" : "Захват экрана",
 		"Set current dir to capture folder" : "Установить текущий каталог для захвата",
 		"Set current directory to final folder" : "Установить текущий каталог, как конечную папку",
 		"The current tool configuration is not saved. Do you want to add it to the list of tools?" : "Текущая конфигурация инструмента не сохранилась. Вы хотите добавить его в список инструментов?",
@@ -63,7 +63,7 @@
 	},
 	"dialog_104" : {
 		"The Capture Object" : "Объект захвата",
-		"Waiting for tool to complete..." : "Ожидание инструмента для завершения..."
+		"Waiting for tool to complete..." : "Ожидание инструмента для завершения…"
 	},
 	"dialog_105" : {
 		"Add" : "Доб.",
@@ -71,16 +71,16 @@
 		"Change directory?" : "Сменить каталог?",
 		"Command line" : "Командная строка",
 		"Del" : "Удал.",
-		"Export" : "Экспорт",
-		"Frame captures : enforce 32000 colors if 65000 color mode..." : "Захват кадра: применить 32000 цветов, если режим 65000 цветов...",
-		"Import" : "Импорт",
+		"Export" : "Экспортировать",
+		"Frame captures : enforce 32000 colors if 65000 color mode..." : "Захват кадра: применить 32000 цветов, если режим 65000 цветов…",
+		"Import" : "Импортировать",
 		"Macros" : "Макрос",
 		"OK" : "OK",
 		"Program to run" : "Программа для запуска",
 		"Tool configuration editor" : "Редактор параметров инструмента"
 	},
 	"dialog_106" : {
-		"..." : "..."
+		"..." : "…"
 	},
 	"menu_102" : {
 		"Capture directory" : "Каталог захвата",
