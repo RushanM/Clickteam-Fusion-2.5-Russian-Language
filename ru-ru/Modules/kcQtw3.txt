@@ -47,7 +47,7 @@
 		"10%s:end of video" : "%o: конец видео",
 		"10%s:start of video" : "%o: запуск видео",
 		"11%s:current time %s" : "%o: текущее время %0",
-		"21User %s within %s" : "Пользователь %0 из %o",
+		"21User %s within %s" : "21Пользователь %s в %s",
 		"Choose the movie file to play" : "Выберите видео файл чтобы воспроизвести",
 		"Control" : "Управление",
 		"Control bar" : "Панель управления",

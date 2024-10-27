@@ -25,7 +25,7 @@
 		"10%s: visible" : "%o: видимый",
 		"11%s: current frame %s" : "%o: текущий кадр %0",
 		"11%s: current time %s" : "%o: текущее время %0",
-		"21User %s within %s" : "Пользователь %0 из %o",
+		"21User %s within %s" : "21Пользователь %s в %s",
 		"Control" : "Управление",
 		"Control bar" : "Панель управления",
 		"Current frame number: %i  " : "Номер текущего кадра: %i  ",

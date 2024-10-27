@@ -20,7 +20,7 @@
 		"10%s is visible" : "%o видимый",
 		"10%s: end of animation" : "%o: конец анимации",
 		"11%s: current frame %s" : "%o: текущий кадр %0",
-		"21User %s within %s" : "Пользователь %0 из %o",
+		"21User %s within %s" : "21Пользователь %s в %s",
 		"Animation" : "Анимация",
 		"Animation (*.fli;*.flc)|*.fli;*.flc|" : "Анимация (*.fli;*.flc)|*.fli;*.flc|",
 		"Animation object" : "Анимация",

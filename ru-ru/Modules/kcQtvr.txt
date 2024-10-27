@@ -12,7 +12,7 @@
 		"01Set vertical size to %s" : "Установить вертикальный размер %0",
 		"10%s: a file is opened" : "%o: файл открыт",
 		"10%s: visible" : "%o: видимый",
-		"21User %s within %s" : "Пользователь %0 из %o",
+		"21User %s within %s" : "21Пользователь %s в %s",
 		"Plays QuickTimeVR 2 files. Obsolete, please use the QuickTime object instead." : "Воспроизводит файлы QuickTimeVR 2. Объект устарел, используйте вместо него объект QuickTime.",
 		"Please select a QuickTime VR file" : "Пожалуйста, выберите файл QuickTime VR",
 		"Please, enter a valid QuickTime VR filename." : "Пожалуйста введите правильное название файла QuickTime VR.",
