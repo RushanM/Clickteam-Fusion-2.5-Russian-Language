@@ -98,7 +98,7 @@
 		"Create Backdrop Object" : "Создать фоновой объект",
 		"Fas&t" : "Быстро",
 		"L&eft-center" : "Слева по центру",
-		"L&ook in direction of..." : "Смотреть в направлении...",
+		"L&ook in direction of..." : "Смотреть в направлении…",
 		"New &picture from selector" : "Новое изображение из селектора",
 		"O&ff" : "Выключить",
 		"O&n (default)" : "Включить (по умолчанию)",
