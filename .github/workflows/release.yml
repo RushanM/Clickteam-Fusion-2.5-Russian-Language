@@ -156,7 +156,7 @@ jobs:
             if [[ "${{ env.final_tag }}" =~ ^([0-9]+)-B([0-9]+)$ ]]; then
               base_release=${BASH_REMATCH[1]}
               beta_num=${BASH_REMATCH[2]}
-              release_name="${beta_num}-я бета-версия ${base_release}-го релиза"
+              release_name="${beta_num}-я бета ${base_release}-го релиза"
             else
               release_name="${{ env.final_tag }}-й бета-выпуск"
             fi
