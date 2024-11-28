@@ -1,6 +1,6 @@
 {
-    "lang": 1049,
     "version": 1,
+    "lang": 1049,
     "general": {
         "3D Actives": "3D-активы",
         "Turns normal active object to (flat) 3D sprites": "Превращает обычные активы в (плоские) 3D-спрайты.",

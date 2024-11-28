@@ -19,15 +19,15 @@
 		"Enter the width of the object" : "Введите ширину объекта",
 		"Generate wind that shifts the objects" : "Создает ветер, который толкает объекты",
 		"Physics - Fan" : "Физика: вентилятор",
-		"Please drop a 'Physics Engine' object in your frame." : "Поместите объект \"Физика: движок\" на сцену.",
+		"Please drop a 'Physics Engine' object in your frame." : "Поместите объект «Физика: движок» на сцену.",
 		"Running : %i" : "Выполнение : %i",
 		"Set angle to %0 degrees" : "Установить угол %0 градусов",
-		"Set fan to %0" : "Установить вентилятор ВКЛ/ОТКЛ",
-		"Set height to %0" : "Установить высоту %0",
-		"Set strength to %0" : "Установить силу %0",
-		"Set width to %0" : "Установить ширину %0",
+		"Set fan to %0" : "Установить вентилятору значение %0",
+		"Set height to %0" : "Установить высоту на %0",
+		"Set strength to %0" : "Установить силу на %0",
+		"Set width to %0" : "Установить ширину на %0",
 		"Strength" : "Сила",
-		"Strength : %i" : "Сила : %i"
+		"Strength : %i" : "Сила: %i"
 	},
 	"menu_20000" : {
 		"Actions" : "Действия",

@@ -2,8 +2,8 @@
 	"version" : 1,
 	"lang" : 1049,
 	"general" : {
-		"%o: Close Video" : "%o: Закрыть видео",
-		"%o: Compare Time Position (%0)" : "%o: Сравнить временную позицию (%0)",
+		"%o: Close Video" : "%o: закрыть видео",
+		"%o: Compare Time Position (%0)" : "%o: сравнить временную позицию (%0)",
 		"%o: Is Playing ?" : "%o: воспроизводится?",
 		"%o: Load Video (%0)" : "%o: загрузить видео (%0)",
 		"%o: Mute Audio" : "%o: отключить аудио",

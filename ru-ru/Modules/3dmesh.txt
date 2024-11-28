@@ -1,9 +1,9 @@
 {
-    "lang": 1049,
     "version": 1,
+    "lang": 1049,
     "general": {
-		"3D Mesh" : "3D-модель",
-		"Allows you to use 3D meshes in your application." : "Позволяет использовать 3D-модели в приложении.",
+        "3D Mesh": "3D-модель",
+        "Allows you to use 3D meshes in your application.": "Позволяет использовать 3D-модели в приложении.",
         "%o: Animation %0 ended": "%o: анимация %0 завершена",
         "%o: Animation %0 is playing": "%o: анимация %0 играет",
         "%o: Animation looping is enabled": "%o: повторение анимации включено",

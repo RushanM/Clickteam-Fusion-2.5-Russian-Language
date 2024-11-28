@@ -1,6 +1,6 @@
 {
-    "lang": 1049,
     "version": 1,
+    "lang": 1049,
     "general": {
         "360° Movement Object": "Движение на 360°",
         "Acceleration ": "Ускорение",
