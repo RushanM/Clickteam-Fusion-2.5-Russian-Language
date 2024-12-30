@@ -34,7 +34,7 @@
 		"00Query fill color" : "Запрос цвета заполнения",
 		"00Query outline color" : "Запрос цвета контура",
 		"00Query paper color" : "Запрос цвета бумаги",
-		"00Restore last saved tool" : "Восстановить последний сохраненный инструмент",
+		"00Restore last saved tool" : "Восстановить последний сохранённый инструмент",
 		"00Save current tool" : "Сохранить текущий инструмент",
 		"01Change all thicknesses to %s" : "Изменить всю толщину на %0",
 		"01Change ellipse thickness to %s" : "Изменить толщину эллипса на %0",
