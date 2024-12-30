@@ -20,7 +20,7 @@
 * обновлён перевод интерфейса:
 * * обновлён перевод интерфейса программы;
 * * добавлены переводы расширений «3D-модель» (3D Mesh) и «Google Play Игры. Мультиплеер» (GPG Multiplayers);
-* * изменены переводы расширений Движение на 360° (360° Movement Object), 3D-активы (3D Actives), Android: камера (Android Camera), Акселерометр (Accelerometer), Актив-фон (Active Backdrop), AdMob, Актив DirectShow (Active Direct Show), AdvDir и многих других.
+* * изменены переводы расширений Движение на 360° (360° Movement Object), 3D-активы (3D Actives), Android: камера (Android Camera), Акселерометр (Accelerometer), Актив-фон (Active Backdrop), AdMob, Актив DirectShow (Active Direct Show), Дополнительные направления (Advanced Direction Object) и многих других.
 
 Перевод расширений остаётся не окончен! Их слишком много, чтобы охватить перевод их всех разом. Также в переводе программы по-прежнему могут оставаться какие-нибудь казусы. Если вы хотите помочь закончить этот русификатор, я открыл для него [репозиторий на GitHub](https://github.com/RushanM/Clickteam-Fusion-2.5-Russian-Language), в который вы можете предлагать изменения через [запросы на слияние (pull requests)](https://github.com/RushanM/Clickteam-Fusion-2.5-Russian-Language/pulls) или [темы (issues)](https://github.com/RushanM/Clickteam-Fusion-2.5-Russian-Language/issues). Также там в [разделе выпусков (releases)](https://github.com/RushanM/Clickteam-Fusion-2.5-Russian-Language/releases) в автоматическом порядке публикуются бета-версии русификатора, в которые изменения попадают в первую очередь.
 
