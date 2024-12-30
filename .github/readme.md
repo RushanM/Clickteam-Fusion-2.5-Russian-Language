@@ -1,7 +1,7 @@
 # Русский язык для Clickteam Fusion 2.5
 
 <div align="center">
-    <img title="" src="Ассеты\screenshot.png">
+    <img title="" src="https://github.com/RushanM/Clickteam-Fusion-2.5-Russian-Language/blob/main/%D0%90%D1%81%D1%81%D0%B5%D1%82%D1%8B/screenshot.png?raw=true">
     <br>
     <br>
 </div>
