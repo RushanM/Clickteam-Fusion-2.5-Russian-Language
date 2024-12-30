@@ -360,7 +360,7 @@
         "Set auto load/save": "Установить авто сохранение/загрузку",
         "Set case sensitivity": "Установить чувствительность к регистру",
         "Set compression": "Установить сжатие",
-        "Set Current Group": "Установить текущую группу",
+        "Set Current Group": "Задать текущую группу",
         "Set default directory": "Установить каталог по умолчанию",
         "Set encryption": "Установить шифрование",
         "Set mode": "Установить режим",
