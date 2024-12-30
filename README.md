@@ -70,8 +70,6 @@
 <summary>Раскрыть</summary>
 <br>
 
-<iframe src="https://widgets.gamejolt.com/package/v1?key=YXfouRpw" frameborder="0" width="500" height="245"></iframe>
-
 1. Нажмите Download, чтобы скачать архив
 2. Откройте архив
 3. Распакуйте папку ru-ru по пути C:\Program Files (x86)\Steam\steamapps\common\Clickteam Fusion 2.5\Languages.
