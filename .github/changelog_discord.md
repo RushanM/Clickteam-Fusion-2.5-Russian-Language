@@ -2,7 +2,7 @@
 
 ## Изменения
 
-**В тексте:**
+**В тексте**
 * убраны лишние кавычки;
 * заменены многие излишние англицизмы;
 * в места, где должна быть «ё», но стоит «е», вставлена «ё»;
@@ -12,7 +12,7 @@
 * исправлен порядок слов;
 * английские кавычки заменены на русские и многое другое.
 
-**В файлах:**
+**В файлах**
 * обновлён перевод руководств «INI++» (Ini++), «Изометрическая сетка» (Iso Grid 2), «Режим 7» (Mode 7 Ex) и движений;
 * обновлён перевод HTML-файла бесплатной версии программы;
 * обновлён перевод интерфейса:
@@ -37,8 +37,7 @@
 * [скачать с Геймджолта](https://gamejolt.com/games/fusion-ru/625501),
 * [скачать с Гитхаба](https://github.com/RushanM/Clickteam-Fusion-2.5-Russian-Language/releases/tag/13),
 * скачать с Телеграма: [скоро],
-* [скачать с Яндекс-Диска](https://disk.yandex.ru/d/sWhcljP7rKj5Sw),
-* [скачать с Си-тю-комьюнити](http://c2community.ru/forum/viewtopic.php?t=17398).
+* [скачать с Яндекс-Диска](https://disk.yandex.ru/d/sWhcljP7rKj5Sw).
 
 # 12-й релиз
 
@@ -61,5 +60,4 @@
 * [скачать с Геймджолта](https://gamejolt.com/games/fusion-ru/625501),
 * [скачать с Гитхаба](https://github.com/RushanM/Clickteam-Fusion-2.5-Russian-Language/releases/tag/12),
 * скачать с Телеграма: [скоро],
-* [скачать с Яндекс-Диска](https://disk.yandex.ru/d/sWhcljP7rKj5Sw),
-* [скачать с Си-тю-комьюнити](http://c2community.ru/forum/viewtopic.php?t=17398).
+* [скачать с Яндекс-Диска](https://disk.yandex.ru/d/sWhcljP7rKj5Sw).
