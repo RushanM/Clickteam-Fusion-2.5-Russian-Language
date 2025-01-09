@@ -91,7 +91,7 @@
 	},
 	"menu_20000" : {
 		"Define Touchpad as main pad" : "Определяет сенсорную панель в качестве основной",
-		"Deprecated ..." : "Устаревшее...",
+		"Deprecated ..." : "Устаревшее…",
 		"IAP" : "IAP",
 		"Initialize IAP" : "Инициализировать IAP",
 		"Purchase current product" : "Покупка текущего продукта",
@@ -107,7 +107,7 @@
 		"D-Pad Left" : "D-Pad влево",
 		"D-Pad Right" : "D-Pad вправо",
 		"D-Pad Up" : "D-Pad вверх",
-		"Deprecated ..." : "Устаревшее...",
+		"Deprecated ..." : "Устаревшее…",
 		"Does player have product?" : "У игрока есть продукт?",
 		"IAP" : "IAP",
 		"Is button pressed for player?" : "Эта кнопка нажата для игрока?",

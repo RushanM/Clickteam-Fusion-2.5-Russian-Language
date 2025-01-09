@@ -213,8 +213,8 @@
 		"Snap Y co-ordinate to grid" : "Привязать координату Y к сетке",
 		"Snap Y co-ordinate to grid level" : "Привязать координату Y к уровню сетки",
 		"Trigonometry" : "Тригонометрия",
-		"X position ahead of..." : "X позиция дальше...",
-		"Y position ahead of..." : "Y позиция дальше...",
+		"X position ahead of..." : "X позиция дальше…",
+		"Y position ahead of..." : "Y позиция дальше…",
 	},
 	"dialog_20003" : {
 		"Cancel" : "Отмена",

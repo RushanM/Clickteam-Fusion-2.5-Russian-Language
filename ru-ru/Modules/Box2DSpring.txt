@@ -19,7 +19,7 @@
 		"Enter the strength of the spring, (0 = inactive)" : "Введите силу пружины, (0 = не активна).",
 		"Physics - Spring" : "Физика: пружина",
 		"Please choose the shape of the collision box" : "Выберите форму для расчёта столкновения",
-		"Please drop a 'Physics Engine' object in your frame." : "Поместите объект \"Физика: движок\" на сцену.",
+		"Please drop a 'Physics Engine' object in your frame." : "Поместите объект «физики: движка» на сцену.",
 		"Shape of first image" : "Форма первого изображения",
 		"Smooth rotations" : "Плавные повороты",
 		"Spring directions" : "Направления пружины",

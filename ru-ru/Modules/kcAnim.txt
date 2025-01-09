@@ -62,7 +62,7 @@
 		"End of animation?" : "Анимация закончилась?",
 		"Expressions" : "Выражения",
 		"Frame duration" : "Продолжительность кадра",
-		"Go to frame..." : "Перейти к кадру...",
+		"Go to frame..." : "Перейти к кадру…",
 		"Height of animation" : "Высота анимации",
 		"Is the animation paused?" : "Эта анимация на паузе?",
 		"Is the animation running?" : "Эта анимация запущена?",

@@ -63,7 +63,7 @@
 		"Object" : "Объект",
 		"Physics - Static movement" : "Физика: статичное движение",
 		"Please choose the shape of the collision box" : "Выберите форму для расчёта столкновения",
-		"Please drop a 'Physics Engine' object in your frame." : "Поместите объект \"Физика: движок\" на сцену.",
+		"Please drop a 'Physics Engine' object in your frame." : "Поместите объект «физики: движка» на сцену.",
 		"Prismatic joint" : "Призматическое соединение",
 		"Revolute joint" : "Вращающееся соединение",
 		"Shape of first image" : "Форма первого изображения",

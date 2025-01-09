@@ -62,7 +62,7 @@
 		"Physics - SpaceShip movement" : "Физика: движение космического корабля",
 		"Please choose how to engage the thruster" : "Выберите как включить тягу",
 		"Please choose the shape of the collision box" : "Выберите форму для расчёта столкновения",
-		"Please drop a 'Physics Engine' object in your frame." : "Поместите объект \"Физика: движок\" на сцену.",
+		"Please drop a 'Physics Engine' object in your frame." : "Поместите объект «физики: движка» на сцену.",
 		"Please enter the deceleration factor of the object" : "Введите коэффициент торможения объекта(0 = нет замедления, максимум = немедленная остановка)",
 		"Please enter the initial impulse of the object" : "Введите начальный импульс объекта",
 		"Please enter the power of the thrust" : "Введите силу тяги",

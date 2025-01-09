@@ -83,7 +83,7 @@
 		"Caption text" : "Текст заголовка",
 		"Center" : "Центр",
 		"Check" : "Отметить",
-		"Custom..." : "Настраиваемые...",
+		"Custom..." : "Настраиваемые…",
 		"Desktop" : "Рабочий стол",
 		"Disable" : "Отключить",
 		"Displays boxes, buttons, checkboxes or hyperlinks using system or custom colors." : "Позволяет создавать поля, кнопки, флажки или гиперссылки с использованием системных или настраиваемых цветов.",

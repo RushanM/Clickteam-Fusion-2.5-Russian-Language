@@ -50,7 +50,7 @@
 		"Please choose the object to detach" : "Выберите объект для отсоединения",
 		"Please choose the object to test" : "Выберите объект для проверки",
 		"Please choose the position" : "Выберите позицию",
-		"Please drop a 'Physics Engine' object in your frame." : "Поместите объект \"Физика: движок\" на сцену.",
+		"Please drop a 'Physics Engine' object in your frame." : "Поместите объект «физики: движка» на сцену.",
 		"Please enter the X coordinate" : "Введите координаты Х",
 		"Please enter the Y coordinate" : "Введите координаты Y",
 		"Please enter the name of the loop" : "Введите название цикла",
@@ -60,9 +60,9 @@
 		"Start image" : "Запустить изображение",
 		"Stop" : "Стоп",
 		"Stop loop" : "Остановить цикл",
-		"These images will constitute the center of the rope or chain." : "Эти изображения - центр верёвки или цепи.",
-		"This image will be drawn at the beginning of the rope or chain." : "Это изображение - начало верёвки или цепи.",
-		"This image will be drawn at the end of the rope or chain." : "Это изображение - конец верёвки или цепи."
+		"These images will constitute the center of the rope or chain." : "Эти изображения — центр верёвки или цепи.",
+		"This image will be drawn at the beginning of the rope or chain." : "Это изображение — начало верёвки или цепи.",
+		"This image will be drawn at the end of the rope or chain." : "Это изображение — конец верёвки или цепи."
 	},
 	"menu_20000" : {
 		"Actions" : "Действия",

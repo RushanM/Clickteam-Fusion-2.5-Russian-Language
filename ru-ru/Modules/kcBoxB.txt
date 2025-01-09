@@ -83,7 +83,7 @@
 		"Caption text" : "Текст заголовка",
 		"Center" : "Центр",
 		"Check" : "Отметить",
-		"Custom..." : "Настраиваемые...",
+		"Custom..." : "Настраиваемые…",
 		"Desktop" : "Рабочий стол",
 		"Disable" : "Отключить",
 		"Displays background boxes with or without text using system or custom colors." : "Показывает фоновые окна с текстом или без текста используя системные или настраиваемые цвета.",

@@ -19,7 +19,7 @@
 		"Enter the width of the object" : "Введите ширину объекта",
 		"Moves objects at constant speed in one direction" : "Перемещение объектов с постоянной скоростью в одном направлении",
 		"Physics - Treadmill" : "Физика: беговая дорожка",
-		"Please drop a 'Physics Engine' object in your frame." : "Поместите объект \"Физика: движок\" на сцену.",
+		"Please drop a 'Physics Engine' object in your frame." : "Поместите объект «физики: движка» на сцену.",
 		"Running : %i" : "Выполнение : %i",
 		"Set angle to %0 degrees" : "Установить угол %0 градусов",
 		"Set height to %0" : "Установить высоту %0",

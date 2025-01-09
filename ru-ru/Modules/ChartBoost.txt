@@ -83,7 +83,7 @@
 		"Cache Rewarded Video" : "Кэш видео вознаграждения",
 		"Call InPlay" : "Вызвать в игре (InPlay)",
 		"Clear Preload data" : "Очистить данные загрузчика",
-		"Deprecated ..." : "Устаревшее...",
+		"Deprecated ..." : "Устаревшее…",
 		"Display Interstitial" : "Показать интерстициальный",
 		"Display More Apps" : "Показать другие приложения",
 		"Display Rewarded video" : "Показать видео вознаграждение",

@@ -57,7 +57,7 @@
 		"Button Text" : "Текст кнопки",
 		"Caption Text" : "Текст заголовка",
 		"Compare the value of the progress bar..." : "Сравнить значение панели прогресса...",
-		"Custom..." : "Настраиваемые...",
+		"Custom..." : "Настраиваемые…",
 		"Desktop Background" : "Фон рабочего стола",
 		"Disabled Text" : "Выключить текст",
 		"Enter a title for the dialogue box." : "Введите заголовок диалогового окна",

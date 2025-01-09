@@ -84,7 +84,7 @@
 	},
 	"menu_20000" : {
 		"Audio Ad" : "Аудио Ad",
-		"Deprecated ..." : "Устаревшее...",
+		"Deprecated ..." : "Устаревшее…",
 		"Destroy Ad" : "Уничтожить Ad",
 		"Display Ad" : "Показать Ad",
 		"Load Ad to Cache" : "Загрузить Ad в кеш",
@@ -98,7 +98,7 @@
 	},
 	"menu_20001" : {
 		"Audio Ad" : "Аудио  Ad",
-		"Deprecated ..." : "Устаревшее...",
+		"Deprecated ..." : "Устаревшее…",
 		"Display Ad Paused" : "Показать Ad на паузе",
 		"Display Ad Resumed" : "Показать Ad возобновлён",
 		"Display Ads" : "Показать Ad",

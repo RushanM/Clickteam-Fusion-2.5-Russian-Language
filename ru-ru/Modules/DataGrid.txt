@@ -138,7 +138,7 @@
 		"Cancel" : "Отмена",
 		"Dialog" : "Диалоговое окно",
 		"OK" : "OK",
-		"Please enter the title..." : "Введите заголовок..."
+		"Please enter the title..." : "Введите заголовок…"
 	},
 	"dialog_112" : {
 		"Cancel" : "Отмена",
