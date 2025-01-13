@@ -63,7 +63,7 @@
 		"Tag Name" : "Название тега",
 		"Tag_name" : "Название тега",
 		"Type allowed" : "Тип разрешено",
-		"Type/Mime String (exam: txt/html, text/plain)" : "Тип/MIME строка (пример: txt/html, text/plain)",
+		"Type/Mime String (exam: txt/html, text/plain)" : "Тип/строка MIME (пример: txt/html, text/plain)",
 		"URL string" : "Строка ссылки",
 		"URL to download" : "Ссылка загрузки",
 		"User Agent String" : "Строка агента пользователя",

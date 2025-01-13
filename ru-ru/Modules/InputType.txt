@@ -16,9 +16,9 @@
 		"Set Keyboard as POSTAL type, with IMEOptions %0 to object %1" : "Установить тип клавиатуры - ПОЧТА (POSTAL), с IME настройками %0 для объекта %1",
 		"Set Keyboard as SYSTEM type, with IMEOptions %0 to object %1" : "Установить тип клавиатуры - СИСТЕМА (SYSTEM), с IME настройками %0 для объекта %1",
 		"Set Keyboard as TEXT type, with subtype %0 and IMEOptions %1 to object %2" : "Установить тип клавиатуры - ТЕКСТ (TEXT), с подтипом %0 и IME настройками %1 для объекта %2",
-		"Set Keyboard as URI type, with IMEOptions %0 to object %1" : "Установить тип клавиатуры - URI, с IME настройками %0 для объекта %1",
-		"Subtype Value (0:Default, 1:Signed, 2:Decimal, 4:Password)" : "Значение подтипа (0: По умолчанию 1: Подпись, 2: Десятичный, 4: Пароль)",
-		"Subtype value (0:Default, 1:Uppercase, 2:Capitalized, 4:Autocorrection, 8:AutoComplete)" : "Значение подтипа (0: По умолчанию 1: В верхнем регистре, 2: Заглавными, 4: Автоисправление, 8: Автозавершение)",
+		"Set Keyboard as URI type, with IMEOptions %0 to object %1" : "Установить клавиатуре тип URI с настройками IME %0 для объекта %1",
+		"Subtype Value (0:Default, 1:Signed, 2:Decimal, 4:Password)" : "Значение подтипа (0: по умолчанию 1: подпись, 2: десятичный, 4: пароль)",
+		"Subtype value (0:Default, 1:Uppercase, 2:Capitalized, 4:Autocorrection, 8:AutoComplete)" : "Значение подтипа (0: по умолчанию 1: в верхнем регистре, 2: заглавными, 4: автоисправление, 8: автозавершение)",
 		"http://www.g2f2media.com" : "http://www.g2f2media.com"
 	},
 	"dialog_20003" : {

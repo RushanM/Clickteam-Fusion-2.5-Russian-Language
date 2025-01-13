@@ -164,7 +164,7 @@
 		"Keyboard setup" : "Настройка клавиатуры",
 		"Left" : "Влево",
 		"OK" : "ОК",
-		"Press a key ... (or ESC to cancel)" : "Нажмите любую клавишу… (или Esc для отмены)",
+		"Press a key ... (or ESC to cancel)" : "Нажмите клавишу… (или Esc, чтобы отменить)",
 		"Right" : "Вправо",
 		"Up" : "Вверх"
 	},

@@ -2,9 +2,9 @@
 	"version" : 1,
 	"lang" : 1049,
 	"general" : {
-		"%o : A valid path exists" : "%o : Допустимый путь существует",
-		"%o : Cost of tile at %0 , %1 is %2" : "%o : Стоимость плитки %0,%1 %2",
-		"%o : Direction of current point %0" : "%o : Направление текущей точки %0",
+		"%o : A valid path exists" : "%o: допустимый путь существует",
+		"%o : Cost of tile at %0 , %1 is %2" : "%o: стоимость плитки %0,%1 %2",
+		"%o : Direction of current point %0" : "%o: направление текущей точки %0",
 		"%o : Direction of point %0 %1" : "%o : Направление точки %0 %1",
 		"%o : End of path reached" : "%o : Достигнут конец пути",
 		"%o : Number of movements in the path %0" : "%o : Количество движений в пути %0",

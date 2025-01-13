@@ -149,7 +149,7 @@
 		"Set Progress Max to %0" : "Установить максимум прогресса %0",
 		"Set Progress Min to %0" : "Установить минимум прогресса %0",
 		"Set Progress Style to %0" : "Установить стиль прогресса %0",
-		"Set Progress Value to %0 for Id %1" : "Установить значение прогресса %0 для ID %1",
+		"Set Progress Value to %0 for Id %1" : "Установить значение прогресса %0 для идентификатора %1",
 		"Set Progress timeout to %0" : "Установить оставшееся время прогресса %0",
 		"Set Prompt Hint to %0 and Initial text to %1" : "Установить подсказку запроса %0 и исходный текст на %1",
 		"Set Quick Message Alignment to %0 and theme %1" : "Установить выравнивание быстрого сообщения %0 и %1 темы",

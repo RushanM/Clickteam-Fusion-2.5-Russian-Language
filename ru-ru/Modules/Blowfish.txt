@@ -34,7 +34,7 @@
         "Enter the Character": "Введите символ",
         "Enter the File": "Введите файл",
         "Enter the File Work Time Interval in Milliseconds (0 to Disable)": "Введите интервал времени рабочего файла в миллисекундах (0 для Выключения)",
-        "Enter the File Work Percentage Interval (0 to Disable)": "Введите процент интервала рабочего файла (0 для Выключения)"
+        "Enter the File Work Percentage Interval (0 to Disable)": "Введите процент интервала рабочего файла (0, чтобы отключить)"
     },
     "menu_20000": {
         "Add a Character to Filter by Code": "Добавить символ для фильтрации по коду",
