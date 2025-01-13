@@ -12,7 +12,7 @@
         "01Set current item to %s": "Сделать [%0] текущим элементом",
         "01Set item string %s": "Установить [%0] строкой элемента",
         "01Set item value %s": "Сделать [%0] значением элемента",
-        "[Deprecated] Create INI file in Application Data folder if no pathname is provided": "[Не рекомендуется] Создать файл .ini в папке Application Data, если не указан путь",
+        "[Deprecated] Create INI file in Application Data folder if no pathname is provided": "[Не рекомендуется] Создать файл INI в папке Application Data, если не указан путь",
         "[Windows] Read changes from disk": "[Windows] Читать изменения с диска",
         "[Windows] Write changes to disk": "[Windows] Записывать изменения на диск",
         "A file without path will be created in the system folder, a file with a path will be created at the given location": "Файл без пути будет создан в системной папке, файл с путём будет создан в заданном пути.",
