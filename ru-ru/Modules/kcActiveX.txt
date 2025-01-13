@@ -48,7 +48,7 @@
 		"Blue" : "Синий",
 		"Boolean value. 1 is true, 0 is false" : "Логическое значение. 1 это верно, 0 это неверно",
 		"CCATX.Log" : "CCATX.Log",
-		"Cannot use control \\\"%s\\\" registered at %s in this computer registry : \n Unable to find any programming interface." : "Не удаётся использовать управление \\\"%s\\\" зарегистрированное %s на этом компьютере. Не удаётся найти интерфейс программирования.",
+		"Cannot use control \\\"%s\\\" registered at %s in this computer registry : \n Unable to find any programming interface." : "Не удаётся использовать управление \\«%s\\» зарегистрированное %s на этом компьютере. Не удаётся найти интерфейс программирования.",
 		"Char" : "Символ",
 		"Checking registry may crash your computer or result in software instability,if you have OCX which are not properly installed.Save your work before continuing.\nAre you sure you want to continue ?\n" : "Проверка реестра может привести к сбою компьютера или нестабильности в программном обеспечении, если ваша OC не установлена должным образом. Сохраните ваш проект, прежде чем продолжить.\nВы уверены что хотите продолжить?\n",
 		"Command failed." : "Не удалось выполнить команду.",

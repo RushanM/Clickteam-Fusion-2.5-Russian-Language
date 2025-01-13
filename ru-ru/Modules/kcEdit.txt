@@ -109,7 +109,7 @@
 		"Enabled" : "Включить",
 		"Files" : "Файлы",
 		"Focus" : "Фокус",
-		"Force text modified flag" : "Принудительно флаг \"Изменённый текст\"",
+		"Force text modified flag" : "Принудительно включить флаг изменённого текста",
 		"Limit text size" : "Ограничить размер текста",
 		"Load text file" : "Загрузить текстовый файл",
 		"Load text file via a file selector" : "Загрузить текстовый файл с помощью селектора файлов",

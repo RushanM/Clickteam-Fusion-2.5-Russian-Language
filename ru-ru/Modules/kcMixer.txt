@@ -11,9 +11,9 @@
 		"01Change wave left and right volume to %s" : "Изменить левый и правый канал громкости волны на %0",
 		"01Change wave left volume to %s" : "Изменить левый канал громкости волны на %0",
 		"01Change wave right volume to %s" : "Изменить правый канал громкости волны на %0",
-		"Gives you direct control over the volume of your sound samples and MIDI music files." : "Дает прямой контроль над громкостью ваших аудио-семплов и музыкальных файлов MIDI",
+		"Gives you direct control over the volume of your sound samples and MIDI music files." : "Даёт прямой контроль над громкостью ваших аудиофайлов и музыкальных файлов MIDI",
 		"Mixer" : "Микшер",
-		"Mixer object" : "Объект Микшер"
+		"Mixer object" : "Микшер"
 	},
 	"menu_20000" : {
 		"Change FM synthesizer left and right volume" : "Изменить левый и правый канал громкости FM-синтезатора",

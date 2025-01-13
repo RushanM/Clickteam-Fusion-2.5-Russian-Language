@@ -5,7 +5,7 @@
         "Copyright": "Охраняется авторским правом © 2014 Clickteam",
         "Website": "http://www.clickteam.com",
 
-        "Comment": "Часть Android-экспортера. Клон старого объекта Ini, оставленный для совместимости со старыми приложениями.",
+        "Comment": "Часть Android-экспортера. Клон старого объекта INI, оставленный для совместимости со старыми приложениями.",
         "URL": "http://www.clickteam.com",
         "Help": "",
         "Identifier": "AOin",
