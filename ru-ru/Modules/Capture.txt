@@ -70,7 +70,7 @@
 		"Cancel" : "Отмена",
 		"Change directory?" : "Сменить каталог?",
 		"Command line" : "Командная строка",
-		"Del" : "Удал.",
+		"Del" : "Delete",
 		"Export" : "Экспортировать",
 		"Frame captures : enforce 32000 colors if 65000 color mode..." : "Захват кадра: применить 32000 цветов, если режим 65000 цветов…",
 		"Import" : "Импортировать",

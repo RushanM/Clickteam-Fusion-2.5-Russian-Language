@@ -312,7 +312,7 @@
 		"01Select movement %s": "Выбрать движение %0",
 		"01Send %s to clipboard": "Отправить %0 в буфер обмена",
 		"01Send Menu Command %s": "Отправить команду меню %0",
-		"01Set %s to %s": "01Установить %s на %1",
+		"01Set %s to %s": "01Установить %s на %s",
 		"01Set Color of %s": "01Установить цвет %s",
 		"01Set Counter to %s": "01Установить текущее значение счётчика на %s",
 		"01Set Focus to Word num %s": "01Установить фокус на слово номер %s",
@@ -1068,7 +1068,7 @@
 		"Default application menu. Appears when no documents are open.": "Меню приложения по умолчанию. Отображается когда никакие документы не являются открытыми.",
 		"Default architectures": "Архитектуры по умолчанию",
 		"Default\\": "По умолчанию\\",
-		"Del": "Удал.",
+		"Del": "Delete",
 		"Delay before firing event": "Время до начала события",
 		"Delay between each event": "Задержка между каждым событием",
 		"Delete": {

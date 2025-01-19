@@ -495,7 +495,7 @@
         "OK": "ОК",
         "Operation": "Операция",
         "Remove first": "Удалить 1-й.",
-        "Remove last": "Удал.послед.",
+        "Remove last": "Удал. послед.",
         "Renumber items": "Пер-нумер.элем.",
         "Reorder Group": "Упорядочить группы",
         "Reverse": "Реверс",
