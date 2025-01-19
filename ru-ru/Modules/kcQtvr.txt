@@ -8,7 +8,7 @@
 		"01New file %s" : "Новый файл %0",
 		"01Set X coordinate at %s" : "Установить координаты X %0",
 		"01Set horizontal size to %s" : "Установить горизонтальный размер %0",
-		"01Set position at %s" : "Установить позицию %0",
+		"01Set position at %s" : "01Установить позицию %s",
 		"01Set vertical size to %s" : "Установить вертикальный размер %0",
 		"10%s: a file is opened" : "%o: файл открыт",
 		"10%s: visible" : "%o: видимый",

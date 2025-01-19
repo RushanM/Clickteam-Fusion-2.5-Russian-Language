@@ -23,7 +23,7 @@
 		"01Move to (%s, %s)" : "Переместить в (%0, %1)",
 		"01Set horizontal position to %s" : "Установить горизонтальную позицию %0",
 		"01Set horizontal size to %s" : "Установить ширину окна на %0",
-		"01Set position n°%s" : "Установить позицию %0",
+		"01Set position n°%s" : "01Установить позицию n°%s",
 		"01Set title to %s" : "Установить заголовок %0 для окна приложения",
 		"01Set vertical position to %s" : "Установить вертикальную позицию %0",
 		"01Set vertical size to %s" : "Установить высоту окна на %0",

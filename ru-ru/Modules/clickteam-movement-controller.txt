@@ -99,9 +99,9 @@
 		"Set object to %0" : "Установить объект %0",
 		"Set object with fixed value %0" : "Установить объект с фиксированным значением %0",
 		"Set offset angle to %0" : "Установить смещение угла %0",
-		"Set position to %0,%1" : "Установить позицию %0,%1",
-		"Set radius X to %0" : "Установить радиус X %0",
-		"Set radius Y to %0" : "Установить радиус Y %0",
+		"Set position to %0,%1" : "Установить позицию на %0, %1"
+		"Set radius X to %0" : "Установить радиус X на %0",
+		"Set radius Y to %0" : "Установить радиус Y на %0",
 		"Set radius to %0" : "Установить радиус %0",
 		"Set reactor power of %0 to %1" : "Установить мощность тяги %0 на %1",
 		"Set right border to %0" : "Установить правую границу %0",

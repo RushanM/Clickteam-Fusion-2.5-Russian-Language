@@ -2,7 +2,7 @@
 	"version" : 1,
 	"lang" : 1049,
 	"general" : {
-		" %s : Shared Data object" : " %s : Объект Общих Данных",
+		" %s : Shared Data object" : " %s: объект общих данных",
 		"00Reset" : "Сброс",
 		"01Shared string %s=%s" : "Общая строка %0=%1",
 		"01Shared string %s=str$(%s)" : "Общая строка %0=str$(%1)",

@@ -55,7 +55,7 @@
 		"Please enter the Y coordinate" : "Введите координаты Y",
 		"Please enter the name of the loop" : "Введите название цикла",
 		"Set horizontal coordinate to %0" : "Установить координату по горизонтали на %0",
-		"Set position to %0" : "Установить позицию %0",
+		"Set position to %0" : "Установить позицию на %0",
 		"Set vertical coordinate to %0" : "Установить координату по вертикали на %0",
 		"Start image" : "Запустить изображение",
 		"Stop" : "Стоп",

@@ -10,7 +10,7 @@
 		"Drag and Drop" : "Перетащить и отпустить",
 		"Drag method" : "Метод перетаскивания",
 		"Drop object when dragged outside area" : "Отпустить объект при перетаскивании за пределами зоны",
-		"Even if the area changes or a Set Position action is used, the object remains within the area." : "Даже если зона изменилась или используется действие 'Установить позицию', объект остается в зоне.",
+		"Even if the area changes or a Set Position action is used, the object remains within the area." : "Даже если зона изменилась или используется действие «Установить позицию», объект остается в зоне.",
 		"Force object within allowed area" : "Принудительно удерживать объект в пределах разрешенной зоны",
 		"General Properties" : "Основные свойства",
 		"Height" : "Высота",
