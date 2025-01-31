@@ -40,7 +40,7 @@
 		"Down Arrow" : "Стрелка вниз",
 		"End" : "Конец",
 		"Enter" : "Ввести",
-		"Enter new number of lives" : "Ввести новое количество жизней ",
+		"Enter new number of lives" : "Ввести новое количество жизней",
 		"Enter new score" : "Ввести новое количество очков",
 		"Error while opening file." : "Ошибка при открытии файла.",
 		"Escape" : "Esc",
