@@ -3368,10 +3368,10 @@
 		"Web site :\t" : "Сайт:\t",
 		"Week" : "Неделя",
 		"Welcome" : "Страница приветствия",
-		"What do you want to test ?" : "Что вы хотите проверить ?",
+		"What do you want to test ?" : "Что вы хотите проверить?",
 		"When left mouse key pressed" : "При нажатии левой кнопки мыши",
-		"When mouse wheel is moved down" : "Когда колёсико мыши перемещается вниз",
-		"When mouse wheel is moved up" : "Когда колёсико мыши перемещается вверх",
+		"When mouse wheel is moved down" : "Колёсико мыши дёрнулось вниз?",
+		"When mouse wheel is moved up" : "Колёсико мыши дёрнулось вверх?",
 		"When number of lives reaches 0" : "Когда количество жизней достигает 0",
 		"When right mouse key pressed" : "При нажатии правой кнопки мыши",
 		"When running on iOS, automatically asks for a touch at the end of data loading to enable the sounds (by playing a silent sound)." : "Когда приложение запускается в IOS автоматически, оно запросит вас коснуться экрана в конце, после загрузки данных, для включения звука (играя тихий звук).",
@@ -3571,7 +3571,7 @@
 		"when installer exits" : "когда установщик закрывается",
 		"while end page is displayed" : "во время отображения последней страницы",
 		"x:888888, y:888888" : "X: 888888, Y: 888888",
-		"zone (%i,%i) to (%i,%i)" : "зоны с (X = %i, Y = %i) по (X = %i, Y = %i)"
+		"zone (%i,%i) to (%i,%i)" : "зон. с (X = %i, Y = %i) по (X = %i, Y = %i)"
 	},
 	"dialog_100": {
 		"&Buy Now !" : "Купить сейчас!",
