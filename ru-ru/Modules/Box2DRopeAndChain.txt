@@ -42,7 +42,7 @@
 		"Make %0 climb down one element" : "%0 - спустился на один элемент",
 		"Make %0 climb up one element" : "%0 - поднялся на один элемент",
 		"Number of elements" : "Количество элементов",
-		"Number of elements : %i" : "Количество элементов : %i",
+		"Number of elements : %i" : "Количество элементов: %i",
 		"Physics" : "Физика",
 		"Physics - Rope and Chain" : "Физика: верёвка и цепь",
 		"Please choose the object that climbs" : "Выберите объект который поднимается",
