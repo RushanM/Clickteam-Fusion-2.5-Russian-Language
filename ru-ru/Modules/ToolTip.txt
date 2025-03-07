@@ -2,8 +2,8 @@
 	"version" : 1,
 	"lang" : 1049,
 	"general" : {
-		"%o: User has clicked on a link" : "%o: Пользователь нажал на ссылку",
-		"0-> No icon, 1-> Infos, 2-> Warning, 3-> Error" : "0-> Без иконки, 1-> Информация, 2-> Предупреждение, 3-> Ошибка",
+		"%o: User has clicked on a link" : "%o: пользователь нажал на ссылку",
+		"0-> No icon, 1-> Infos, 2-> Warning, 3-> Error" : "0 → без значка, 1 → информация, 2 → предупреждение, 3 → ошибка",
 		"Allows you to display tooltips and balloon windows in your application." : "Позволяет отображать подсказки и шарообразные окна в приложении.",
 		"Appearance timer" : "Таймер появления",
 		"Automatic" : "Автоматически",

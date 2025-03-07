@@ -69,13 +69,13 @@
 		"Set X velocity" : "Установить скорость X",
 		"Set Y velocity" : "Установить скорость Y",
 		"Unpause movement" : "Снять движение с паузы",
-		"User is holding jump in the air" : "Пользователь удерживает прыжок в воздухе",
+		"User is holding jump in the air" : "Пользователь удерживает кнопку прыжка в воздухе",
 		"User is holding left input key" : "Пользователь удерживает левую клавишу",
 		"User is holding right input key" : "Пользователь удерживает правую клавишу",
 		"Variables" : "Переменные"
 	},
 	"menu_20001" : {
-		"Collision testing (top of the event)" : "Проверка Столкновение (главных событий)",
+		"Collision testing (top of the event)" : "Проверка столкновений (главных событий)",
 		"Movement is paused" : "Движение на паузе",
 		"Object is falling" : "Объект падает",
 		"Object is jumping" : "Объект прыгает",

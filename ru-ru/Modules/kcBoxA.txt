@@ -228,9 +228,9 @@
 		"Window text" : "Текст окна"
 	},
 	"menu_20001" : {
-		"&Button" : "Кнопка",
-		"&Mouse is over object" : "Мышь находится над объектом",
-		"&User clicks" : "Пользователь нажимает",
+		"&Button" : "&Кнопка",
+		"&Mouse is over object" : "&Мышь находится над объектом",
+		"&User clicks" : "&Пользователь нажимает",
 		"Is &clicked ?" : "Нажата?",
 		"Is &docked ?" : "Прикреплено?",
 		"Is &enabled ?" : "Включено?",
