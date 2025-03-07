@@ -81,13 +81,13 @@
 		"Visibility" : "Видимость"
 	},
 	"menu_20001" : {
-		"Check whether a file is open ?" : "Проверить, открыт ли файл ?",
-		"Compare to current frame ?" : "Сравнить с текущим кадром ?",
-		"Compare to current time position ?" : "Сравнить с текущей позицией времени",
-		"Is AVI at end position ?" : "AVI в конечной позиции ?",
-		"Is AVI at start position ?" : "AVI в начальной позиции ?",
-		"Is visible ?" : "Видимый ?",
-		"Mouse clicks within the AVI window ?" : "Клики мыши в окне AVI?"
+		"Check whether a file is open ?" : "Файл открыт?",
+		"Compare to current frame ?" : "Текущая кадр равен этому…?",
+		"Compare to current time position ?" : "Текущая позиция времеи равна этой…?",
+		"Is AVI at end position ?" : "AVI на конечной позиции?",
+		"Is AVI at start position ?" : "AVI в начальной позиции?",
+		"Is visible ?" : "Видим?",
+		"Mouse clicks within the AVI window ?" : "Пользовать нажал на кнопку мыши внутри окна AVI?"
 	},
 	"menu_20002" : {
 		"Current frame number" : "Номер текущего кадра",
