@@ -227,7 +227,7 @@
 	"dialog_20003" : {
 		"Pathfinding extension v1.6" : "Найти путь (расширение) в1.6",
 		"Cancel" : "Отмена",
-		"OK" : "OK",
+		"OK" : "ОК",
 		"Pathfinding extension" : "Найти путь (расширение)",
 		"Copyright © 2k8 z33z" : "Права© 2k8 z33z",
 	}

@@ -176,7 +176,7 @@
 		"Displayed at &start" : "Показывать при запуске",
 		"Down&load URL" : "Скачать URL",
 		"Installed ActiveX components" : "Установленные компоненты ActiveX",
-		"OK" : "OK",
+		"OK" : "ОК",
 		"Perform &full check" : "Полная проверка",
 		"Setup ActiveX Object" : "Установка объекта ActiveX",
 		"Window &title:" : "Заголовок окна:"
@@ -190,7 +190,7 @@
 		"Displayed at &start" : "Показывать при запуске",
 		"Down&load URL" : "Скачать URL",
 		"Modify ActiveX Object" : "Изменить объект ActiveX",
-		"OK" : "OK",
+		"OK" : "ОК",
 		"Window &title" : "Заголовок окна"
 	},
 	"dialog_30721" : {
@@ -198,7 +198,7 @@
 		"&New " : "Новый",
 		"Cancel" : "Отмена",
 		"New" : "Новый",
-		"OK" : "OK"
+		"OK" : "ОК"
 	},
 	"menu_141" : {
 		"An error occurred" : "Неизвестная ошибка",

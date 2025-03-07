@@ -23,7 +23,7 @@
 	},
 	"dialog_20003" : {
 		"Cancel" : "Отмена",
-		"OK" : "OK",
+		"OK" : "ОК",
 		"Object" : "Объект",
 		"Remember to use/check:\r\n    permission" : "Не забудьте использовать:\r\n    permission"
 	},

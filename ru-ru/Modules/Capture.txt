@@ -58,7 +58,7 @@
 		"Capture object setup" : "Настройка объекта захвата",
 		"Do one capture every" : "Делать захват каждые",
 		"Final name (leave empty to open a file selector at runtime)" : "Конечное название (пусто для селектора файла во время выполнения)",
-		"OK" : "OK",
+		"OK" : "ОК",
 		"frame(s)" : "кадр(ы)"
 	},
 	"dialog_104" : {
@@ -75,7 +75,7 @@
 		"Frame captures : enforce 32000 colors if 65000 color mode..." : "Захват кадра: применить 32000 цветов, если режим 65000 цветов…",
 		"Import" : "Импортировать",
 		"Macros" : "Макрос",
-		"OK" : "OK",
+		"OK" : "ОК",
 		"Program to run" : "Программа для запуска",
 		"Tool configuration editor" : "Редактор параметров инструмента"
 	},

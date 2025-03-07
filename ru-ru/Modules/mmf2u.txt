@@ -1,24 +1,8 @@
 {
-	"version": 1,
-	"lang": 1049,
-	"general": {
-		"Control": {
-			"2067" : "Ctrl",
-			"2172" : "Управление",
-			"11344" : "Управление"
-		},
-		"    Install program size: %d bytes" : "    Размер программы установки: %d байт",
-		"    Number of files: %d" : "    Количество файлов: %d",
-		"    Total compressed size: %d bytes" : "    Размер запакованных файлов: %d байт",
-		"    Total uncompressed size: %d bytes" : "    Размер распакованных файлов: %d байт",
-		" (uninteruptable)" : " (не покидает свой аудиоканал)",
-		" And " : " And ",
-		" Or " : " Or ",
-		" Pow " : " Pow ",
-		" Xor " : " Xor ",
-		"\"%s\" (%i)" : "«%s» (%i)",
-		"\"%s\" (%s)" : "«%s» (%s)",
-		"\"%s\"" : "«%s»",
+	"version" : 1,
+	"lang" : 1049,
+	"general" : {
+		"\t" : "\t",
 		"\nEvent Editor\nEvent Editor\n\n\n\n" : "\nРедактор событий\nРедактор событий\n\n\n\n",
 		"\nFrame Editor\nFrame Editor\n\n\n\n" : "\nРедактор сцены\nРедактор сцены\n\n\n\n",
 		"\nStoryboard Editor\nStoryboard Editor\n\n\n\n" : "\nРедактор сцен\nРедактор сцен\n\n\n\n",
@@ -29,50 +13,45 @@
 		"\r\n*** Modifications needed in frame events.\r\nFrame name : %s\r\n" : "\r\n*** Необходимы изменения в событиях сцены.\r\nНазвание сцены: %s\r\n",
 		"\r\n*** Modifications needed in global events.\r\n" : "\r\n*** Необходимы изменения в глобальных событиях.\r\n",
 		"\r\n*** Modifications needed in object behavior\r\nFrame name : %s\r\nObject name : %s\r\n" : "\r\n*** Необходимы изменения в поведении объекта\r\nНазвание сцены: %s\r\nНазвание объекта: %s\r\n",
-		"\t" : "\t",
+		"    Install program size: %d bytes" : "    Размер программы установки: %d байт",
+		"    Number of files: %d" : "    Количество файлов: %d",
+		"    Total compressed size: %d bytes" : "    Размер запакованных файлов: %d байт",
+		"    Total uncompressed size: %d bytes" : "    Размер распакованных файлов: %d байт",
+		" (uninteruptable)" : " (не покидает свой аудиоканал)",
+		" And " : " And ",
+		" Or " : " Or ",
+		" Pow " : " Pow ",
+		" Xor " : " Xor ",
+		"\"%s\"" : "«%s»",
+		"\"%s\" (%i)" : "«%s» (%i)",
+		"\"%s\" (%s)" : "«%s» (%s)",
 		"# of angles" : "Nb углов",
 		"#Title Install Program" : "Установка #Title",
-		"Convert to..." : "Конвертиров. в…",
-		"Copyright © 1996-2020 Clickteam." : "Охраняется авторским правом © 1996—2025 Clickteam. Обновите Fusion!",
-		"Copyright © 1996-2021 Clickteam." : "Охраняется авторским правом © 1996—2025 Clickteam. Обновите Fusion!",
-		"Copyright © 1996-2022 Clickteam." : "Охраняется авторским правом © 1996—2025 Clickteam",
-		"Copyright © 1996-2023 Clickteam." : "Охраняется авторским правом © 1996—2025 Clickteam",
-		"Copyright © 1996-2024 Clickteam." : "Охраняется авторским правом © 1996—2025 Clickteam",
-		"All rights reserved" : "Все права защищены.",
-		"All rights reserved " : "Все права защищены.",
-		" All rights reserved " : "Все права защищены.",
-		" All rights reserved" : "Все права защищены.",
-		"Info" : "Информация",
-		"Script" : "Сценарий",
 		"#Title has been successfully installed." : "#Title успешно установлено.",
 		"#Title has been successfully removed from your hard drive." : "#Title успешно удалено с вашего жёсткого диска.",
 		"#Title has not been totally installed because of the following reason:\n\n%s\n\nYou will have to run this utility again to completely install #title." : "#Title не полностью установлено по следующей причине:\n\n%s\n\nВы должны снова запустить эту утилиту и полностью установить #title.",
-		"#Title's files will be installed in the following directory:" : "Файлы #Title будут установлены в следующем каталоге:",
 		"#Title#Please choose a demo file.#Filter#Demo files|*.mfd" : "#Title#Пожалуйста выберите демо файл.#Filter#Файлы Демо|*.mfd",
 		"#Title#Please choose a graphic file.#Filter#All files|*.*|" : "#Title#Пожалуйста выберите графический файл.#Filter#Все файлы|*.*|",
 		"#Title#Please choose the file. Empty to display a file selector.#Filter#Position files|*.mfs|" : "#Title#Пожалуйста, выберите файл. Пусто для показа диалога выбора файла.#Filter#Файлы позиции|*.mfs|",
+		"#Title's files will be installed in the following directory:" : "Файлы #Title будут установлены в следующем каталоге:",
+		"Info" : "Информация",
+		"Script" : "Сценарий",
 		"%.80s" : "%.80s",
 		"%0 chances out of %1 at random" : "Запустить событие в %0 шансов из %1 случайным образом",
 		"%0 of %o %1" : "%0 из %o %1",
+		"%1\nCannot find this file.\nVerify that the correct path and file name are given." : "%1\nФайл не найден.\nПроверьте, правильно ли указаны путь и название файла.",
 		"%1 contained an unexpected object." : "%1 содержится неправильный объект.",
 		"%1 contains an incorrect path." : "%1 содержит недопустимый путь.",
 		"%1 contains an incorrect schema." : "%1 содержит неправильную схему.",
 		"%1 has a bad format." : "%1 имеет неверный формат.",
 		"%1 was not found." : "Не удаётся найти %1.",
 		"%1: %2\nContinue running script?" : "%1: %2\nПродолжить выполнение сценария/скрипта?",
-		"%1\nCannot find this file.\nVerify that the correct path and file name are given." : "%1\nНе удаётся найти этот файл. \nПроверьте правильно ли задан путь и название файла.",
-		"%d (Num. keypad)" : "%d (клавиатура)",
-		"%d Kb" : "%d Кб",
+		"%Ts [Recovered]" : "%Ts [восстановлено]",
+		"%d (Num. keypad)" : "%d (цифровая клавиатура)",
 		"%d KHz\r\nMono\r\n%d Bits\r\nSize = %d Kb" : "%d кГц\r\nМоно\r\n%d Биты\r\nРазмер = %d Кб",
 		"%d KHz\r\nStereo\r\n%d Bits\r\nSize = %d Kb" : "%d кГц\r\nСтерео\r\n%d Биты\r\nРазмер = %d Кб",
+		"%d Kb" : "%d Кб",
 		"%d Mb" : "%d Мб",
-	    "Select this option if both your build and target APIs are set to Android 10 (API 29) and you want to use the legacy Android storage management." : "Поставьте здесь галочку, если и ваша сборка, и целевой API настроены на Android 10 (API 29) и вы хотите использовать устаревший метод управления хранилищем Android.",
-		"&Add or Remove Buttons" : "Добавить или удалить кнопки",
-		"&Auto Hide" : "Автоматически скрывать",
-		"&Build" : "Сборка",
-		"&Cancel" : "Отмена",
-		"&Docking" : "Закреплено",
-		"&Floating" : "Плавающая",
 		"%d sec %d\"" : "%d сек %d\"",
 		"%i" : "%i",
 		"%o: %0 is off" : "%o: флаг «%0» отключён",
@@ -1501,7 +1480,6 @@
 		"Filled\nFilled" : "Заливка\nЗаливка ",
 		"Find string in string" : "Найти строку в строке",
 		"Find string in string backward" : "Найти строку в строке с конца",
-		"Replace substring in a string" : "Заменить подстроку в строке",
 		"Find the specified text\nFind" : "Найти указанный текст\nНайти",
 		"Fire 1 button" : "Кнопка «Огонь 1»",
 		"Fire 2 button" : "Кнопка «Огонь 2»",
@@ -1737,7 +1715,6 @@
 		"If you do not wish to install #title, click 'Exit' now, otherwise click 'Next' to continue." : "Если вы не хотите, чтобы установилась #title, нажмите ВЫХОД, или нажмите ДАЛЕЕ для продолжения.",
 		"If you unselect this option, the application window will be resized when the keyboard is displayed." : "Если вы отключите эту опцию, окно приложения будет изменять размер при отображении клавиатуры.",
 		"Ignore \"Destroy if too far\" option if \"Inactivate if too far\" is set to No" : "Игнорировать «Уничтожить, если слишком далеко...», если опция «Деактивировать, если слишком далеко...» стоит на «Нет»",
-		"Windows-like collisions on other platforms" : "Столкновения как на Windows и на других платформах",
 		"Ignore Control" : "Игнорировать управление",
 		"Ignore the font name in the objects' properties and use the system font instead." : "Игнорирует название выбранного шрифта в свойствах объекта и использует вместо него системный шрифт.",
 		"Image" : "Изображение",
@@ -1971,6 +1948,7 @@
 		"Load" : "Загрузить",
 		"Load %0 into Animation %1, Direction %2, Frame #%3, HotSpot(%4,%5), Action Point(%6,%7), Transparent Color %8" : "Загрузка %0 в анимацию %1, Направление %2, кадр #%3, Горячая точка(%4,%5), Точка действия(%6,%7), Прозрачный Цвет %8",
 		"Load Frame" : "Загрузить кадр",
+		"Load Animations" : "Загрузить анимации",
 		"Load a menu" : "Загрузить меню",
 		"Load all data at start" : "Загружать все данные при запуске",
 		"Load application position" : "Загрузить момент приложения",
@@ -2203,7 +2181,7 @@
 		"Number to hexadecimal string" : "Номер в шестнадцатеричной строке",
 		"Numbers" : "Числа",
 		"Numeric conversion of current string" : "Числовая конвертация текущей строки",
-		"OK" : "OK",
+		"OK" : "ОК",
 		"OR" : "ИЛИ",
 		"OR (logical)" : "ИЛИ (стандартный)",
 		"OR and ELSE IF cannot be mixed." : "ИЛИ и ИНАЧЕ не могут быть использованы вместе",
@@ -2729,6 +2707,13 @@
 		"Select the following option if you want #title to be launched after exiting this install program :" : "Выберите следующий параметр, если вы хотите #title был запущен после выхода из этой программы установки:",
 		"Select the minimum version of Android required to run your application." : "Выбрать минимальную версию Android, необходимую для запуска приложения.",
 		"Select the new color" : "Выбрать новый цвет",
+		"Select this option if both your build and target APIs are set to Android 10 (API 29) and you want to use the legacy Android storage management." : "Поставьте здесь галочку, если и ваша сборка, и целевой API настроены на Android 10 (API 29) и вы хотите использовать устаревший метод управления хранилищем Android.",
+		"&Add or Remove Buttons" : "Добавить или удалить кнопки",
+		"&Auto Hide" : "Автоматически скрывать",
+		"&Build" : "Сборка",
+		"&Cancel" : "Отмена",
+		"&Docking" : "Закреплено",
+		"&Floating" : "Плавающая",
 		"Selection not valid" : "Недопустимый выбор",
 		"Selection tool\nSelection tool" : "Выделение\nВыделение",
 		"Semi-transparent" : "Полупрозрачный",
@@ -2884,8 +2869,6 @@
 		"Show Above the Ribbon" : "Показать над лентой",
 		"Show Below the Ribbon" : "Показать под лентой",
 		"Show Debugger" : "Показать отладчик",
-		"Crash: display last event line" : "При вылете: показать последнее событие",
-		"Select this option to display the number of the last executed event line when a crash happens (editor runtime only)." : "Включите это, чтобы после вылета приложение показывало номер последней выполненной строки события (работает только во время разработки).",
 		"Show Fewer Buttons" : "Показать меньше кнопок",
 		"Show Grid\nShow Grid" : "Показать сетку\nПоказать сетку",
 		"Show More Buttons" : "Показать больше кнопок",
@@ -3197,7 +3180,6 @@
 		"Top-left" : "Верх-лево",
 		"Top-right" : "Верх-право",
 		"Total number of objects" : "Общее количество объектов",
-		"Fixed value of last created object" : "Фиксированное значение последнего созданного объекта",
 		"Touch joystick" : "Сенсорный джойстик",
 		"Touch mode" : "Сенсорный режим",
 		"Touch the screen to continue." : "Прикоснитесь к экрану чтобы продолжить.",
@@ -3571,12 +3553,62 @@
 		"when installer exits" : "когда установщик закрывается",
 		"while end page is displayed" : "во время отображения последней страницы",
 		"x:888888, y:888888" : "X: 888888, Y: 888888",
-		"zone (%i,%i) to (%i,%i)" : "зон. с (X = %i, Y = %i) по (X = %i, Y = %i)"
+		"zone (%i,%i) to (%i,%i)" : "зон. с (%i, %i) по (%i, %i)",
+		"Compare angle to a value" : "Сравнить угол со значением",
+		"Compare X scale to a value" : "Сравнить размер по X со значением",
+		"Compare Y scale to a value" : "Сравнить размер по Y со значением",
+		"Would \"%s\" overlap a backdrop at ...?" : "Будет ли «%s» перекрывать фон в ...?",
+		"Would \"%s\" overlap another object at ...?" : "Будет ли «%s» перекрывать другой объект в ...?",
+		"Would %o at X=%0, Y=%1 overlap a backdrop?" : "Будет ли %o при X = %0, Y = %1 перекрывать фон?",
+		"Would %o at X=%1, Y=%2 overlap %0?" : "Будет ли %o при X = %1, Y = %2 перекрывать %0?",
+		"X scale of %o %0" : "Масштаб по X %o %0",
+		"Y scale of %o %0" : "Масштаб по Y %o %0",
+		"You might exceed the maximum number of images supported by the runtime. Do you want to continue anyway?" : "Возможно, вы превысите максимально допустимое количество изображений, поддерживаемых движком. Всё равно продолжить?",
+		"Images [DEPRECATED]" : "Изображения [устаревшие]",
+		"Delete deprecated images" : "Удалить устаревшие изображения",
+		"Use this button to delete the deprecated images when you no longer need them." : "Используйте эту кнопку, чтобы удалить устаревшие изображения, когда они вам больше не нужны.",
+		"Launch Screen image" : "Изображение экрана запуска",
+		"Device default" : "По умолчанию",
+		"Display cutouts" : "Вырезы экрана",
+		"Allows you to select if, and how, your app window is allowed to extend into the display cutout area." : "Позволяет выбрать, разрешено ли и каким образом окно вашего приложения выходить в область вырезов экрана.",
+		"Short edges" : "Короткие стороны",
+		"Always, all edges (Android 11+ only)" : "Всегда, все стороны (только Android 11+)",
+		"Generate Android Studio project" : "Сгенерировать проект для Android Studio",
+		"Saves an Android Studio project in a zip file next to the APK/AAB file" : "Сохраняет проект Android Studio в виде архива ZIP рядом с файлом APK/AAB.",
+		"Fixed value of last created object" : "Фиксированное значение последнего созданного объекта",
+		"Last fixed value" : "Последнее фиксированное значение",
+		"Crash: display last event line" : "При вылете: показать последнее событие",
+		"Select this option to display the number of the last executed event line when a crash happens (editor runtime only)." : "Включите это, чтобы после вылета приложение показывало номер последней выполненной строки события (работает только во время разработки).",
+		"Replace substring in a string" : "Заменить подстроку в строке",
+		"ReplaceSubstring$(" : "ReplaceSubstring$(",
+		"Source string|Substring to replace|New substring" : "Исходная строка|Подстрока для замены|Новая подстрока",
+		"Windows-like collisions on other platforms" : "Столкновения как на Windows и на других платформах",
+		"If this option is not selected, on non-Windows platforms when 2 objects collide and one of them is in box-collision mode, then both objects are considered as being in box-collision mode." : "Если опция отключена, то на платформах, отличных от Windows, при столкновении двух объектов, если хотя бы один из них использует режим прямоугольных столкновений, оба объекта будут считаться находящимися в этом режиме.",
+		"Hold frame until all preload sounds are loaded" : "Удерживать сцену до полной загрузки всех предзагружаемых звуков",
+		"Increases the frame loading time but may avoid sound issues at the beginning of the frame." : "Увеличивает время загрузки сцены, но может предотвратить проблемы со звуком в её начале.",
+		"Enable Leanback Launcher in manifest" : "Включить Leanback Launcher в манифесте",
+		"Unselect this option if you get a LEANBACK_LAUNCHER error message when uploading an APK file to Google Play." : "Выключите эту опцию, если при загрузке файла APK в Google Play появляется ошибка LEANBACK_LAUNCHER.",
+		"Windows: ignore parent's 'Resize Display' option" : "Windows: игнорировать опцию «Изменить размер экрана» родительского приложения",
+		"If this option is not selected, the 'Resize display to fill window size' option of the parent app will be taken into account for calculating the position and size of the sub-app object." : "Если опция отключена, для расчёта позиции и размеров объекта подприложения будет учитываться опция «Изменить размер экрана» родительского приложения.",
+		"Control": {
+			"2067" : "Ctrl",
+			"2172" : "Управление",
+			"11344" : "Управление"
+		},
+		"Copyright © 1996-2020 Clickteam." : "Охраняется авторским правом © 1996—2025 Clickteam. Обновите Fusion!",
+		"Copyright © 1996-2021 Clickteam." : "Охраняется авторским правом © 1996—2025 Clickteam. Обновите Fusion!",
+		"Copyright © 1996-2022 Clickteam." : "Охраняется авторским правом © 1996—2025 Clickteam",
+		"Copyright © 1996-2023 Clickteam." : "Охраняется авторским правом © 1996—2025 Clickteam",
+		"Copyright © 1996-2024 Clickteam." : "Охраняется авторским правом © 1996—2025 Clickteam",
+		"All rights reserved" : "Все права защищены.",
+		"All rights reserved " : "Все права защищены.",
+		" All rights reserved " : "Все права защищены.",
+		" All rights reserved" : "Все права защищены.",
 	},
 	"dialog_100": {
 		"&Buy Now !" : "Купить сейчас!",
 		"About ..." : "О нас",
-		"OK" : "OK"
+		"OK" : "ОК"
 	},
 	"dialog_101": {
 		"Static" : "Статичный"
@@ -3585,7 +3617,7 @@
 		"&Browse" : "Обзор",
 		"Cancel" : "Отмена",
 		"Internal Animation Frames" : "Внутренние кадры анимации",
-		"OK" : "OK",
+		"OK" : "ОК",
 		"This version only supports external animation frames. The internal animation frame(s) must be exported externally. Choose the directory where you want the file(s) saved to." : "Эта версия поддерживает только внешние кадры анимации. Внутренний(-е) кадр(ы) анимации должны быть экспортированы извне. Выберите каталог в который вы хотите сохранить файл(ы)."
 	},
 	"dialog_116": {
@@ -3596,7 +3628,7 @@
 		"Coun&terclockwise" : "Против часовой стрелки",
 		"Direction of rotation" : "Направление вращения",
 		"Make One-Turn Rotation" : "Сделать один поворот",
-		"OK" : "OK"
+		"OK" : "ОК"
 	},
 	"dialog_117": {
 		"&Help" : "&Помощь",
@@ -3608,7 +3640,7 @@
 		"Final width" : "Окончательная ширина",
 		"Height : %d" : "Высота: %d",
 		"Insert Resized Frames" : "Вставить изменённое изображение",
-		"OK" : "OK",
+		"OK" : "ОК",
 		"Original size" : "В полную величину",
 		"Width : %d" : "Ширина: %d"
 	},
@@ -3625,7 +3657,9 @@
 		"&Play from disk" : "С диска",
 		"&Preload" : "Предзагрузить",
 		"&Replace" : "Заменить",
+		"Convert to..." : "Конвертиров. в…",
 		"E&xtract" : "Извлечь",
+		"Info" : "Информация",
 		"List1" : "List1",
 		"Options" : "Параметры",
 		"Sounds" : "Звуки"
@@ -3672,7 +3706,7 @@
 		"Filename :" : "Имя файла:",
 		"List1" : "List1",
 		"New folder" : "Новая папка",
-		"OK" : "OK",
+		"OK" : "ОК",
 		"Refresh" : "Обновить",
 		"Up" : "Вверх"
 	},
@@ -3680,7 +3714,7 @@
 		"Cancel" : "Отмена",
 		"List1" : "List1",
 		"New folder" : "Новая папка",
-		"OK" : "OK",
+		"OK" : "ОК",
 		"Refresh" : "Обновить",
 		"Select a folder" : "Выберите папку",
 		"Up" : "Вверх"
@@ -3726,7 +3760,7 @@
 		"Button &4" : "Кнопка &4",
 		"Cancel" : "Отмена",
 		"Keyboard setup" : "Настройка клавиатуры",
-		"OK" : "OK",
+		"OK" : "ОК",
 		"Press a key..." : "Нажмите клавишу…",
 		"or ESC to cancel." : "или ESC для отмены"
 	},
@@ -3739,7 +3773,7 @@
 		"Joystick 3" : "Джойстик 3",
 		"Joystick 4" : "Джойстик 4",
 		"Keyboard" : "Клавиатура ",
-		"OK" : "OK",
+		"OK" : "ОК",
 		"Player Controls" : "Управление игрока"
 	},
 	"dialog_1826": {
@@ -3749,7 +3783,7 @@
 		"Color" : "Цвет",
 		"Loop the Movement" : "Повторить движение",
 		"New Line" : "Новая линия",
-		"OK" : "OK",
+		"OK" : "ОК",
 		"Path Movement Setup" : "Настройка движения «Путь»",
 		"Reposition Object at End" : "Переместить объект по окончанию",
 		"Reverse at End" : "Реверс по окончанию",
@@ -3762,7 +3796,7 @@
 		"&Try movement" : "Проверить движение",
 		"Cancel" : "Отмена",
 		"Mouse movement setup" : "Настройка движ. мыши",
-		"OK" : "OK",
+		"OK" : "ОК",
 		"Player" : "Игрок",
 		"Spin1" : "Spin1"
 	},
@@ -3775,7 +3809,7 @@
 		"Duration :" : "Продолжит.:",
 		"From / to" : "Из / в",
 		"Module" : "Модуль",
-		"OK" : "OK",
+		"OK" : "ОК",
 		"Parameters" : "Параметры",
 		"Preview" : "Обзор",
 		"Slider1" : "Slider1",
@@ -3787,7 +3821,7 @@
 		"Cancel" : "Отмена",
 		"Node name" : "Название узла",
 		"Node name :" : "Название узла:",
-		"OK" : "OK"
+		"OK" : "ОК"
 	},
 	"dialog_1844": {
 		"&Add" : "Добавить",
@@ -3795,7 +3829,7 @@
 		"&Help" : "&Помощь",
 		"Cancel" : "Отмена",
 		"List1" : "List1",
-		"OK" : "OK",
+		"OK" : "ОК",
 		"Objects qualifiers" : "Группы объектов"
 	},
 	"dialog_1845": {
@@ -3803,7 +3837,7 @@
 		"Add a qualifier to an object" : "Добавить объект в группу",
 		"Cancel" : "Отмена",
 		"List2" : "List2",
-		"OK" : "OK",
+		"OK" : "ОК",
 		"Please choose a qualifier" : "Выберите группу"
 	},
 	"dialog_1848": {
@@ -3832,7 +3866,7 @@
 		"Down" : "Вниз",
 		"F&ont..." : "Шрифт",
 		"List1" : "List1",
-		"OK" : "OK",
+		"OK" : "ОК",
 		"Question" : "Вопрос",
 		"Question Setup" : "Настройка вопроса",
 		"Up" : "Вверх"
@@ -3840,7 +3874,7 @@
 	"dialog_2008": {
 		"Do not show this message again for this session of the program" : "Больше не показывать это сообщение в этой сессии программы",
 		"Internal error ! Objects or events of this application might be corrupt." : "Внутренняя ошибка! Объекты или события этого приложения могут быть повреждены.",
-		"OK" : "OK",
+		"OK" : "ОК",
 		"Please contact Clickteam if you can reproduce this issue, thanks !" : "Пожалуйста, свяжитесь с компанией Clickteam, если вы не можете решить эту проблему, спасибо !",
 		"Saving the application and reloading it could fix the problem and only generate bad objects in the events, but if possible, you should save it with another filename and restart from a previous version." : "Сохранение и перезапуск приложения может решить эту проблему.",
 		"Warning" : "Внимание"
@@ -3851,13 +3885,13 @@
 		"&Ignore" : "Игнор.",
 		"&The file specified below does not exist. Please enter another filename." : "Указанный файл не существует. Пожалуйста введите другое название файла.",
 		"Ignore &all similar messages" : "Игнорировать всё.",
-		"OK" : "OK",
+		"OK" : "ОК",
 		"Warning" : "Внимание"
 	},
 	"dialog_2010": {
 		"&Help" : "&Помощь",
 		"Cancel" : "Отмена",
-		"OK" : "OK",
+		"OK" : "ОК",
 		"This may cause problems if you want to install this application on another machine." : "Это может создать проблемы при установке приложения на другом компьютере.",
 		"Warning" : "Внимание!",
 		"Warning, the following files are stored in directories that are not relative to the directory of the application you are saving." : "Внимание! Следующие файлы хранятся в каталогах, которые не имеют отношение к каталогу, в который вы записываете приложение."
@@ -3867,7 +3901,7 @@
 		"Cancel" : "Отмена",
 		"Error" : "Ошибка",
 		"Error: the following files are stored in directories that are not relative to the directory of the application you are saving." : "Ошибка: Следующие файлы хранятся в каталогах, которые не имеют отношение к каталогу, в который вы записываете приложение.",
-		"OK" : "OK",
+		"OK" : "ОК",
 		"You cannot save this application as Internet application. Please move these files, then retry." : "Вы не можете сохранить это приложение в интернете. Пожалуйста, переместите эти файлы, а затем повторите попытку."
 	},
 	"dialog_2012": {
@@ -3884,14 +3918,14 @@
 		"Down" : "Вниз",
 		"Movements" : "Движения",
 		"New" : "Нов.",
-		"OK" : "OK",
+		"OK" : "ОК",
 		"Up" : "Вверх"
 	},
 	"dialog_2051": {
 		"Cancel" : "Отмена",
 		"Change Movement Name" : "Изменять название Движения",
 		"Enter a new name for the movement" : "Введите новое название для движения",
-		"OK" : "OK"
+		"OK" : "ОК"
 	},
 	"dialog_2059": {
 		"&Apply" : "Применить",
@@ -3907,7 +3941,7 @@
 		"Add new resolution" : "Добавить новое разрешение",
 		"Cancel" : "Отмена",
 		"Height" : "Высота",
-		"OK" : "OK",
+		"OK" : "ОК",
 		"Width" : "Ширина"
 	},
 	"dialog_2063": {
@@ -3921,7 +3955,7 @@
 	"dialog_2064": {
 		"Browse" : "Проводник",
 		"Cancel" : "Отмена",
-		"OK" : "OK",
+		"OK" : "ОК",
 		"Project name :" : "Название проекта:",
 		"Project path :" : "Путь к проекту:",
 		"Save %s Project" : "Сохранить проект %s"
@@ -3932,7 +3966,7 @@
 		"Cancel" : "Отмена",
 		"Edit image" : "Значок",
 		"List1" : "List1",
-		"OK" : "OK",
+		"OK" : "ОК",
 		"Option ID" : "Параметр ID",
 		"Option text" : "Параметр текста",
 		"Remove" : "Удалить"
@@ -3951,7 +3985,7 @@
 		"&Help" : "&Помощь",
 		"Cancel" : "Отмена",
 		"Edit answer" : "Редактировать ответ",
-		"OK" : "OK"
+		"OK" : "ОК"
 	},
 	"dialog_2500": {
 		"&Assign this type to further imported items (skip this dialog)" : "&Назначить этот тип для импорта всех новых элементов (пропустить этот диалог)",
@@ -3969,7 +4003,7 @@
 		"Html5" : "Html5",
 		"List1" : "List1",
 		"Mac" : "Mac",
-		"OK" : "OK",
+		"OK" : "ОК",
 		"Platforms" : "Платформы",
 		"SWF" : "SWF",
 		"UWP" : "UWP",
@@ -3983,7 +4017,7 @@
 		"Column Spacing" : "Интервал столбцов",
 		"Columns" : "Столбцы",
 		"Help" : "Помощь",
-		"OK" : "OK",
+		"OK" : "ОК",
 		"Row Spacing" : "Интервал строк",
 		"Rows" : "Строки",
 		"Spin1" : "Spin1"
@@ -3999,7 +4033,7 @@
 		"Draw lines" : "Рисовать линии",
 		"Grid Setup" : "Настройка сетки",
 		"Help" : "Помощь",
-		"OK" : "OK",
+		"OK" : "ОК",
 		"Origin" : "Начало",
 		"Selected object coor&dinates" : "Координаты выбранного объекта",
 		"Selected object di&mensions" : "Размеры выбранного объекта",
@@ -4024,7 +4058,7 @@
 		"&Store" : "Магазин",
 		"Cancel" : "Отмена",
 		"Effects" : "Эффекты",
-		"OK" : "OK"
+		"OK" : "ОК"
 	},
 	"dialog_2508": {
 		"&Refresh" : "Обновить",
@@ -4044,7 +4078,7 @@
 	"dialog_4102": {
 		"0 x 0" : "0 x 0",
 		"Cancel" : "Отмена",
-		"OK" : "OK",
+		"OK" : "ОК",
 		"Palette" : "Палитра",
 		"Picture Editor" : "Редактор изображений"
 	},
@@ -4106,7 +4140,7 @@
 		"Cancel" : "Отмена",
 		"Directions" : "Направления",
 		"List1" : "List1",
-		"OK" : "OK",
+		"OK" : "ОК",
 		"Palette" : "Палитра",
 		"Play" : "Запуск",
 		"Show all" : "Показать все",
@@ -4130,7 +4164,7 @@
 		"Animation Editor" : "Редактор анимации",
 		"Cancel" : "Отмена",
 		"List1" : "List1",
-		"OK" : "OK",
+		"OK" : "ОК",
 		"Palette" : "Палитра",
 		"Slider1" : "Slider1"
 	},
@@ -4142,7 +4176,7 @@
 		"Checkerboard colors" : "Цветовая палитра",
 		"Color 1" : "Цвет 1",
 		"Color 2" : "Цвет 2",
-		"OK" : "OK",
+		"OK" : "ОК",
 		"Options" : "Параметры",
 		"Picture Editor Preferences" : "Настройки в редакторе изображения",
 		"Right Click" : "Клик правой кнопкой мыши"
@@ -4165,7 +4199,7 @@
 		"Image Mode Options" : "Параметры Импорта Изображения",
 		"Import Options" : "Параметры импорта",
 		"Insert &after current frame" : "Вставить после текущего кадра",
-		"OK" : "OK",
+		"OK" : "ОК",
 		"Options" : "Параметры",
 		"Pick" : "Проба",
 		"RGB = 255,255,255" : "RGB = 255,255,255",
@@ -4189,7 +4223,7 @@
 		"Export sprite sheet" : "Экспорт таблицы спрайтов ",
 		"From frame #" : "От кадра №",
 		"Image width" : "Ширина изображения",
-		"OK" : "OK",
+		"OK" : "ОК",
 		"Picker" : "Выбор",
 		"Spin1" : "Spin1",
 		"To frame #" : "До кадра №"
@@ -4220,7 +4254,7 @@
 		"New item" : "Новый пункт",
 		"New item from default menu" : "Новый пункт из меню по умолчанию",
 		"New separator" : "Новый разделитель",
-		"OK" : "OK",
+		"OK" : "ОК",
 		"Redo" : "Повторить",
 		"Reset to default" : "Восстановить по умолчанию",
 		"Save" : "Сохранить",
@@ -4232,7 +4266,7 @@
 		"Cancel" : "Отмена",
 		"How to display the objects ?" : "Как отображать объекты ?",
 		"Number of Columns ?" : "Количество столбцов?",
-		"OK" : "OK",
+		"OK" : "ОК",
 		"Page Ratio" : "Соотношение страницы",
 		"Page Setup" : "Настройки страницы",
 		"Slider1" : "Slider1",
@@ -4257,7 +4291,7 @@
 		"Accelerator" : "Ускорение",
 		"Bitmap" : "Графический",
 		"Cancel" : "Отмена",
-		"OK" : "OK",
+		"OK" : "ОК",
 		"Options" : "Параметры",
 		"Setup application menu" : "Меню конфигурации"
 	},
@@ -4267,7 +4301,7 @@
 		"&Help" : "&Помощь",
 		"&Text of menu" : "Текст меню",
 		"Cancel" : "Отмена",
-		"OK" : "OK",
+		"OK" : "ОК",
 		"Options" : "Параметры",
 		"Setup application menu" : "Меню конфигурации"
 	},
@@ -4279,7 +4313,7 @@
 	"dialog_7948": {
 		"&Help" : "&Помощь",
 		"Cancel" : "Отмена",
-		"OK" : "OK",
+		"OK" : "ОК",
 		"Please enter delay :" : "Введите время:",
 		"Seconds" : "Секунды",
 		"Set delay" : "Задержка",
@@ -4288,7 +4322,7 @@
 	"dialog_7949": {
 		"&Help" : "&Помощь",
 		"Cancel" : "Отмена",
-		"OK" : "OK",
+		"OK" : "ОК",
 		"Please enter new speed :" : "Введите новое значение скорости:",
 		"Set speed" : "Задать значение скорости",
 		"Slider1" : "Slider1"
@@ -4309,19 +4343,19 @@
 		"Enter column number :" : "Введите номер столбца:",
 		"Enter line number :" : "Введите номер строки:",
 		"Go to " : "Перейти ",
-		"OK" : "OK"
+		"OK" : "ОК"
 	},
 	"dialog_8001": {
 		"Cancel" : "Отмена",
 		"Enter column number :" : "Введите номер столбца:",
 		"Go to column" : "Перейти к столбцу",
-		"OK" : "OK"
+		"OK" : "ОК"
 	},
 	"dialog_8002": {
 		"Cancel" : "Отмена",
 		"Enter line number :" : "Введите номер строки:",
 		"Go to line" : "Перейти к строке",
-		"OK" : "OK"
+		"OK" : "ОК"
 	},
 	"dialog_8004": {
 		"&Automatic" : "Автоматически",
@@ -4334,7 +4368,7 @@
 	"dialog_8005": {
 		"&Help" : "&Помощь",
 		"Cancel" : "Отмена",
-		"OK" : "OK",
+		"OK" : "ОК",
 		"These files won't be included in the executable file or in the installer." : "Эти файлы не могут быть включены в исполняемый файл или в установщик.",
 		"Warning" : "Внимание",
 		"Warning, the following files are stored in directories that are not relative to the build directory." : "Внимание следующие файлы хранятся в каталогах, которые не относятся к каталогу для создания."
@@ -4355,7 +4389,7 @@
 	"dialog_8007": {
 		"&Help" : "&Помощь",
 		"Cancel" : "Отмена",
-		"OK" : "OK",
+		"OK" : "ОК",
 		"Please select a language for this application :" : "Пожалуйста выберите язык для этого приложения:",
 		"Select language" : "Выбрать язык"
 	},
@@ -4386,20 +4420,20 @@
 		"Do not show this message again" : "Не показывать это сообщение снова...",
 		"How to do..." : "Как сделать...",
 		"Important: You must set the hot spot of an object to its feet when using platform movement." : "Важно: Вы должны установить горячую точку в нижнюю часть (к ногам) объекта при использовании движения платформы.",
-		"OK" : "OK",
+		"OK" : "ОК",
 		"Warning" : "Внимание"
 	},
 	"dialog_8013": {
 		"Do not show this message again" : "Не показывать это сообщение снова...",
 		"How to do..." : "Как сделать...",
 		"Important: the hot spot of an object with a physical movement must be positionned at the center of mass of the object." : "Важно: горячая точка объекта с физическим перемещением должна быть расположена в центре тяжести объекта.",
-		"OK" : "OK",
+		"OK" : "ОК",
 		"Warning" : "Внимание"
 	},
 	"dialog_8050": {
 		"Cancel" : "Отмена",
 		"Case sensitive" : "С учетом регистра",
-		"OK" : "OK",
+		"OK" : "ОК",
 		"Search events" : "Искать в событиях",
 		"Search for" : "Поиск",
 		"Search in actions" : "Искать в действиях",
@@ -4411,7 +4445,7 @@
 	"dialog_8051": {
 		"Cancel" : "Отмена",
 		"Case sensitive" : "С учетом регистра",
-		"OK" : "OK",
+		"OK" : "ОК",
 		"Search for" : "Поиск",
 		"Search objects" : "Искать объект",
 		"Whole words only" : "Только слово целиком"
@@ -4421,7 +4455,7 @@
 		"Cancel" : "Отмена",
 		"Choose a Storyboard Frame" : "Выберите сцену из редактора сцен",
 		"List1" : "List1",
-		"OK" : "OK"
+		"OK" : "ОК"
 	},
 	"dialog_9558": {
 		"&Help" : "&Помощь",
@@ -4429,7 +4463,7 @@
 		"Cancel" : "Отмена",
 		"Choose a Storyboard Frame" : "Выберите сцену из редактора сцен",
 		"List1" : "List1",
-		"OK" : "OK"
+		"OK" : "ОК"
 	},
 	"dialog_13000": {
 		"&Double click" : "двойное нажатие.",
@@ -4453,7 +4487,7 @@
 		"Cancel" : "Отмена",
 		"Effect on collision mask" : "Воздействие на маску столкновения",
 		"No&t an obstacle" : "Не препятствие",
-		"OK" : "OK"
+		"OK" : "ОК"
 	},
 	"dialog_13020": {
 		"Cancel" : "Отмена",
@@ -4467,7 +4501,7 @@
 		"Cancel" : "Отмена",
 		"Hour(s)" : "Час(ы)",
 		"Minute(s)" : "Минута(ы)",
-		"OK" : "OK",
+		"OK" : "ОК",
 		"Second(s)" : "Секунд(а)",
 		"Slider1" : "Slider1"
 	},
@@ -4479,7 +4513,7 @@
 		"How to Compare : " : "Сравнение : ",
 		"Les&s" : "Нижний",
 		"Minute(s)" : "Минута(ы)",
-		"OK" : "OK",
+		"OK" : "ОК",
 		"Second(s)" : "Секунд(а)",
 		"Slider1" : "Slider1"
 	},
@@ -4489,7 +4523,7 @@
 		"&Middle button" : "Средняя кнопка",
 		"&Right button" : "Правая кнопка",
 		"Cancel" : "Отмена",
-		"OK" : "OK",
+		"OK" : "ОК",
 		"Please choose mouse button:" : "Пожалуйста выберите кнопку мыши:"
 	},
 	"dialog_13070": {
@@ -4503,27 +4537,27 @@
 		"Application behavior" : "Поведение приложения",
 		"Cancel" : "Отмена",
 		"Command line" : "Командная строка",
-		"OK" : "OK",
+		"OK" : "ОК",
 		"Program to execute" : "Программа для запуска"
 	},
 	"dialog_13100": {
 		"&Help" : "&Помощь",
 		"Cancel" : "Отмена",
-		"OK" : "OK",
+		"OK" : "ОК",
 		"Please choose the text to display :" : "Выберите текст для отображения:",
 		"Use a &calculation" : "Применить расчёт"
 	},
 	"dialog_13200": {
 		"&Help" : "&Помощь",
 		"Cancel" : "Отмена",
-		"OK" : "OK",
+		"OK" : "ОК",
 		"Please choose a group of events" : "Выберите группу событий"
 	},
 	"dialog_13202": {
 		"&Help" : "&Помощь",
 		"Cancel" : "Отмена",
 		"Horizontal" : "X: ",
-		"OK" : "OK",
+		"OK" : "ОК",
 		"Vertical" : "Y: ",
 		"Zone Setup" : "Установка зоны",
 		"to" : "и",
@@ -4536,7 +4570,7 @@
 		"&Help" : "&Помощь",
 		"Cancel" : "Отмена",
 		"Choose one or more directions" : "Выберите одно (или более) направлений",
-		"OK" : "OK",
+		"OK" : "ОК",
 		"Select all" : "Выбрать всё",
 		"Unselect all the directions" : "Очистить выбор направлений",
 		"Use a calculation" : "Применить расчёт"
@@ -4565,7 +4599,7 @@
 		"Leaves in the left?" : "Покидает слева?",
 		"Leaves in the right?" : "Покидает справа?",
 		"Leaves in the top?" : "Покидает сверху?",
-		"OK" : "OK",
+		"OK" : "ОК",
 		"Outside of the frame area?" : "Снаружи области сцены?",
 		"Please click on the positions you want to check:" : "Нажмите, для проверки позиции:",
 		"Test the position of an object" : "Проверить позицию объекта"
@@ -4585,7 +4619,7 @@
 		"Hot &Spot" : "Горячая точка",
 		"In &direction of " : "В направлении ",
 		"Located" : "Расположение",
-		"OK" : "OK",
+		"OK" : "ОК",
 		"Orientation" : "Ориентация",
 		"Originating from" : "Появиться из"
 	},
@@ -4597,7 +4631,7 @@
 		"Cancel" : "Отмена",
 		"Create Object" : "Создать объект",
 		"Layer :" : "Слой:",
-		"OK" : "OK",
+		"OK" : "ОК",
 		"X:" : "X:",
 		"Y:" : "Y:"
 	},
@@ -4606,7 +4640,7 @@
 		"Cancel" : "Отмена",
 		"Dialog" : "Диалог",
 		"Effect :" : "Эффект:",
-		"OK" : "OK",
+		"OK" : "ОК",
 		"Spin2" : "Spin2",
 		"Transparency (0 to 128):" : "Прозрачность (0 до 128):"
 	},
@@ -4614,7 +4648,7 @@
 		"&Help" : "&Помощь",
 		"&Use a calculation" : "Применить расчёт",
 		"Cancel" : "Отмена",
-		"OK" : "OK",
+		"OK" : "ОК",
 		"Retrieve a global value " : "Получить глобальное значение"
 	},
 	"dialog_13500": {
@@ -4746,14 +4780,14 @@
 		"Cancel" : "Отмена",
 		"Dialog" : "Диалог",
 		"List1" : "List1",
-		"OK" : "OK"
+		"OK" : "ОК"
 	},
 	"dialog_13568": {
 		"&Help" : "&Помощь",
 		"Cancel" : "Отмена",
 		"First object:" : "Первый объект:",
 		"O" : "O",
-		"OK" : "OK",
+		"OK" : "ОК",
 		"Second object:" : "Второй объект:",
 		"o" : "o"
 	},
@@ -4767,7 +4801,7 @@
 	"dialog_13575": {
 		"&Help" : "&Помощь",
 		"Cancel" : "Отмена",
-		"OK" : "OK"
+		"OK" : "ОК"
 	},
 	"dialog_13582": {
 		"Frame Palette" : "Палитра сцены",
@@ -4799,7 +4833,7 @@
 		"Misc." : "Разн.",
 		"Next" : "Далее",
 		"O" : "O",
-		"OK" : "OK",
+		"OK" : "ОК",
 		"Random" : "Случайно",
 		"Random range" : "Случ. диапоз.",
 		"Str&$" : "Str&$",
@@ -4809,7 +4843,7 @@
 	"dialog_14102": {
 		"&Help" : "&Помощь",
 		"Cancel" : "Отмена",
-		"OK" : "OK",
+		"OK" : "ОК",
 		"Please enter value :" : "Пожалуйста, введите значение :"
 	},
 	"dialog_14103": {
@@ -4838,7 +4872,7 @@
 		"Misc." : "Разн.",
 		"Next" : "Следующее",
 		"O" : "O",
-		"OK" : "OK",
+		"OK" : "ОК",
 		"Random" : "Случайно",
 		"Random range" : "Случ. диапоз.",
 		"Str&$" : "Str&$",
@@ -4871,7 +4905,7 @@
 		"Misc." : "Разн.",
 		"Next" : "Далее",
 		"O" : "O",
-		"OK" : "OK",
+		"OK" : "ОК",
 		"Random" : "Случайно",
 		"Random range" : "Случ. диапоз.",
 		"Str&$" : "Str&$",
@@ -4904,7 +4938,7 @@
 		"Misc." : "Разн.",
 		"Next" : "Далее",
 		"O" : "O",
-		"OK" : "OK",
+		"OK" : "ОК",
 		"Random" : "Случайно",
 		"Random range" : "Случ. диапоз.",
 		"Str&$" : "Str&$",
@@ -4939,7 +4973,7 @@
 		"Misc." : "Разн.",
 		"Next" : "Далее",
 		"O" : "O",
-		"OK" : "OK",
+		"OK" : "ОК",
 		"Random" : "Случайно",
 		"Random range" : "Случ. диапоз.",
 		"Str&$" : "Str&$",
@@ -4954,7 +4988,7 @@
 		"Cancel" : "Отмена",
 		"Direction " : "Направление ",
 		"Launch an object..." : "Запустить объект...",
-		"OK" : "OK",
+		"OK" : "ОК",
 		"Speed of object:" : "Скорость объекта:",
 		"Spin2" : "Spin2"
 	},
@@ -4962,13 +4996,13 @@
 		"&Help" : "&Помощь",
 		"Cancel" : "Отмена",
 		"Choose one or more directions" : "Выбрать одно или несколько направлений",
-		"OK" : "OK"
+		"OK" : "ОК"
 	},
 	"dialog_14195": {
 		"&Help" : "&Помощь",
 		"&Use a calculation" : "Применить расчёт",
 		"Cancel" : "Отмена",
-		"OK" : "OK",
+		"OK" : "ОК",
 		"Retrieve a global string" : "Получить глобальную строку"
 	},
 	"dialog_14196": {
@@ -4985,7 +5019,7 @@
 		"Info" : "Информация",
 		"List1" : "List1",
 		"List2" : "List2",
-		"OK" : "OK",
+		"OK" : "ОК",
 		"Play with Audio Player" : "Воспроизвести в аудиоплеере",
 		"Use expression" : "Прописать выражение"
 	},
@@ -5011,7 +5045,7 @@
 		"From a loaded application" : "Из загруженного приложения",
 		"From another application" : "Из другого приложения",
 		"List2" : "List2",
-		"OK" : "OK",
+		"OK" : "ОК",
 		"Tree1" : "Tree1"
 	},
 	"dialog_14200": {
@@ -5027,7 +5061,7 @@
 		"Cancel" : "Отмена",
 		"Dialog" : "Диалог",
 		"List1" : "List1",
-		"OK" : "OK"
+		"OK" : "ОК"
 	},
 	"dialog_14202": {
 		"&Help" : "&Помощь",
@@ -5035,14 +5069,14 @@
 		"&Wait for end" : "Ждать завершения",
 		"Application behavior" : "Поведение приложения",
 		"Cancel" : "Отмена",
-		"OK" : "OK"
+		"OK" : "ОК"
 	},
 	"dialog_14203": {
 		"&Help" : "&Помощь",
 		"Cancel" : "Отмена",
 		"Hour(s)" : "Час(ов)",
 		"Minute(s)" : "Минут(а)",
-		"OK" : "OK",
+		"OK" : "ОК",
 		"Second(s)" : "Секунд(а)",
 		"Slider1" : "Slider1",
 		"Use a calculation" : "Применить расчёт"
@@ -5054,12 +5088,12 @@
 	"dialog_14205": {
 		"Cancel" : "Отмена",
 		"Character encoding" : "Кодировка",
-		"OK" : "OK",
+		"OK" : "ОК",
 		"Please select a character encoding :" : "Пожалуйста, выберите кодировку:"
 	},
 	"dialog_14206": {
 		"Cancel" : "Отмена",
-		"OK" : "OK",
+		"OK" : "ОК",
 		"Runtime" : "Выполняется",
 		"Use a &calculation" : "Применить расчёт"
 	},
@@ -5083,7 +5117,7 @@
 	"dialog_16130": {
 		"&Toolbar Name:" : "Название панели инструментов:",
 		"Cancel" : "Отмена",
-		"OK" : "OK",
+		"OK" : "ОК",
 		"Toolbar Name" : "Название панели инструментов"
 	},
 	"dialog_16132": {
@@ -5098,7 +5132,7 @@
 		"Description:" : "Описание:",
 		"Image &and text" : "Изображение и текст",
 		"Images" : "Изображения",
-		"OK" : "OK",
+		"OK" : "ОК",
 		"Select &User-defined Image: " : "Выбрать определённое пользователем изображение",
 		"Use &Default Image: " : "Использовать изображение по умолчанию "
 	},
@@ -5107,7 +5141,7 @@
 		"Colors:" : "Цвета:",
 		"Draw" : "Рисовать",
 		"Edit Button Image" : "Редактировать изображение кнопки",
-		"OK" : "OK",
+		"OK" : "ОК",
 		"Picture:" : "Изображение:",
 		"Preview: " : "Предпросмотр : ",
 		"Tools:" : "Инструменты:"
@@ -5186,7 +5220,7 @@
 		"Colors" : "Цвета",
 		"Current" : "Текущий",
 		"New" : "Нов.",
-		"OK" : "OK",
+		"OK" : "ОК",
 		"S&elect..." : "В&ыбрать...",
 		"Tab Placeholder" : "Позиция таблицы"
 	},
@@ -5224,7 +5258,7 @@
 		"Move &Down" : "Переместить вниз",
 		"Move &Up" : "Переместить &вверх",
 		"Navigation Pane Options" : "Настройки панели навигации",
-		"OK" : "OK"
+		"OK" : "ОК"
 	},
 	"dialog_17074": {
 		"&Add >>" : "Добавить>>",
@@ -5267,7 +5301,7 @@
 	"dialog_17423": {
 		"Cancel" : "Отмена",
 		"Edit Text" : "Изменить текст",
-		"OK" : "OK"
+		"OK" : "ОК"
 	},
 	"dialog_17425": {
 		"&Add" : "Добавить",
@@ -5351,13 +5385,13 @@
 		"&Test" : "Тест",
 		"Cancel" : "Отмена",
 		"Install Settings" : "Настройки установщика",
-		"OK" : "OK"
+		"OK" : "ОК"
 	},
 	"dialog_19180": {
 		"&Help" : "&Помощь",
 		"Cancel" : "Отмена",
 		"O" : "O",
-		"OK" : "OK",
+		"OK" : "ОК",
 		"o" : "o"
 	},
 	"dialog_19182": {
@@ -5384,7 +5418,7 @@
 		"Cancel" : "Отмена",
 		"Choose &font" : "Шрифт",
 		"Edit Text" : "Изменить текст",
-		"OK" : "OK",
+		"OK" : "ОК",
 		"Press ENTER to close the dialog box, Ctrl+ENTER to insert a new line" : "Нажмите ENTER, чтобы закрыть диалоговое окно, Ctrl + ENTER, чтобы вставить новую строку",
 		"Set &back color" : "Цвет фона"
 	},
@@ -5395,7 +5429,7 @@
 		"Cancel" : "Отмена",
 		"Confirm password" : "Подтвердите пароль",
 		"Group Events" : "Группа событий",
-		"OK" : "OK",
+		"OK" : "ОК",
 		"Password protection" : "Защита паролем"
 	},
 	"dialog_19196": {
@@ -5404,14 +5438,14 @@
 		"&This group exists already. Please enter another name..." : "Эта группа уже существует. Пожалуйста введите другое название…",
 		"Cancel" : "Отмена",
 		"Group Aready Exists..." : "Группа уже существует...",
-		"OK" : "OK",
+		"OK" : "ОК",
 		"Skip &every identical message" : "Пропустить все одинаковые сообщения"
 	},
 	"dialog_19197": {
 		"&This name is already used as the title of another group of events. Please enter another one..." : "Это название уже используется в качестве названия другой группы событий. Пожалуйста введите другое название…",
 		"Cancel" : "Отмена",
 		"Duplicated Group Name..." : "Это название группы уже используется...",
-		"OK" : "OK"
+		"OK" : "ОК"
 	},
 	"dialog_19198": {
 		"&Skip" : "Пропустить",
@@ -5432,23 +5466,23 @@
 	"dialog_19228": {
 		"Dialog" : "Диалог",
 		"Do not show this alert again." : "Не показывать это предупреждение снова",
-		"OK" : "OK",
+		"OK" : "ОК",
 		"Static" : "Static"
 	},
 	"dialog_19233": {
 		"Cancel" : "Отмена",
 		"Enter the new name of the folder" : "Введите новое название папки",
-		"OK" : "OK"
+		"OK" : "ОК"
 	},
 	"dialog_19234": {
 		"Cancel" : "Отмена",
-		"OK" : "OK",
+		"OK" : "ОК",
 		"Open protected group" : "Открыть защищённую группу",
 		"Please enter the password..." : "Введите пароль..."
 	},
 	"dialog_19236": {
 		"Extension choice" : "Выбор расширения",
-		"OK" : "OK",
+		"OK" : "ОК",
 		"Several extensions correspond to the type of one of the object dropped. Please select the wanted extension, and click OK." : "Расширение не соответствует типу объекта. Пожалуйста, выберите правильное расширение, а затем нажмите кнопку ОК."
 	},
 	"dialog_30721": {
@@ -5456,7 +5490,7 @@
 		"&New " : "Нов.",
 		"Cancel" : "Отмена",
 		"New" : "Нов.",
-		"OK" : "OK"
+		"OK" : "ОК"
 	},
 	"dialog_30722": {
 		"Cancel" : "Отмена",

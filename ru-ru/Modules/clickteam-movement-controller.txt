@@ -128,7 +128,7 @@
 	"dialog_20003" : {
 		"Cancel" : "Отмена",
 		"Help" : "Помощь",
-		"OK" : "OK",
+		"OK" : "ОК",
 		"Please define your own setup box here! \n \nIf you do not need any setup box, just delete it from the resource and remove the call from the CreateObject and SelectPopup routines in the C sourcecode." : "Пожалуйста, определите здесь своё собственное окно настройки! \n \nЕсли вам не нужно окно настройки, просто удалите его из ресурса и удалите вызов 'Создать объект' и >'Выбрать всплывающее подпрограммы' в исходном коде C.",
 		"Setup sample object" : "Настройка тестового объекта"
 	},

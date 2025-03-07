@@ -140,14 +140,14 @@
 		"Cancel" : "Отмена",
 		"Change flag's value" : "Изменить значение флага",
 		"FALSE" : "НЕВЕРНО",
-		"OK" : "OK",
+		"OK" : "ОК",
 		"Please enter the new value of the flag" : "Пожалуйста, введите новое значение флага",
 		"TRUE" : "ВЕРНО"
 	},
 	"dialog_102" : {
 		"Cancel" : "Отмена",
 		"Enter a number" : "Введите число",
-		"OK" : "OK",
+		"OK" : "ОК",
 		"Please enter a new number" : "Введите новое число"
 	},
 	"dialog_700" : {
@@ -163,7 +163,7 @@
 		"Down" : "Вниз",
 		"Keyboard setup" : "Установка клавиатуры",
 		"Left" : "Влево",
-		"OK" : "OK",
+		"OK" : "ОК",
 		"Press a key ... (or ESC to cancel)" : "Нажмите клавишу… (или Esc, чтобы отменить)",
 		"Right" : "Вправо",
 		"Up" : "Вверх"
@@ -171,7 +171,7 @@
 	"dialog_703" : {
 		"Cancel" : "Отмена",
 		"Enter password" : "Введите пароль",
-		"OK" : "OK"
+		"OK" : "ОК"
 	},
 	"dialog_704" : {
 		"Cancel" : "Отмена",
@@ -181,12 +181,12 @@
 		"Joystick 3" : "Джойстик 3",
 		"Joystick 4" : "Джойстик 4",
 		"Keyboard" : "Клавиатура",
-		"OK" : "OK",
+		"OK" : "ОК",
 		"Player controls" : "Управление игрока"
 	},
 	"dialog_705" : {
 		"About" : "Про",
-		"OK" : "OK"
+		"OK" : "ОК"
 	},
 	"dialog_14116" : {
 		"Add Object" : "Добавить объект",
@@ -205,7 +205,7 @@
 	"dialog_14118" : {
 		"Add object to debugger" : "Добавить объект в отладчик",
 		"Cancel" : "Отмена",
-		"OK" : "OK",
+		"OK" : "ОК",
 		"Tree1" : "Tree1"
 	},
 	"dialog_14120" : {
@@ -213,14 +213,14 @@
 		"Enter new number" : "Введите новое число",
 		"Floating point" : "Число с плавающей запятой",
 		"Integer" : "Целое число",
-		"OK" : "OK",
+		"OK" : "ОК",
 		"Please enter a new number" : "Пожалуйста, введите новое число",
 		"Type" : "Тип"
 	},
 	"dialog_14121" : {
 		"Cancel" : "Отмена",
 		"Enter a new text" : "Введите новый текст",
-		"OK" : "OK",
+		"OK" : "ОК",
 		"Please enter a new text" : "Пожалуйста, введите новый текст"
 	},
 	"menu_14117" : {
