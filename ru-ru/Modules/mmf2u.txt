@@ -1219,7 +1219,7 @@
 		},
 		"Deactivated line": "Отключённая линия",
 		"Dialog background color": "Цвет фона диалоговых окон",
-		"Disabled text color": "Цвет неактивного текста"
+		"Disabled text color": "Цвет неактивного текста",
 		"E&xit" : "Выход",
 		"E-mail :\t" : "Электронная почта :\t",
 		"ELSE IF" : "ELSE IF",
