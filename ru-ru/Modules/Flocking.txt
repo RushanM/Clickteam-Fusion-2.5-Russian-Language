@@ -4,7 +4,7 @@
 	"general" : {
 		"%o: On loop %0 for boid %1" : "%o: При повторе %0 для стаи %1",
 		"Acceleration" : "Ускорение",
-		"Add %0 as boid type %1" : "Добавить %0 тип стаи %1",
+		"Add %0 as boid type %1" : "Добавить %0 как тип стаи %1",
 		"Add objects to a flock of automatically moving objects that 'flock' together." : "НЕЛЬЗЯ ПЕРЕВЕСТИ НЕ ТЕ СКОБКИ Добавьте объекты в стаю автоматически движущихся вместе объектов",
 		"Alignment" : "Выровнять",
 		"Angle mode" : "Режим угла",
