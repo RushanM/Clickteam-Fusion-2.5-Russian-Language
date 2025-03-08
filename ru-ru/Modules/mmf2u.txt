@@ -3595,15 +3595,15 @@
 			"2172" : "Управление",
 			"11344" : "Управление"
 		},
+		" All rights reserved " : "Все права защищены.",
+		" All rights reserved" : "Все права защищены.",
+		"All rights reserved " : "Все права защищены.",
+		"All rights reserved" : "Все права защищены.",
 		"Copyright © 1996-2020 Clickteam." : "Охраняется авторским правом © 1996—2025 Clickteam. Обновите Fusion!",
 		"Copyright © 1996-2021 Clickteam." : "Охраняется авторским правом © 1996—2025 Clickteam. Обновите Fusion!",
 		"Copyright © 1996-2022 Clickteam." : "Охраняется авторским правом © 1996—2025 Clickteam",
 		"Copyright © 1996-2023 Clickteam." : "Охраняется авторским правом © 1996—2025 Clickteam",
 		"Copyright © 1996-2024 Clickteam." : "Охраняется авторским правом © 1996—2025 Clickteam",
-		"All rights reserved" : "Все права защищены.",
-		"All rights reserved " : "Все права защищены.",
-		" All rights reserved " : "Все права защищены.",
-		" All rights reserved" : "Все права защищены.",
 	},
 	"dialog_100": {
 		"&Buy Now !" : "Купить сейчас!",
@@ -4407,7 +4407,7 @@
 		"768 x 1024" : "768 x 1024",
 		"960 x 640" : "960 x 640",
 		"Do you want to change the current resolution of the application? If so, please select the new resolution. Otherwise click Cancel." : "Вы хотите изменить текущее разрешение приложения? Если - Да, пожалуйста, выберите новое разрешение. В противном случае нажмите  Отмена.",
-		"Note: (CF Developer only) if you want to automatically resize the objects and positions in events, close this dialog box, right click the application in the workspace bar, select Clone and select the resolution." : "Примечание: (только для разработчиков CF), если вы хотите, чтобы размеры объектов и позиций автоматически изменялись в событиях, закройте это диалоговое окно, кликните правой кнопкой мыши на приложении, в рабочей панели выберите ‘Клонировать’ и выберите разрешение.",
+		"Note: (CF Developer only) if you want to automatically resize the objects and positions in events, close this dialog box, right click the application in the workspace bar, select Clone and select the resolution." : "Примечание: (только для CF Developer), если вы хотите, чтобы размеры объектов и позиций автоматически изменялись в событиях, закройте это диалоговое окно, кликните правой кнопкой мыши на приложении, в рабочей панели выберите «Клонировать» и выберите разрешение.",
 		"Window size" : "Размер окна"
 	},
 	"dialog_8011": {
