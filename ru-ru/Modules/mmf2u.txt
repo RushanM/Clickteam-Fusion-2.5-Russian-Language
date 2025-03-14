@@ -1211,6 +1211,7 @@
 		"Duplicate Object" : "Дублировать объект",
 		"Duplicate the selected objects\nDuplicate" : "Дублировать выбранные объекты\nДублировать",
 		"Duration of frame" : "Продолжительность сцены",
+		"DPI aware" : "Учитывает DPI (точки на дюйм)",
 		"DPI scale": "Масштаб DPI (точек на дюйм)",
 		"Dark": {
 			"13843": "Тёмный",
