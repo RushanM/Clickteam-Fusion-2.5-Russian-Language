@@ -9,7 +9,7 @@
 		"00Enable Alt+F4" : "00Включить Alt+F4",
 		"00Enable Alt+Tab, Ctrl+Esc and Ctrl+Alt+Del" : "00Включить 'Alt+Tab', 'Ctrl+Esc' и 'Ctrl+Alt+Del'",
 		"00Enable all keys" : "00Включить все клавиши",
-		"00Reset last key pressed" : "00Сбосить последнюю зажатую кнопку",
+		"00Reset last key pressed" : "00Сбросить последнюю зажатую кнопку",
 		"00Set Caps Lock off" : "00Установить 'Caps Lock' Выкл",
 		"00Set Caps Lock on" : "00Установить 'Caps Lock' Вкл",
 		"00Set Num Lock off" : "00Установить 'Num Lock' Выкл",
