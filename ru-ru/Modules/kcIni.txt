@@ -43,7 +43,7 @@
         "Set value %2 to item %1 in group %0": "Установить значение [%2] элементу %1 в группе %0",
         "UTF8": "UTF8",
         "Value: %s": "Значение: %s",
-        "When this option is selected and the filename doesn't contain path information, the INI file is created in the user's Application Data folder (MMFApplications sub-directory).": "Если здесь стоит галочка и имя файла не содержит информации о пути, файл .ini будет создаваться в подкаталоге MMFApplications папки Application Data пользователя."
+        "When this option is selected and the filename doesn't contain path information, the INI file is created in the user's Application Data folder (MMFApplications sub-directory).": "Если здесь стоит галочка и название файла не содержит информации о пути, файл .ini будет создаваться в подкаталоге MMFApplications папки Application Data пользователя."
     },
     "lang": 1049,
     "menu_20000": {

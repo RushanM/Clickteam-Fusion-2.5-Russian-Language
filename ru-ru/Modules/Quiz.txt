@@ -18,7 +18,7 @@
 		"#Title#Please choose a report file...#Filter#Text files|*.txt|" : "#Title#Выберите файл отчета...#Filter#Текстовые файлы|*.txt|",
 		"#Title#Please choose a text file...#Filter#Text files|*.txt|" : "#Title#Выберите текстовый файл...#Filter#Текстовые файлы|*.txt|",
 		"#True/False" : "#True/False",
-		"%1\nCannot find this file.\nPlease verify that the correct path and file name are given." : "%1\nНе удаётся найти указанный файл.\nУбедитесь, что путь и имя файла указаны верно.",
+		"%1\nCannot find this file.\nPlease verify that the correct path and file name are given." : "%1\nНе удаётся найти указанный файл.\nУбедитесь, что путь и название файла указаны верно.",
 		"%1 contained an unexpected object." : "%1 содержится неизвестный объект.",
 		"%1 contains an incorrect schema." : "%1 содержит неправильную схему.",
 		"%1 contains an invalid path." : "%1 содержит неправильный путь.",

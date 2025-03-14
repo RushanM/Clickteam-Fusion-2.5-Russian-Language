@@ -154,7 +154,7 @@
 		"Shift horizontal line" : "Сдвинуть горизонтальную линию",
 		"Shift vertical line" : "Сдвинуть вертикальную линию",
 		"Swap two bricks" : "Поменять два блока",
-		"Undo last swap (swap again)" : "Отменить последнею смену блоков (поменять снова)",
+		"Undo last swap (swap again)" : "Отменить последнюю смену блоков (поменять снова)",
 		"Up: Drop bricks 1 slot" : "Вверх: Поместить блоки на 1 слот",
 		"Up: Drop x amount" : "Вверх: Поместить на x слотов",
 		"Vertical" : "Вертикаль",
