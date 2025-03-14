@@ -326,13 +326,13 @@
 	"dialog_1004" : {
 		"Cancel" : "Отмена",
 		"OK" : "OK",
-		"Quiz object" : "Объект Викторина",
+		"Quiz object" : "Объект викторин",
 		"Text" : "Текст"
 	},
 	"dialog_1005" : {
 		"Cancel" : "Отмена",
 		"OK" : "OK",
-		"Quiz object" : "Объект Викторина",
+		"Quiz object" : "Объект викторин",
 		"Static" : "Static"
 	},
 	"dialog_1006" : {

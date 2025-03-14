@@ -31,7 +31,7 @@
 		"01Set up for player %s to %s" : "01Установить 'Вверх' для игрока %s на %s",
 		"01Simulate key %s down" : "01Симулировать нажатие клавиши %s",
 		"01Simulate key %s up" : "01Симулировать отпуск клавиши %s",
-		"01Simulate key no %s down" : "01Симулировать ненажатие %s",
+		"01Simulate key no %s down" : "01Симулировать отсутствие нажатия по клавише %s",
 		"01Simulate key no %s up" : "01Симулировать неотпуск клавиши %s",
 		"01Simulate mouse movement to (%s, %s)" : "01Симулировать движение мыши к (%s, %s)",
 		"01Simulate mouse wheel value %s" : "01Симулировать значение колёсика мыши %s",
