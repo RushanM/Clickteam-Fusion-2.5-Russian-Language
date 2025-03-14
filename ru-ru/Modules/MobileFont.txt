@@ -36,8 +36,8 @@
 		"Height" : "Высота",
 		"Image" : "Изображение",
 		"Import" : "Импорт",
-		"Import a new font" : "Импорт нового шрифта",
-		"Import a system font and creates the font image automatically" : "Импорт системного шрифта и автоматическое создание изображения шрифта",
+		"Import a new font" : "Импортировать новый шрифт",
+		"Import a system font and creates the font image automatically" : "Импортирует системный шрифт и автоматически создаёт изображения шрифта",
 		"Italic" : "Курсивный",
 		"Leading" : "Расстояние",
 		"Priority" : "Приоритет",
@@ -45,7 +45,7 @@
 		"Set display priority to %0" : "Установить приоритет отображения %0",
 		"Set inter-character space to %0" : "Установить пространство между символами %0",
 		"Set interline to %0" : "Установить пространство %0",
-		"This font poses as :" : "Этот шрифт заменяет :",
+		"This font poses as :" : "Этот шрифт заменяет:",
 		"Tracking" : "Межбуквенный",
 		"Underline" : "Подчеркнутый",
 		"Width" : "Ширина"
@@ -57,8 +57,8 @@
 		"Choose font" : "Выбрать шрифт",
 		"Font color :" : "Цвет шрифта :",
 		"Font name" : "Название шрифта",
-		"Import a font" : "Импорт шрифта",
-		"Import font" : "Импорт шрифта"
+		"Import a font" : "Импортировать шрифт",
+		"Import font" : "Импортировать шрифт"
 	},
 	"menu_20000" : {
 		"Actions" : "Действия",
