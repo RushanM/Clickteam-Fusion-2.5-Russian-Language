@@ -4,7 +4,7 @@
 	"general" : {
 		"%o is enabled" : "%o включён",
 		"Allows the movement of the objects located above it." : "Позволяет переместить объекты расположенные над ним.",
-		"Disable" : "Отключить",
+		"Disable" : "Выключить",
 		"Enable" : "Включить",
 		"Enter new height" : "Введите новую высоту",
 		"Enter new width" : "Введите новую ширину",
@@ -17,7 +17,7 @@
 	"menu_20000" : {
 		"Actions" : "Действия",
 		"Activation" : "Активация",
-		"Disable" : "Отключить",
+		"Disable" : "Выключить",
 		"Enable" : "Включить",
 		"Set height" : "Установить высоту",
 		"Set width" : "Установить ширину",

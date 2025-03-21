@@ -59,18 +59,18 @@
 		"Add Item" : "Добавить элемент",
 		"Add Menu" : "Добавить меню",
 		"Add Separator" : "Добавить разделитель",
-		"Check / Uncheck" : "Отметить / Снять отметку",
+		"Check / Uncheck" : "Отметить/снять отметку",
 		"Create Menu" : "Создать меню",
 		"Delete Item" : "Удалить элемент",
-		"Enable / Disable" : "Включить/Отключить",
+		"Enable / Disable" : "Включить/выключить",
 		"Set Item Text" : "Установить текст элемента",
 		"Show At" : "Показать в",
 		"Show At Mouse" : "Показать под курсором мыши"
 	},
 	"menu_20001" : {
 		"Conditions" : "Условия",
-		"Item Selected (ID)" : "Элемент выбран (ID)",
-		"Item Selected (Text)" : "Элемент выбран (Текст)"
+		"Item Selected (ID)" : "Элемент выбран (идентификатор)",
+		"Item Selected (Text)" : "Элемент выбран (текст)"
 	},
 	"menu_20002" : {
 		"Expressions" : "Выражения",

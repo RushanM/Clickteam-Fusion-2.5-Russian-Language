@@ -1,12 +1,9 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html lang="en">
+<html lang="ru">
 
 <head>
-<title>Движения для CF2.5</title>
-
-
+<title>Движения в CF2.5</title>
 <link rel="stylesheet" href="style_default.css" type="text/css">
-
 </head>
 <body>
 
@@ -17,106 +14,84 @@
 
 <hr>
 
-<h2>Contents</h2>
+<h2>Содержание</h2>
 <ul class="main_content">
-	<li><a href="#intro">Introduction</a></li>
-	<li><a href="#install">Installing additional movements</a></li>
-	<li><a href="#apply">Applying movements</a></li>
-	<li><a href="#docs">Movement documentation</a></li>
-	<li><a href="#extension">Movement controller extensions</a></li>
-	<li><a href="#develop">Developing your own movements</a></li>
+	<li><a href="#intro">Введение</a></li>
+	<li><a href="#install">Установка дополнительных движений вручную</a></li>
+	<li><a href="#apply">Применение движений</a></li>
+	<li><a href="#docs">Документация движений</a></li>
+	<li><a href="#extension">Расширения контроллера движений</a></li>
+	<li><a href="#develop">Разработка собственных движений</a></li>
 </ul>
 
-<a name="intro"><h2>Introduction</h2></a>
+<a name="intro"><h2>Введение</h2></a>
 <p class="main_content">
-Movements are a property that can be attached to many visual objects within CF 2.5, most notably active objects. As the name suggests the
-movement given to an object influences how it moves or is controlled on screen. Movements provide a way for you to create complex effects without
-having to write a complete movement engine for each object from scratch. Each movement has custom properties to allow you to tailor how it works to
-meet your needs. Most of the time this involves setting values in the object's properties panel at design time, occasionally you may also want to change the settings
-at runtime by means of the event editor. A number of common movements are provided with CF 2.5 and now additional movements can be added too...
+Движения — это свойство, которое можно назначить многим визуальным объектам в CF2.5, особенно активам. Как следует из названия, движение, назначенное объекту, определяет, как он перемещается или управляется на экране. Движения позволяют создавать сложные эффекты без необходимости писать с нуля полноценный движковый механизм для каждого объекта. Каждое движение обладает набором собственных свойств, что позволяет адаптировать его под конкретные задачи. Чаще всего это осуществляется путём задания значений в панели свойств объекта на этапе разработки, а иногда настройки можно менять и во время выполнения с помощью редактора событий. В CF2.5 по умолчанию предусмотрено несколько стандартных движений, а теперь можно добавлять и дополнительные…
 </p>
 <p class="main_content">
-With the release of CF 2.5 came an exciting new feature, the ability for additional movements to
-be added to CF 2.5 in a similar manner to that of extensions. These movements can be developed by users
-with the CF 2.5 SDK and a some C++ programming knowledge together with the appropriate compiler.
+С выпуском CF2.5 появилась новая увлекательная возможность — добавление дополнительных движений аналогично работе расширений. Эти движения могут быть разработаны пользователями с помощью SDK CF2.5, базовых знаний программирования на C++ и подходящего компилятора.
 </p>
 <p class="main_content">
-Earlier versions of the Click range included seven in-built movements developed by Clickteam, they are: Static, Bouncing Ball, Path, Mouse Control, Eight Direction,
-Race car and Platform. These movements are documented in the CF 2.5 help files and integrate into CF 2.5 slightly differently than the additional movements. To introduce
-the concept of the new plug-in style of movement in CF 2.5 Clickteam included a new movement, Pinball. The source code for the Pinball movement can be
-found in the movement SDK for those wanting to see the internal workings, or even improve on it.
+Ранние версии продукции Click включали семь встроенных движений, разработанных компанией Clickteam: статичное, прыгающий мяч, траектория, управление курсором, восемь направлений, гоночная машина и платформа. Эти движения описаны в справке CF2.5 и интегрируются в систему несколько иным способом, чем дополнительные. Чтобы продемонстрировать концепцию нового плагинного стиля движений в CF2.5, Clickteam добавила новое движение — пинбол. Исходный код движения «пинбол» можно найти в SDK движений для тех, кто хочет изучить его внутреннее устройство или усовершенствовать его.
 </p>
 <p class="main_content">
-Another new feature in CF 2.5 is that an object can have multiple movement types associated with it, the event editor can then be used to swap
-between the movements at runtime. In earlier versions of the Click products each object could only have a single movement, therefore two objects had
-to be created if you wanted to swap from platform to path movement for example; a messy workaround. Now objects can have any number of movements,
-although most of the time a single movement is all that is required.
+Ещё одна новая функция CF2.5 заключается в том, что объект может иметь несколько типов движений одновременно, а редактор событий позволяет переключаться между ними во время выполнения. Ранее в продуктах Click каждый объект мог обладать только одним движением, поэтому для переключения, скажем, с платформенного движения на движение по траектории приходилось создавать два объекта — не самое удобное решение. Теперь объект может иметь любое количество движений, хотя в большинстве случаев достаточно одного.
 </p>
 
-<a name="install"><h2>Manually installing additional movements</h2></a>
+<a name="install"><h2>Установка дополнительных движений вручную</h2></a>
 <p class="main_content">
-In most cases the developer will provide a simple installer to add their movement automatically, if that is not the case then the
-following guide should help get that movement installed in no time.
-To use a movement released by a developer the file containing the movement (suffixed .mvx) needs to be placed
-in the <i>/Extensions</i> and <i>/Data/Runtime</i> folders within the main CF 2.5 directory. All instances of CF 2.5 should be
-closed before copying the files into the correct folders.
+В большинстве случаев разработчик предоставляет простой установщик для автоматической установки своего движения. Если этого не происходит, следующее руководство поможет установить его без труда. Для использования движения, выпущенного разработчиком, файл с движением (с расширением .mvx) необходимо поместить в папки <i>/Extensions</i> и <i>/Data/Runtime</i> в основной директории CF2.5. Перед копированием файлов убедитесь, что все экземпляры CF2.5 закрыты.
 </p>
 
-<a name="apply"><h2>Applying movements</h2></a>
+<a name="apply"><h2>Применение движений</h2></a>
 <p class="main_content">
-Once the movement has been installed, run CF 2.5 and start up a new project. Add an object such
-as an active object to the frame editor and click on the movement tab in the objects properties (looks like a running man). Clicking
-in the type property should reveal a list of all the currently installed movements as shown in figure 1.
+После установки движения запустите CF2.5 и создайте новый проект. Добавьте в редактор сцен объект, например, актив, и перейдите на вкладку движений в его свойствах (значок бегущего человечка). При выборе свойства «Тип» отобразится список всех установленных движений, как показано на рисунке 1.
 </p>
 
-<img src="images/list-of-movements.png" alt="Image showing the movements installed for CF 2.5">
+<img src="images/list-of-movements.png" alt="Изображение, демонстрирующее установленные в CF2.5 движения">
 <p class="main_content_smaller">
-Figure 1: The movement list, note your list may have a different appearance depending upon the movements
-currently installed.
+Рисунок 1: список движений. Обратите внимание, что внешний вид списка может отличаться в зависимости от установленных движений.
 <br /><br />
 </p>
 
 <p class="main_content">
-Selecting a movement from the list will result in the properties for that particular movement being displayed, the properties can
-then be configured as required. Please refer to the documentation of the movement for the specific details about its properties.
+Выбор движения из списка отобразит его свойства, которые можно настроить по необходимости. Для получения подробной информации о настройках обратитесь к документации к данному движению.
 </p>
 
-<a name="docs"><h2>Movement documentation</h2></a>
+<a name="docs"><h2>Документация движений</h2></a>
 <p class="main_content">
-Click the links below to view the documentation relating to a particular additional movement:
-</p>
-
-<ul class="main_content">
-	<li><a href="movements/movement-clickteam-circular.html">Circular Movement</a></li>
-	<li><a href="movements/movement-clickteam-drag-and-drop.html">Drag and Drop Movement</a></li>
-	<li><a href="movements/movement-clickteam-invaders.html">Invaders Movement</a></li>
-	<li><a href="movements/movement-clickteam-presentation.html">Presentation Movement</a></li>
-	<li><a href="movements/movement-clickteam-regular-polygon.html">Regular Polygon Movement</a></li>
-	<li><a href="movements/movement-clickteam-simple-ellipse.html">Simple Ellipse Movement</a></li>
-	<li><a href="movements/movement-clickteam-sinewave.html">Sinewave Movement</a></li>
-	<li><a href="movements/movement-clickteam-spaceship.html">Spaceship Movement</a></li>
-	<li><a href="movements/movement-clickteam-vector.html">Vector Movement</a></li>
-	<li><a href="movements/InAndOut.html">In And Out Movement</a></li>
-</ul>
-
-<a name="extension"><h2>Movement controller extensions</h2></a>
-<p class="main_content">
-Unfortunately at this time a movement can not interact directly with the menus of the event editor to display options relevant to the
-movement itself. However a workaround exists where a movement or set of movements may come packaged with a special controller
-extension. With this extension added into the frame the properties of a movement can be retrieved or set at runtime via the extension's interface.
-</p>
-<p class="main_content">
-Click the links below to view the documentation relating to a particular movement controller extension:
+Нажмите на ссылки ниже, чтобы ознакомиться с документацией по конкретному дополнительному движению:
 </p>
 
 <ul class="main_content">
-	<li><a href="control-extensions/extension-clickteam-movementcontroler.html">Clickteam Movement Controller (CMC)</a></li>
-	<li><a href="control-extensions/InAndOut Controler.html">In And Out Movement Controller</a></li>
+	<li><a href="movements/movement-clickteam-circular.html">Круговое движение</a>,</li>
+	<li><a href="movements/movement-clickteam-drag-and-drop.html">Движение с перетаскиванием</a>,</li>
+	<li><a href="movements/movement-clickteam-invaders.html">Движение по мотивам Invaders</a>,</li>
+	<li><a href="movements/movement-clickteam-presentation.html">Презентационное движение</a>,</li>
+	<li><a href="movements/movement-clickteam-regular-polygon.html">Движение правильного многоугольника</a>,</li>
+	<li><a href="movements/movement-clickteam-simple-ellipse.html">Простое эллиптическое движение</a>,</li>
+	<li><a href="movements/movement-clickteam-sinewave.html">Движение по синусоиде</a>,</li>
+	<li><a href="movements/movement-clickteam-spaceship.html">Движение космического корабля</a>,</li>
+	<li><a href="movements/movement-clickteam-vector.html">Векторное движение</a>,</li>
+	<li><a href="movements/InAndOut.html">Движение «„в“ и „из“»</a>.</li>
 </ul>
 
-<a name="develop"><h2>Developing your own movements</h2></a>
+<a name="extension"><h2>Расширения контроллера движений</h2></a>
 <p class="main_content">
-The CF 2.5 SDK includes the movement SDK and the code of the Pinball extension together with a help guide introducing the movement SDK.
+К сожалению, на данный момент движение не может напрямую взаимодействовать с меню редактора событий для отображения настроек, относящихся к самому движению. Однако существует обходной путь: движение или набор движений может поставляться вместе со специальным расширением контроллера. При добавлении этого расширения в сцену свойства движения можно получить или изменить во время выполнения через его интерфейс.
+</p>
+<p class="main_content">
+Нажмите на ссылки ниже, чтобы ознакомиться с документацией по конкретному расширению контроллера движений:
+</p>
+
+<ul class="main_content">
+	<li><a href="control-extensions/extension-clickteam-movementcontroler.html">Контроллер движений Clickteam (CMC)</a>,</li>
+	<li><a href="control-extensions/InAndOut Controler.html">Контроллер движения «„в“ и „из“»</a>.</li>
+</ul>
+
+<a name="develop"><h2>Разработка собственных движений</h2></a>
+<p class="main_content">
+SDK CF2.5 включает в себя SDK движений, исходный код расширения «Пинбол», а также руководство по работе с SDK движений.
 </p>
 
 <br /><br /><br />

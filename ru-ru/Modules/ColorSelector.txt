@@ -65,7 +65,7 @@
 		"Set Top Button Text to %0" : "Установить текст верхней кнопки на %0",
 		"Set Top Button to Not Show a Color Box" : "Установить верхнюю кнопку на «Не показывать цветную рамку»",
 		"Set Top Button to Show a Color Box" : "Установить верхнюю кнопку на «Показать цветовую рамку»",
-		"Set Tracking Selection Off" : "Отключить выбор отслеживания",
+		"Set Tracking Selection Off" : "Выключить выбор отслеживания",
 		"Set Tracking Selection On" : "Включить выбор отслеживания",
 		"Set Width to %0" : "Установить ширину на %0",
 		"Set X Position to %0" : "Установить позицию X на %0",
@@ -158,7 +158,7 @@
 	"menu_20002" : {
 		"Color Dialog" : "Окно цвета",
 		"Custom Colors is Open" : "Настраиваемый цвет открыт",
-		"Disable Opening of Custom Colors" : "Отключено открытие настраиваемого цвета",
+		"Disable Opening of Custom Colors" : "Выключено открытие настраиваемого цвета",
 		"Display All Available Colors" : "Показать все доступные цвета",
 		"Display Info Flags" : "Показать информацию флагов",
 		"Display Only Solid Colors on Low-Color Resolutions" : "Показывать только сплошные цвета на низко-цветных разрешениях",

@@ -15,7 +15,7 @@
 		"%o: No error in iAD advertisement" : "%o: Нет ошибок в iAd рекламе",
 		"%o: iAd is visible" : "%o: Реклама iAd видна",
 		"Enable/disable iAd %0" : "Включить/отключить iAd : %0",
-		"Enter 0 to disable iAd, 1 to enable" : "Введите 0, чтобы отключить iAd, 1 для включения",
+		"Enter 0 to disable iAd, 1 to enable" : "Введите 0, чтобы выключить iAd, 1 для включения",
 		"Extra function for iOS applications." : "Дополнительные функции для приложений IOS",
 		"Index" : "Индекс",
 		"Open URL %0" : "Открыть URL %0",

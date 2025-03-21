@@ -2,7 +2,7 @@
 	"version" : 1,
 	"lang" : 1049,
 	"general" : {
-		"Check if the object should move at start of frame" : "Поставьте галочку у этой опции, если объект должен двигаться при запуске сцены",
+		"Check if the object should move at start of frame" : "Включите эту опцию, если объект должен двигаться при запуске сцены",
 		"Choose the strengh of the gravity" : "Выберите силу гравитации",
 		"Deceleration" : "Замедление",
 		"Enter the deceleration factor" : "Введите коэффициент торможения",

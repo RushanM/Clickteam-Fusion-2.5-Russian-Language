@@ -96,7 +96,7 @@
 		"Unknown" : "Неизвестно",
 		"Unselect this option if you want to start/end profiling the application manually with profiling actions." : "Выключите эту опцию, если вы хотите запускать/завершать профилирование приложения вручную с помощью действий профилирования.",
 		"Without this option counters and strings have no alterable values, strings, nor flags." : "С этой опцией счётчики и строки могут иметь переменные значения, строки и флаги.",
-		"[Windows only] When this option is selected, the sound may start a bit later. Unselect it if you need the sound to start as fast as possible after the Play sample action." : "[Только для Windows] Когда эта опция включена, звук в приложении может начаться чуть позже. Отключите это, если вам нужно, чтобы звук воспроизводился сразу после действия «Воспроизвести аудио»."
+		"[Windows only] When this option is selected, the sound may start a bit later. Unselect it if you need the sound to start as fast as possible after the Play sample action." : "[Только для Windows] Когда эта опция включена, звук в приложении может начаться чуть позже. Выключите это, если вам нужно, чтобы звук воспроизводился сразу после действия «Воспроизвести аудио»."
 	},
 	"dialog_2007" : {
 		"Actions" : "Действия",

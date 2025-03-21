@@ -23,7 +23,7 @@
 		"Name of Object" : "Название объекта",
 		"Select Object Extension" : "Выбор объекта (расширение)",
 		"Select Object Extension v0.11 Beta" : "Выбор объекта (расширение) в0.11 Бета",
-		"Selects objects through conditions such as 'Highest alterable value A'" : "Выбор объектов, через условия, такие как 'Наибольшее переменное значение А'",
+		"Selects objects through conditions such as 'Highest alterable value A'" : "Выбор объектов, через условия, такие как «Наибольшее переменное значение А»",
 	},
 	"menu_20001" : {
 		"Compare to n# of selected objects" : "Сравнить с кол. выделенных объектов",
